@@ -1,0 +1,164 @@
+@import 'compass/css3';
+@import 'bits';
+
+/* CSS Document */
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+
+// ---------------------------------------------------------------------------------
+// ----- CORE STYLES ---------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+:root {
+	font-size: 17px;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	color: $maintext;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+
+a, a:visited {
+	color: $brand;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: #000;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+hr {
+}
+
+
+// ---------------------------------------------------------------------------------
+// ----- HEADER --------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.header-banner {
+	background: $brand;
+	color: #fff;
+	text-align: right;
+	padding: 0.5rem;
+
+	span {
+		font-weight: bold;
+		font-size: 0.8em;
+	}
+}
+
+.header-banner-social-menu {
+	margin: 0 1em 0 0;
+	list-style: none;
+	display: inline-block;
+
+	li {
+		padding: 0;
+		margin: 0 0.25em;
+		list-style: none;
+		display: inline-block;
+
+		a {
+			display: inline-block;
+			color: #fff;
+		}
+	}
+}
+
+.header-navigation {
+	padding: 0 2rem;
+
+	.site-logo {
+		display: block;
+		padding: 2rem 1rem 0;
+		text-align: center;
+
+		&.inside-menu {
+			padding: 0;
+		}
+
+		img {
+			max-width: 300px;
+		}
+	}
+
+	.header-menu {
+		max-width: 1440px;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+
+		ul {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+
+			li {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+
+				&.header-menu-site-logo {
+					margin: 0 2em;
+				}
+
+				a {
+					font-size: 0.9em;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+
+
+// ---------------------------------------------------------------------------------
+// ----- FEATURE -------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.feature-wrap {
+}
+
+
+// ---------------------------------------------------------------------------------
+// ----- CONTENT -------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.content-wrap {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.content-area {
+
+	&.has-sidebar {
+	}
+}
+
+.sidebar-area {
+}
+
+
+// ---------------------------------------------------------------------------------
+// ----- FOOTER --------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.footer-wrap {
+}
+
+.footer-info {
+}

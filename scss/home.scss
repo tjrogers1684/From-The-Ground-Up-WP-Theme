@@ -1,0 +1,157 @@
+@import 'compass/css3';
+@import 'bits';
+
+
+// ---------------------------------------------------------------------------------
+// ----- FEATURE -------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.feature-wrap {
+	padding: 2rem;
+	background: $brand url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin-top: 2rem;
+
+	.feature-image {
+		max-width: 1440px;
+		margin: -4rem auto 0;
+
+		img {
+			@include drop_shadow();
+		}
+	}
+
+	.feature-callouts {
+		max-width: 1440px;
+		margin: 2rem auto 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.feature-callout {
+		width: 40%;
+		min-width: 350px;
+		padding: 0 2rem;
+
+		h1 {
+			font-size: 1.75em;
+		}
+	}
+}
+
+
+
+// ---------------------------------------------------------------------------------
+// ----- SECTIONS ------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.hp-section-header {
+	font-size: 9em;
+	font-weight: bold;
+	color: darken(#fff, 10);
+	line-height: 1;
+	margin: 0;
+}
+
+
+
+// ---------------------------------------------------------------------------------
+// ----- SURFACES ------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.hp-surfaces-wrap {
+	max-width: 1440px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+
+	.hp-section-header {
+		margin-left: 2rem;
+
+		@media (max-width: 800px) {
+			font-size: 6em;
+		}
+
+		@media (max-width: 570px) {
+			font-size: 2em;
+			text-align: center;
+			color: $maintext;
+			margin: 0 0 1rem;
+		}
+	}
+}
+
+.hp-surfaces {
+	margin: -3rem 0 0;
+	padding: 0 1rem;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+
+	@media (max-width: 800px) {
+		margin: 0;
+	}
+
+	li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		padding: calc(50% / 6) 0;
+		width: calc(100% / 6);
+		text-align: center;
+		position: relative;
+
+		@media (max-width: 940px) {
+			width: calc(100% / 3);
+		}
+
+		@media (max-width: 570px) {
+			width: calc(100% / 2);
+		}
+
+		@media (max-width: 480px) {
+			width: 100%;
+			padding: 2rem;
+		}
+
+		a {
+			position: absolute;
+			top: 0.5rem;
+			left: 0.5rem;
+			width: calc(100% - 1rem);
+			height: calc(100% - 1rem);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #fff;
+			border-radius: 10000px;
+			text-transform: uppercase;
+			font-weight: bold;
+			background-position: 50% 50%;
+			background-size: cover;
+			@include drop_shadow();
+
+			&:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				@include background-image(linear-gradient(to top, darken($brand, 10) 20%, rgba(darken($brand, 10), 0) 100%));
+				border-radius: 10000px;
+			}
+
+			span {
+				position: relative;
+				z-index: 1;
+			}
+		}
+
+		&.hp-surface-lawns a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-lawns.jpg); }
+		&.hp-surface-pets a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-pets.jpg); }
+		&.hp-surface-playgrounds a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-playgrounds.jpg); }
+		&.hp-surface-putting a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-putting.jpg); }
+		&.hp-surface-pavers a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-pavers.jpg); }
+		&.hp-surface-natural a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-natural.jpg); }
+	}
+}

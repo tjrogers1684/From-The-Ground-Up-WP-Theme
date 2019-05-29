@@ -1,0 +1,254 @@
+/*
+author: Thrive Creative Labs
+date modified: November 15, 2018
+type: reset css
+*/
+/* ----- Utility Classes ----- */
+.redNote {
+  padding: 5px;
+  background-color: #cc0000;
+  color: #FFFFFF;
+  font-weight: bold; }
+
+/* ----- Reset all CSS ----- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit; }
+
+/* ----- floats ----- */
+.flt-right {
+  float: right;
+  margin: 0 0 0 15px; }
+
+@media (max-width: 650px) {
+  .flt-right {
+    float: none;
+    margin: 0; } }
+.flt-left {
+  float: left;
+  margin: 0 15px 0 0; }
+
+@media (max-width: 650px) {
+  .flt-left {
+    float: none;
+    margin: 0; } }
+.clearfloat {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px; }
+
+/* ----- form styles ----- */
+.grippie {
+  display: none !important; }
+
+.btn, input[type="submit"],
+input[type="button"],
+button,
+.button,
+[type="button"],
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  display: inline-block;
+  color: #fff;
+  background-color: #2ecc40;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: bold; }
+  .btn:hover, input[type="submit"]:hover,
+  input[type="button"]:hover,
+  button:hover,
+  .button:hover,
+  [type="button"]:hover,
+  .woocommerce #respond input#submit.alt:hover,
+  .woocommerce a.button.alt:hover,
+  .woocommerce button.button.alt:hover,
+  .woocommerce input.button.alt:hover {
+    background-color: #25a233;
+    color: #fff; }
+  .btn.btn-alt, input.btn-alt[type="submit"],
+  input.btn-alt[type="button"],
+  button.btn-alt,
+  .button.btn-alt,
+  [type="button"].btn-alt,
+  .woocommerce #respond input#submit.alt.btn-alt,
+  .woocommerce a.button.alt.btn-alt,
+  .woocommerce button.button.alt.btn-alt,
+  .woocommerce input.button.alt.btn-alt {
+    background: #fff;
+    color: #2ecc40; }
+    .btn.btn-alt:hover, input.btn-alt[type="submit"]:hover,
+    input.btn-alt[type="button"]:hover,
+    button.btn-alt:hover,
+    .button.btn-alt:hover,
+    [type="button"].btn-alt:hover,
+    .woocommerce #respond input#submit.alt.btn-alt:hover,
+    .woocommerce a.button.alt.btn-alt:hover,
+    .woocommerce button.button.alt.btn-alt:hover,
+    .woocommerce input.button.alt.btn-alt:hover {
+      color: #25a233; }
+
+h1, h2, h3 {
+  font-weight: 100;
+  line-height: 1.25;
+  margin-bottom: 1em; }
+
+* ~ h1, * ~ h2, * ~ h3 {
+  margin-top: 1em; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 1.75em; }
+
+h3 {
+  font-size: 1.35em; }
+
+* + p,
+* + li {
+  margin-top: 1em; }
+
+small {
+  font-size: 0.75em; }
+
+label {
+  margin-bottom: 0.5em; }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1em;
+  border: 1px solid #ccc; }
+
+textarea {
+  font-family: sans-serif;
+  padding: 1rem;
+  resize: none; }
+
+input[type="submit"],
+input[type="button"],
+button {
+  border: 0;
+  font-size: 1em; }
+
+.top-nav ul li.menu-item-has-children {
+  position: relative; }
+  .top-nav ul li.menu-item-has-children ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0; }
+    .top-nav ul li.menu-item-has-children ul li {
+      display: block;
+      width: 15em; }
+      .top-nav ul li.menu-item-has-children ul li a {
+        display: block; }
+  .top-nav ul li.menu-item-has-children:hover ul {
+    display: block; }
+
+/* CSS Document */
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+:root {
+  font-size: 17px; }
+
+html, body {
+  overflow-x: hidden; }
+
+body {
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5; }
+
+a, a:visited {
+  color: #2ecc40;
+  text-decoration: none; }
+  a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: #000; }
+
+img {
+  max-width: 100%;
+  height: auto !important; }
+
+.header-banner {
+  background: #2ecc40;
+  color: #fff;
+  text-align: right;
+  padding: 0.5rem; }
+  .header-banner span {
+    font-weight: bold;
+    font-size: 0.8em; }
+
+.header-banner-social-menu {
+  margin: 0 1em 0 0;
+  list-style: none;
+  display: inline-block; }
+  .header-banner-social-menu li {
+    padding: 0;
+    margin: 0 0.25em;
+    list-style: none;
+    display: inline-block; }
+    .header-banner-social-menu li a {
+      display: inline-block;
+      color: #fff; }
+
+.header-navigation {
+  padding: 0 2rem; }
+  .header-navigation .site-logo {
+    display: block;
+    padding: 2rem 1rem 0;
+    text-align: center; }
+    .header-navigation .site-logo.inside-menu {
+      padding: 0; }
+    .header-navigation .site-logo img {
+      max-width: 300px; }
+  .header-navigation .header-menu {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem 1rem; }
+    .header-navigation .header-menu ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+      .header-navigation .header-menu ul li {
+        padding: 0;
+        margin: 0;
+        list-style: none; }
+        .header-navigation .header-menu ul li.header-menu-site-logo {
+          margin: 0 2em; }
+        .header-navigation .header-menu ul li a {
+          font-size: 0.9em;
+          font-weight: bold; }
+
+.content-wrap {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=all.css.map */

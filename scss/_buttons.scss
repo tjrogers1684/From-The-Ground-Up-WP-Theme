@@ -1,0 +1,39 @@
+@import 'bits';
+
+.btn,
+.button,
+[type="button"],
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+	display: inline-block;
+	color: #fff;
+	background-color: $brand;
+	padding: 0.5em 1em;
+	border-radius: 4px;
+	font-weight: bold;
+
+	&:hover {
+		background-color: darken($brand, 10);
+		color: #fff;
+	}
+
+	&.btn-alt {
+		background: #fff;
+		color: $brand;
+
+		&:hover {
+			color: darken($brand, 10);
+		}
+	}
+
+	&.btn-sm {
+	}
+
+	&.btn-xsm {
+	}
+
+	&.btn-lg {
+	}
+}

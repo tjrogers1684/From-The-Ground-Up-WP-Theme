@@ -1,0 +1,10 @@
+
+$brand: #2ecc40;
+// $brand-dk: darken($brand, 10);
+
+$maintext: #444;
+
+
+@mixin drop_shadow(){
+	box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.2);
+}
