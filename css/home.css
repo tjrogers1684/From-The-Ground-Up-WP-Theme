@@ -134,4 +134,60 @@
     .hp-surfaces li.hp-surface-natural a {
       background-image: url(/wp-content/themes/ftgu/images/surface-thumb-natural.jpg); }
 
+.hp-choose-ftgu-wrap {
+  max-width: 1440px;
+  margin: 6rem auto;
+  padding: 0 2rem 0 8rem;
+  position: relative; }
+  .hp-choose-ftgu-wrap .hp-section-header {
+    text-align: center;
+    margin-bottom: 3rem; }
+  .hp-choose-ftgu-wrap .hp-choose-ftgu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    position: relative; }
+    .hp-choose-ftgu-wrap .hp-choose-ftgu .hp-choose-ftgu-description {
+      width: 65%; }
+      .hp-choose-ftgu-wrap .hp-choose-ftgu .hp-choose-ftgu-description p:last-of-type {
+        margin-top: 2rem; }
+        .hp-choose-ftgu-wrap .hp-choose-ftgu .hp-choose-ftgu-description p:last-of-type .btn + .btn {
+          margin-left: 1rem; }
+    .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
+      position: absolute;
+      top: 0;
+      left: 70%;
+      -webkit-transform: translateY(-27%);
+              transform: translateY(-27%);
+      width: 100%;
+      max-width: 1060px;
+      min-width: 600px; }
+      @media (max-width: 1260px) {
+        .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
+          width: 70%;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%); } }
+
+.hp-testimonials-wrap-outer {
+  background: #25a433 url(/wp-content/themes/ftgu/images/bkd-testimonials-wrap.jpg);
+  background-size: cover; }
+  .hp-testimonials-wrap-outer .hp-choose-ftgu-wrap {
+    max-width: 1440px;
+    margin: 6rem auto;
+    padding: 0 2rem 0 8rem;
+    position: relative; }
+
 /*# sourceMappingURL=home.css.map */

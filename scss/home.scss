@@ -155,3 +155,86 @@
 		&.hp-surface-natural a { background-image: url(/wp-content/themes/ftgu/images/surface-thumb-natural.jpg); }
 	}
 }
+
+
+// ---------------------------------------------------------------------------------
+// ----- WHY CHOOSE US -------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.hp-choose-ftgu-wrap {
+	max-width: 1440px;
+	margin: 6rem auto;
+	padding: 0 2rem 0 8rem;
+	position: relative;
+
+	.hp-section-header {
+		text-align: center;
+		margin-bottom: 3rem;
+	}
+
+	.hp-choose-ftgu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+
+		.hp-choose-ftgu-description {
+			width: 65%;
+
+			p:last-of-type {
+				margin-top: 2rem;
+
+				.btn + .btn {
+					margin-left: 1rem;
+				}
+			}
+		}
+
+		.img-sod-block {
+			position: absolute;
+			top: 0;
+			left: 70%;
+			transform: translateY(-27%);
+			width: 100%;
+			max-width: 1060px;
+			min-width: 600px;
+
+			@media (max-width: 1260px) {
+				width: 70%;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+}
+
+
+// ---------------------------------------------------------------------------------
+// ----- TESTIMONIALS --------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.hp-testimonials-wrap-outer {
+	background: #25a433 url(/wp-content/themes/ftgu/images/bkd-testimonials-wrap.jpg);
+	background-size: cover;
+
+
+	.hp-choose-ftgu-wrap {
+		max-width: 1440px;
+		margin: 6rem auto;
+		padding: 0 2rem 0 8rem;
+		position: relative;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
