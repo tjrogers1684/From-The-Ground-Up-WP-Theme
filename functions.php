@@ -30,6 +30,9 @@ function theme_styles_scripts() {
 	// Theme stylesheet.
 	wp_enqueue_style( 'ftgu-main', get_theme_file_uri( '/style.css' ) );
 	wp_enqueue_style( 'ftgu-all', get_theme_file_uri( '/css/all.css' ) );
+	wp_enqueue_style( 'ftgu-slick-carousel', get_theme_file_uri( '/css/slick.css' ) );
+	wp_enqueue_style( 'ftgu-slick-carousel-theme', get_theme_file_uri( '/css/slick-theme.css' ) );
+	wp_enqueue_style( 'ftgu-fontawesome', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css' );
 
 	if( is_front_page() ){
 		wp_enqueue_style( 'ftgu-homepage', get_theme_file_uri( '/css/home.css' ) );
@@ -37,7 +40,8 @@ function theme_styles_scripts() {
 
 	wp_enqueue_style( 'ftgu-googlefonts', 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&display=swap' );
 
-	wp_enqueue_script( 'ftgu-fontawesome', 'https://use.fontawesome.com/releases/v5.5.0/js/all.js' );
+	wp_enqueue_script( 'ftgu-slick-carousel', get_theme_file_uri( '/js/slick.js' ) );
+	//wp_enqueue_script( 'ftgu-fontawesome', 'https://use.fontawesome.com/releases/v5.5.0/js/all.js' );
 	//wp_enqueue_style( 'ftgu-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' );
 	wp_enqueue_script( 'ftgu-global', get_theme_file_uri( '/js/ftgu.js' ), array('jquery') );
 }

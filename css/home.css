@@ -136,7 +136,7 @@
 
 .hp-choose-ftgu-wrap {
   max-width: 1440px;
-  margin: 6rem auto;
+  margin: 6rem auto 8rem;
   padding: 0 2rem 0 8rem;
   position: relative; }
   .hp-choose-ftgu-wrap .hp-section-header {
@@ -168,11 +168,11 @@
     .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
       position: absolute;
       top: 0;
-      left: 70%;
-      -webkit-transform: translateY(-27%);
-              transform: translateY(-27%);
+      left: 72%;
+      -webkit-transform: translateY(-29%);
+              transform: translateY(-29%);
       width: 100%;
-      max-width: 1060px;
+      max-width: 1000px;
       min-width: 600px; }
       @media (max-width: 1260px) {
         .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
@@ -183,11 +183,92 @@
 
 .hp-testimonials-wrap-outer {
   background: #25a433 url(/wp-content/themes/ftgu/images/bkd-testimonials-wrap.jpg);
-  background-size: cover; }
-  .hp-testimonials-wrap-outer .hp-choose-ftgu-wrap {
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 5rem 1.5rem; }
+  .hp-testimonials-wrap-outer .hp-testimonials-wrap {
     max-width: 1440px;
-    margin: 6rem auto;
-    padding: 0 2rem 0 8rem;
+    margin: 0 auto;
     position: relative; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-section-header {
+      font-size: 5.88rem; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-testimonials-leadin {
+      margin: 4rem 0; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .slick-prev,
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .slick-next {
+      -webkit-transform: scale(2.5) translateY(-100%);
+              transform: scale(2.5) translateY(-100%);
+      z-index: 10; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .slick-prev {
+      left: 1rem; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .slick-next {
+      right: 1rem; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-testimonials-listing .hp-testimonial-item {
+      padding: 0 1rem;
+      text-align: center; }
+      .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-testimonials-listing .hp-testimonial-item .hp-testimonial-pic img {
+        border-radius: 100%;
+        display: inline;
+        box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
+      .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-testimonials-listing .hp-testimonial-item .hp-testimonial-item-testimonial {
+        width: 75%;
+        margin: 2rem auto 0; }
+    .hp-testimonials-wrap-outer .hp-testimonials-wrap .more-testimonials-link {
+      margin-top: 4rem; }
+
+.content-wrap .content-area {
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+  padding: 5rem 1.5rem; }
+  .content-wrap .content-area .hp-section-header {
+    margin-bottom: 5rem;
+    font-size: 2.35rem;
+    text-align: center;
+    color: #aaa; }
+  .content-wrap .content-area .hp-main-content-text p {
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 40px;
+            column-gap: 40px; }
+
+.hp-blog-listing-container {
+  max-width: 1440px;
+  margin: 0 auto 5rem;
+  position: relative; }
+  .hp-blog-listing-container .hp-section-header {
+    margin: 0 0 -1.5rem 0.75rem; }
+  .hp-blog-listing-container .hp-blog-listing {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center; }
+    .hp-blog-listing-container .hp-blog-listing .hp-blog-item {
+      width: calc( 33.3% - 1rem );
+      padding: 0 1.5rem; }
+      .hp-blog-listing-container .hp-blog-listing .hp-blog-item .blog-article-title {
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 1.176em; }
+      .hp-blog-listing-container .hp-blog-listing .hp-blog-item .blog-article-meta {
+        text-transform: uppercase;
+        font-style: italic;
+        font-size: 0.88em; }
+  .hp-blog-listing-container .more-blog-link {
+    position: absolute;
+    top: 2.5rem;
+    right: 1.5rem; }
 
 /*# sourceMappingURL=home.css.map */

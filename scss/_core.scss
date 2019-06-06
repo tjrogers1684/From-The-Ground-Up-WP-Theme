@@ -158,8 +158,94 @@ hr {
 // ---------------------------------------------------------------------------------
 // ----- FOOTER --------------------------------------------------------------------
 // ---------------------------------------------------------------------------------
-.footer-wrap {
+.footer-wrap-outer {
+	background: #342e29 url(/wp-content/themes/ftgu/images/bkd-footer-wrap.jpg) no-repeat;
+	background-size: 2600px;
+	color: #fff;
+	padding: 18rem 2rem 8rem;
+
+	.footer-wrap {
+		max-width: 1440px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+
+		.footer-section {
+			//width: 33.33%;
+			max-width: 360px;
+
+			&.footer-logo-connect {
+				.footer-connect-address {
+					margin: 2rem 0;
+				}
+
+				.footer-connect-social {
+					.footer-social-menu {
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						display: inline-block;
+
+						li {
+							padding: 0;
+							margin: 0 0.25em;
+							list-style: none;
+							display: inline-block;
+
+							& + li {
+								margin-left: 0.5rem;
+							}
+
+							a {
+								display: inline-block;
+								font-size: 1.47em;
+
+								&:hover {
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			&.footer-contact {
+				max-width: none;
+				text-align: center;
+				color: $brand-alt;
+				font-size: 2.35em;
+				font-weight: bold;
+				line-height: 1.25;
+
+				p + p {
+					margin-top: 0;
+				}
+			}
+
+			&.footer-services {
+				font-size: 0.88em;
+				line-height: 1.25;
+
+				h2 {
+					font-size: 1rem;
+					font-weight: bold;
+				}
+			}
+		}
+	}
 }
 
-.footer-info {
-}
+
+
+
+
+
+
+
+
+
+
+
