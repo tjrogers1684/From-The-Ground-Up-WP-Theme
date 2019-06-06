@@ -312,5 +312,7 @@ img {
         .footer-wrap-outer .footer-wrap .footer-section.footer-services h2 {
           font-size: 1rem;
           font-weight: bold; }
+        .footer-wrap-outer .footer-wrap .footer-section.footer-services a:hover {
+          color: #a8ebaf; }
 
 /*# sourceMappingURL=all.css.map */

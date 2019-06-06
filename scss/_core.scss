@@ -233,6 +233,12 @@ hr {
 					font-size: 1rem;
 					font-weight: bold;
 				}
+
+				a {
+					&:hover {
+						color: lighten($brand, 30);
+					}
+				}
 			}
 		}
 	}

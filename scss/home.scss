@@ -129,6 +129,7 @@
 			background-position: 50% 50%;
 			background-size: cover;
 			@include drop_shadow();
+			transition: 0.3s;
 
 			&:after {
 				content: '';
@@ -139,11 +140,27 @@
 				width: 100%;
 				@include background-image(linear-gradient(to top, darken($brand, 10) 20%, rgba(darken($brand, 10), 0) 100%));
 				border-radius: 10000px;
+				transition: 0.3s;
+			}
+
+			&:hover {
+				transform: scale(1.05)rotate(8deg)translateY(-0.75rem);
+				color: #fff;
+
+				&:after {
+					@include background-image(linear-gradient(to top, darken($brand-alt, 10) 20%, rgba(darken($brand-alt, 10), 0) 100%));
+					border-radius: 10000px;
+				}
+
+				span {
+					transform: scale(1.15)rotate(-8deg);
+				}
 			}
 
 			span {
 				position: relative;
 				z-index: 1;
+				transition: 0.3s;
 			}
 		}
 
@@ -317,7 +334,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 
 		.hp-blog-item {
 			width: calc( 33.3% - 1rem );
