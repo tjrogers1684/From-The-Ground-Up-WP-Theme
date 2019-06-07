@@ -144,16 +144,16 @@
 			}
 
 			&:hover {
-				transform: scale(1.05)rotate(8deg)translateY(-0.75rem);
+				transform: scale(1.1)rotate(8deg)translateY(-0.75rem);
 				color: #fff;
 
 				&:after {
-					@include background-image(linear-gradient(to top, darken($brand-alt, 10) 20%, rgba(darken($brand-alt, 10), 0) 100%));
+					@include background-image(linear-gradient(to top, darken($brand-alt, 10) 30%, rgba(darken($brand-alt, 10), 0) 80%));
 					border-radius: 10000px;
 				}
 
 				span {
-					transform: scale(1.15)rotate(-8deg);
+					transform: scale(1.2)rotate(-8deg);
 				}
 			}
 
@@ -183,9 +183,32 @@
 	padding: 0 2rem 0 8rem;
 	position: relative;
 
+	@media (max-width: 940px) {
+		padding: 0 2rem;
+	}
+
+	@media (max-width: 700px) {
+		margin: 2rem auto 3rem;
+	}
+
 	.hp-section-header {
 		text-align: center;
 		margin-bottom: 3rem;
+
+		@media (max-width: 840px) {
+			font-size: 6em;
+			text-align: left;
+		}
+
+		@media (max-width: 700px) {
+			margin: 0;
+		}
+
+		@media (max-width: 570px) {
+			font-size: 2em;
+			text-align: center;
+			color: $maintext;
+		}
 	}
 
 	.hp-choose-ftgu {
@@ -196,14 +219,32 @@
 		align-items: center;
 		position: relative;
 
+		@media (max-width: 700px) {
+			flex-direction: column-reverse;
+		}
+
 		.hp-choose-ftgu-description {
 			width: 65%;
+
+			@media (max-width: 700px) {
+				width: 100%;
+			}
 
 			p:last-of-type {
 				margin-top: 2rem;
 
-				.btn + .btn {
-					margin-left: 1rem;
+				.btn {
+					@media (max-width: 500px) {
+						display: block;
+
+						& + .btn {
+							margin: 1rem 0 0 0 !important;
+						}
+					}
+
+					& + .btn {
+						margin-left: 1rem;
+					}
 				}
 			}
 		}
@@ -221,6 +262,17 @@
 				width: 70%;
 				top: 50%;
 				transform: translateY(-50%);
+			}
+
+			@media (max-width: 700px) {
+				position: static;
+				transform: translateY(0);
+				margin: 2rem 0;
+				min-width: 350px;
+			}
+
+			@media (max-width: 400px) {
+				min-width: 200px;
 			}
 		}
 	}
@@ -244,27 +296,48 @@
 
 		.hp-section-header {
 			font-size: 5.88rem;
+
+			@media (max-width: 840px) {
+				font-size: 4em;
+			}
+
+			@media (max-width: 570px) {
+				font-size: 2em;
+			}
 		}
 
 		.hp-testimonials-leadin {
 			margin: 4rem 0;
 		}
 
-		.slick-prev,
-		.slick-next {
-			transform: scale(2.5)translateY(-100%);
-			z-index: 10;
-		}
+		.slick-arrow {
+			position: absolute;
+			top: 50%;
+			cursor: pointer;
+			font-size: 3em;
+			transform: translateY(-150%);
 
-		.slick-prev {
-			left: 1rem;
-		}
+			&.fa-arrow-circle-left,
+			&.fa-arrow-circle-right {
+				z-index: 10;
+			}
 
-		.slick-next {
-			right: 1rem;
+			&.fa-arrow-circle-left {
+				left: 0.5rem;
+			}
+
+			&.fa-arrow-circle-right {
+				right: 0.5rem;
+			}
+
+			&:hover {
+				color: darken($brand, 30);
+			}
 		}
 
 		.hp-testimonials-listing {
+			position: relative;
+
 			.hp-testimonial-item {
 				padding: 0 1rem;
 				text-align: center;
@@ -302,16 +375,34 @@
 		position: relative;
 		padding: 5rem 1.5rem;
 
+		@media (max-width: 570px) {
+			padding: 3rem 1.5rem;
+		}
+
 		.hp-section-header {
 			margin-bottom: 5rem;
 			font-size: 2.35rem;
 			text-align: center;
 			color: #aaa;
+
+			@media (max-width: 570px) {
+				font-size: 2em;
+				margin-bottom: 3rem;
+			}
 		}
 
-		.hp-main-content-text p {
-			column-count: 2;
-			column-gap: 40px;
+		.hp-main-content-text {
+			padding: 0 1.5rem;
+
+			p {
+				column-count: 2;
+				column-gap: 40px;
+
+				@media (max-width: 570px) {
+					column-count: 1;
+					column-gap: 0;
+				}
+			}
 		}
 	}
 }
@@ -327,6 +418,10 @@
 
 	.hp-section-header {
 		margin: 0 0 -1.5rem 0.75rem;
+
+		@media (max-width: 720px) {
+			margin: 0 0 -3.5rem 0.75rem;
+		}
 	}
 
 	.hp-blog-listing {
@@ -339,6 +434,15 @@
 		.hp-blog-item {
 			width: calc( 33.3% - 1rem );
 			padding: 0 1.5rem;
+
+			@media (max-width: 720px) {
+				width: calc( 50% - 1rem );
+				margin-top: 2rem;
+			}
+
+			@media (max-width: 720px) {
+				width: 100%;
+			}
 
 			.blog-article-title {
 				margin-top: 0;
@@ -358,15 +462,10 @@
 		position: absolute;
 		top: 2.5rem;
 		right: 1.5rem;
+
+		@media (max-width: 540px) {
+			position: static;
+			margin: 2rem 0 0 1.5rem;
+		}
 	}
 }
-
-
-
-
-
-
-
-
-
-

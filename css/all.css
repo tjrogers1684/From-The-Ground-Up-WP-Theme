@@ -257,7 +257,14 @@ img {
   background: #342e29 url(/wp-content/themes/ftgu/images/bkd-footer-wrap.jpg) no-repeat;
   background-size: 2600px;
   color: #fff;
-  padding: 18rem 2rem 8rem; }
+  padding: 17rem 2rem 7rem; }
+  @media (max-width: 770px) {
+    .footer-wrap-outer {
+      padding-top: 22rem;
+      background-size: cover; } }
+  @media (max-width: 620px) {
+    .footer-wrap-outer {
+      padding-bottom: 3rem; } }
   .footer-wrap-outer .footer-wrap {
     max-width: 1440px;
     margin: 0 auto;
@@ -276,8 +283,26 @@ img {
     -webkit-box-align: center;
     -webkit-align-items: center;
             align-items: center; }
+    @media (max-width: 770px) {
+      .footer-wrap-outer .footer-wrap {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center; } }
     .footer-wrap-outer .footer-wrap .footer-section {
       max-width: 360px; }
+      @media (max-width: 1010px) {
+        .footer-wrap-outer .footer-wrap .footer-section {
+          width: 33%;
+          padding: 0 1.5rem; } }
+      @media (max-width: 770px) {
+        .footer-wrap-outer .footer-wrap .footer-section {
+          width: 100%; } }
+      @media (max-width: 770px) {
+        .footer-wrap-outer .footer-wrap .footer-section.footer-logo-connect {
+          width: 50%; } }
+      @media (max-width: 620px) {
+        .footer-wrap-outer .footer-wrap .footer-section.footer-logo-connect {
+          width: 100%; } }
       .footer-wrap-outer .footer-wrap .footer-section.footer-logo-connect .footer-connect-address {
         margin: 2rem 0; }
       .footer-wrap-outer .footer-wrap .footer-section.footer-logo-connect .footer-connect-social .footer-social-menu {
@@ -304,11 +329,21 @@ img {
         font-size: 2.35em;
         font-weight: bold;
         line-height: 1.25; }
+        @media (max-width: 770px) {
+          .footer-wrap-outer .footer-wrap .footer-section.footer-contact {
+            width: 50%; } }
+        @media (max-width: 620px) {
+          .footer-wrap-outer .footer-wrap .footer-section.footer-contact {
+            width: 100%;
+            margin-top: 3rem; } }
         .footer-wrap-outer .footer-wrap .footer-section.footer-contact p + p {
           margin-top: 0; }
       .footer-wrap-outer .footer-wrap .footer-section.footer-services {
         font-size: 0.88em;
         line-height: 1.25; }
+        @media (max-width: 770px) {
+          .footer-wrap-outer .footer-wrap .footer-section.footer-services {
+            margin-top: 3rem; } }
         .footer-wrap-outer .footer-wrap .footer-section.footer-services h2 {
           font-size: 1rem;
           font-weight: bold; }

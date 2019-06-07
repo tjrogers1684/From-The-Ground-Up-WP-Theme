@@ -26,9 +26,30 @@ if( $('body').hasClass('home') ) {
 		speed: 500,
 		//fade: true,
 
-		prevArrow:"<img class='slick-prev' src='/wp-content/themes/ftgu/images/icon-nav-left.png'>",
-      	nextArrow:"<img class='slick-next' src='/wp-content/themes/ftgu/images/icon-nav-right.png'>",
-		cssEase: 'linear'
+		//prevArrow:"<img class='slick-prev' src='/wp-content/themes/ftgu/images/icon-nav-left.png'>",
+      	//nextArrow:"<img class='slick-next' src='/wp-content/themes/ftgu/images/icon-nav-right.png'>",
+      	prevArrow:"<i class='fas fa-arrow-circle-left'></i>",
+      	nextArrow:"<i class='fas fa-arrow-circle-right'></i>",
+		cssEase: 'linear',
+		responsive: [
+			{
+				breakpoint: 900,
+				settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1
+			}
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
 	});
 }
 

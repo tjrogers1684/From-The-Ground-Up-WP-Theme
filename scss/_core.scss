@@ -162,7 +162,16 @@ hr {
 	background: #342e29 url(/wp-content/themes/ftgu/images/bkd-footer-wrap.jpg) no-repeat;
 	background-size: 2600px;
 	color: #fff;
-	padding: 18rem 2rem 8rem;
+	padding: 17rem 2rem 7rem;
+
+	@media (max-width: 770px) {
+		padding-top: 22rem;
+		background-size: cover;
+	}
+
+	@media (max-width: 620px) {
+		padding-bottom: 3rem;
+	}
 
 	.footer-wrap {
 		max-width: 1440px;
@@ -173,11 +182,32 @@ hr {
 		justify-content: space-between;
 		align-items: center;
 
+		@media (max-width: 770px) {
+			justify-content: center;
+		}
+
 		.footer-section {
 			//width: 33.33%;
 			max-width: 360px;
 
+			@media (max-width: 1010px) {
+				width: 33%;
+				padding: 0 1.5rem;
+			}
+
+			@media (max-width: 770px) {
+				width: 100%;
+			}
+
 			&.footer-logo-connect {
+				@media (max-width: 770px) {
+					width: 50%;
+				}
+
+				@media (max-width: 620px) {
+					width: 100%;
+				}
+
 				.footer-connect-address {
 					margin: 2rem 0;
 				}
@@ -220,6 +250,15 @@ hr {
 				font-weight: bold;
 				line-height: 1.25;
 
+				@media (max-width: 770px) {
+					width: 50%;
+				}
+
+				@media (max-width: 620px) {
+					width: 100%;
+					margin-top: 3rem;
+				}
+
 				p + p {
 					margin-top: 0;
 				}
@@ -228,6 +267,10 @@ hr {
 			&.footer-services {
 				font-size: 0.88em;
 				line-height: 1.25;
+
+				@media (max-width: 770px) {
+					margin-top: 3rem;
+				}
 
 				h2 {
 					font-size: 1rem;
@@ -243,15 +286,3 @@ hr {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
