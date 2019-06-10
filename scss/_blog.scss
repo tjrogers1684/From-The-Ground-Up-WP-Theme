@@ -1,0 +1,33 @@
+
+// ---------------------------------------------------------------------------------
+// ----- LANDING PAGE --------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.blog {
+	.blog-listing {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: stretch;
+
+		h1 {
+			width: 100%;
+			margin-bottom: 0;
+		}
+
+
+		.blog-item {
+			width: calc( 50% - 1rem );
+			padding: 1rem;
+
+			.blog-item-content {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: stretch;
+				height: 100%;
+			}
+		}
+	}
+}

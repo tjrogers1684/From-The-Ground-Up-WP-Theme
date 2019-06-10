@@ -100,7 +100,7 @@ button,
       background-color: #124f19; }
 
 h1, h2, h3 {
-  font-weight: 100;
+  font-weight: 300;
   line-height: 1.25;
   margin-bottom: 1em; }
 
@@ -484,5 +484,45 @@ img {
         font-weight: bold; }
       .testimonials-page-testimonials-listing .testimonial-item .testimonial-item-content .testimonial-item-date {
         margin-top: 0; }
+
+.blog .blog-listing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+          align-items: stretch; }
+  .blog .blog-listing h1 {
+    width: 100%;
+    margin-bottom: 0; }
+  .blog .blog-listing .blog-item {
+    width: calc( 50% - 1rem );
+    padding: 1rem; }
+    .blog .blog-listing .blog-item .blog-item-content {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      -webkit-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+              justify-content: space-between;
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+              align-items: stretch;
+      height: 100%; }
 
 /*# sourceMappingURL=all.css.map */
