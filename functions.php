@@ -30,6 +30,12 @@ Add theme support for WooCommerce (optional)
 // }
 
 
+// -------- TIME AGO FORMAT -----
+function meks_time_ago() {
+	return human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ).' '.__( 'ago' );
+}
+
+
 
 /**
 * Enqueue scripts and styles.

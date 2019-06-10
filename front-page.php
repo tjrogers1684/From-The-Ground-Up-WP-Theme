@@ -13,6 +13,17 @@
 	// The Query
 	$hp_blog_query = new WP_Query( $hp_blog_args );
 
+	// ----- 6 TESTIMONIALS QUERY ----
+	$hp_testimonials_args = [
+		'post_type' => 'testimonial',
+		'posts_per_page' => '6',
+		'order' => 'DESC',
+		'orderby' => 'rand',
+	];
+
+	// The Query
+	$hp_testimonials_query = new WP_Query( $hp_testimonials_args );
+
 ?>
 
 <div class="feature-wrap">
@@ -71,77 +82,34 @@
 
 		<div class="hp-testimonials-listing">
 
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-male.jpg" alt="" alt="" class="hp-testimonial-item-photo">
+			<?php if ( $hp_testimonials_query->have_posts() ) : while ($hp_testimonials_query->have_posts() ) : $hp_testimonials_query->the_post(); ?>
+
+				<?php
+					$post_meta = get_post_meta( $post->ID );
+					$featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
+					$testimonial_text = get_the_content();
+					$testimonial_text = wp_trim_words( $testimonial_text, 15, '!' );
+
+					//echo 'Testimonial META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
+				?>
+
+				<div class="hp-testimonial-item">
+					<?php
+						if ( has_post_thumbnail() ) { ?>
+							<div class="hp-testimonial-pic">
+								<img src="<?php the_post_thumbnail_url(); ?>" alt="">
+							</div>
+					<?php } ?>
+
+					<p class="hp-testimonial-item-testimonial"><?php echo $testimonial_text; ?></p>
 				</div>
 
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
+			<?php endwhile; ?>
 
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-female.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
+			<?php wp_reset_postdata(); ?>
 
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
+			<?php endif; ?>
 
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-male-black.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
-
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-female.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
-
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-male-black.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
-
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-male.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
-
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-male-black.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
-
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-male.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
-
-			<div class="hp-testimonial-item">
-				<div class="hp-testimonial-pic">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/img-ph-tesimonial-female.jpg" alt="" alt="" class="hp-testimonial-item-photo">
-				</div>
-
-				<p class="hp-testimonial-item-testimonial">From the Ground Up did such an amazing job! Would hire them again in a heartbeat!</p>
-			</div>
 		</div>
 
 		<p class="more-testimonials-link"><a href="/testimonials" class="btn btn-alt"><i class="fas fa-comment-alt"></i> More Testimonials</a>
