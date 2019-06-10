@@ -1,0 +1,23 @@
+@import 'compass/css3';
+@import 'bits';
+
+/* CSS Document */
+// ---------------------------------------------------------------------------------
+// ----- FEATURE -------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.feature-wrap {
+	padding: 2rem;
+	background: $brand url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin-top: 2rem;
+
+	.feature-image {
+		max-width: 1440px;
+		margin: -4rem auto 0;
+
+		img {
+			@include drop_shadow();
+		}
+	}
+}

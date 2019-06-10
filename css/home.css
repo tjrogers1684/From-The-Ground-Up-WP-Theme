@@ -221,24 +221,70 @@
       position: absolute;
       top: 0;
       left: 72%;
-      -webkit-transform: translateY(-29%);
-              transform: translateY(-29%);
       width: 100%;
       max-width: 1000px;
-      min-width: 600px; }
+      min-width: 600px;
+      -webkit-animation: hover 4s ease infinite alternate;
+              animation: hover 4s ease infinite alternate; }
+@-webkit-keyframes hover {
+  0%, 100% {
+    -webkit-transform: translate(0, -29%);
+            transform: translate(0, -29%); }
+  50% {
+    -webkit-transform: translate(1%, -27%);
+            transform: translate(1%, -27%); } }
+@keyframes hover {
+  0%, 100% {
+    -webkit-transform: translate(0, -29%);
+            transform: translate(0, -29%); }
+  50% {
+    -webkit-transform: translate(1%, -27%);
+            transform: translate(1%, -27%); } }
       @media (max-width: 1260px) {
         .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
           width: 70%;
           top: 50%;
           -webkit-transform: translateY(-50%);
-                  transform: translateY(-50%); } }
+                  transform: translateY(-50%);
+          -webkit-animation: hover 5s ease infinite;
+                  animation: hover 5s ease infinite; }
+        @-webkit-keyframes hover {
+          0%, 100% {
+            -webkit-transform: translate(0, -50%);
+                    transform: translate(0, -50%); }
+          50% {
+            -webkit-transform: translate(1%, -45%);
+                    transform: translate(1%, -45%); } }
+        @keyframes hover {
+          0%, 100% {
+            -webkit-transform: translate(0, -50%);
+                    transform: translate(0, -50%); }
+          50% {
+            -webkit-transform: translate(1%, -45%);
+                    transform: translate(1%, -45%); } } }
       @media (max-width: 700px) {
         .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
           position: static;
           -webkit-transform: translateY(0);
                   transform: translateY(0);
           margin: 2rem 0;
-          min-width: 350px; } }
+          min-width: 350px;
+          -webkit-animation: hover 5s ease infinite;
+                  animation: hover 5s ease infinite; }
+        @-webkit-keyframes hover {
+          0%, 100% {
+            -webkit-transform: translate(0, 0);
+                    transform: translate(0, 0); }
+          50% {
+            -webkit-transform: translate(1%, -5%);
+                    transform: translate(1%, -5%); } }
+        @keyframes hover {
+          0%, 100% {
+            -webkit-transform: translate(0, 0);
+                    transform: translate(0, 0); }
+          50% {
+            -webkit-transform: translate(1%, -5%);
+                    transform: translate(1%, -5%); } } }
       @media (max-width: 400px) {
         .hp-choose-ftgu-wrap .hp-choose-ftgu .img-sod-block {
           min-width: 200px; } }

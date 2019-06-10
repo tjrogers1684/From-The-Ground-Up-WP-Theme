@@ -27,7 +27,7 @@
 		</div>
 		<div class="feature-callout">
 			<p>Our passion is felt from the moment we meet and carries throughoutthe entire design and installation of each and every project.</p>
-			<p><a href="#" class="btn btn-alt"><i class="fas fa-user-circle"></i> Learn More About Us</a></p>
+			<p><a href="/about-us/" class="btn btn-alt"><i class="fas fa-user-circle"></i> Learn More About Us</a></p>
 		</div>
 	</div>
 </div>
@@ -54,8 +54,8 @@
 			<p>We’ve been in business since 2010 and service all of Central Florida including Tampa, Lakeland, Orlando, Kissimmee, Deland, Ormond Beach, New Symra and more. There are many ways in which we can help in crafting and creating the outdoor experience you’ve always dreamed of.</p>
 
 			<p>
-				<a href="#" class="btn"><i class="fas fa-map-marker-alt"></i> Find Out the Areas We Serve</a>
-				<a href="#" class="btn"><i class="fas fa-envelope"></i> Contact Us</a>
+				<a href="/areas-served" class="btn"><i class="fas fa-map-marker-alt"></i> Find Out the Areas We Serve</a>
+				<a href="/contact/" class="btn"><i class="fas fa-envelope"></i> Contact Us</a>
 			</p>
 		</div>
 
@@ -144,7 +144,7 @@
 			</div>
 		</div>
 
-		<p class="more-testimonials-link"><a href="#" class="btn btn-alt"><i class="fas fa-comment-alt"></i> More Testimonials</a>
+		<p class="more-testimonials-link"><a href="/testimonials" class="btn btn-alt"><i class="fas fa-comment-alt"></i> More Testimonials</a>
 	</div>
 </div>
 

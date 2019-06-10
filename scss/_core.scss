@@ -56,16 +56,30 @@ hr {
 	text-align: right;
 	padding: 0.5rem;
 
+	@media (max-width: 410px) {
+			text-align: center;
+		}
+
 	span {
 		font-weight: bold;
 		font-size: 0.8em;
+
+		@media (max-width: 410px) {
+			display: block;
+		}
 	}
 }
 
 .header-banner-social-menu {
 	margin: 0 1em 0 0;
+	padding: 0;
 	list-style: none;
 	display: inline-block;
+
+	@media (max-width: 410px) {
+		display: block;
+		margin: 0 0 0.25rem 0;
+	}
 
 	li {
 		padding: 0;
@@ -82,6 +96,11 @@ hr {
 
 .header-navigation {
 	padding: 0 2rem;
+	position: relative;
+
+	@media (max-width: 700px) {
+		margin-bottom: 4rem;
+	}
 
 	.site-logo {
 		display: block;
@@ -94,6 +113,11 @@ hr {
 
 		img {
 			max-width: 300px;
+
+			@media (max-width: 520px) {
+				width: 50%;
+				min-width: 220px;
+			}
 		}
 	}
 
@@ -145,13 +169,24 @@ hr {
 	margin: 0 auto;
 }
 
-.content-area {
+.not-front {
+	.content-wrap {
+		padding: 3rem 1.5rem 0;
 
-	&.has-sidebar {
+		.content-area {
+			max-width: 900px;
+			margin: 0 auto;
+
+			&.has-sidebar {
+				width: 66%;
+			}
+		}
+
+		.sidebar-area {
+			width: 33%;
+			padding-left: 1.5rem;
+		}
 	}
-}
-
-.sidebar-area {
 }
 
 

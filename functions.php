@@ -11,6 +11,16 @@ add_post_type_support( 'page', 'excerpt' );
 // add additional excerpt support by post type
 // add_post_type_support( 'post_type' , 'excerpt' );
 
+function register_ftgu_menus() {
+	register_nav_menus(
+		array(
+			'main-menu' => __( 'Main Menu' ),
+			'sidebar-sub-menu' => __( 'Sidebar Sub Menu' ),
+		)
+	);
+}
+add_action( 'init', 'register_ftgu_menus' );
+
 /**
 Add theme support for WooCommerce (optional)
 */

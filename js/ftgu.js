@@ -8,9 +8,31 @@ jQuery(function($) {
 // ---------------------------------------------------------------------------------
 
 // ----- move site logo into center of menu -----
-let header_logo_pos = Math.floor($('.header-menu').find('li').length / 2);
-$('.header-menu').find('li:nth-child('+header_logo_pos+')').after('<li class="header-menu-site-logo"></li>');
-$('.header-navigation').find('.site-logo').addClass('inside-menu').appendTo('.header-menu-site-logo');
+if ( $(window).width() >= 960 ){
+	let header_logo_pos = Math.floor($('.header-menu').find('li').length / 2);
+	$('.header-menu').find('li:nth-child('+header_logo_pos+')').after('<li class="header-menu-site-logo"></li>');
+	$('.header-navigation').find('.site-logo').addClass('inside-menu').appendTo('.header-menu-site-logo');
+};
+
+// mobile navigation
+$('.mobile-nav-btns .fa-times').hide();
+
+$('.mobile-nav-btns .fa-bars').on('click', function(e){
+	e.preventDefault();
+	$('.mobile-nav').slideToggle(400);
+	$(this).hide();
+	$('.mobile-nav-btns .fa-times').show();
+});
+
+$('.mobile-nav-btns .fa-times').on('click', function(e){
+	e.preventDefault();
+	$('.mobile-nav').slideToggle(400);
+	$('.mobile-nav-btns .fa-bars').show();
+	$('.mobile-nav-btns .fa-times').hide();
+});
+
+
+
 
 
 // ---------------------------------------------------------------------------------
