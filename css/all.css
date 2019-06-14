@@ -524,5 +524,8 @@ img {
       -webkit-align-items: stretch;
               align-items: stretch;
       height: 100%; }
+      .blog .blog-listing .blog-item .blog-item-content .blog-article-meta {
+        -webkit-align-self: flex-start;
+                align-self: flex-start; }
 
 /*# sourceMappingURL=all.css.map */
