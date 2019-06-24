@@ -15,12 +15,25 @@
 	.feature-image {
 		max-width: 1440px;
 		margin: -4rem auto 0;
+		@include drop_shadow();
+		line-height: 0;
+
+		&.page-featured-image {
+			padding-top: 300px;
+			background-position: 50% 50%;
+
+			@media (max-width: 1440px) {
+				padding-top: 22%;
+			}
+		}
 
 		img {
-			@include drop_shadow();
+			//@include drop_shadow();
 		}
 	}
 }
+
+/* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 
 
 // ---------------------------------------------------------------------------------

@@ -20,6 +20,9 @@
 		}
 
 		&.current-menu-item a {
+			padding-bottom: 0.25rem;
+			border-bottom: 4px solid darken($brand, 20);
+			color: darken($brand, 20);
 		}
 
 		&.menu-item-has-children {

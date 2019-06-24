@@ -29,6 +29,9 @@ Add theme support for WooCommerce (optional)
 //     add_theme_support( 'woocommerce' );
 // }
 
+// IMAGE CROP SIZES
+add_image_size( 'sub-header', 1440, 300, array( 'left', 'top' ) ); // Hard crop left top
+
 
 // -------- TIME AGO FORMAT -----
 function meks_time_ago() {

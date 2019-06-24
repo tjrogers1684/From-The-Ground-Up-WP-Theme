@@ -54,9 +54,25 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 </div>
 
 <?php if ( !is_front_page() ) { ?>
-	<div class="feature-wrap">
-		<div class="feature-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/feature-placeholder-subpages.jpg" alt="">
-		</div>
-	</div>
+	<?php if ( have_posts() ) { ?>
+
+		<?php while ( have_posts() ) : the_post(); ?>
+			<?php if ( has_post_thumbnail() ) { ?>
+
+				<div class="feature-wrap">
+					<div class="feature-image page-featured-image" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)"></div>
+				</div>
+
+			<?php } else { ?>
+
+				<div class="feature-wrap">
+					<div class="feature-image">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/feature-placeholder-subpages.jpg" alt="">
+					</div>
+				</div>
+
+			<?php } ?>
+		<?php endwhile; ?><!-- PAGE MAIN QUERY -->
+
+	<?php } ?>
 <?php } ?>

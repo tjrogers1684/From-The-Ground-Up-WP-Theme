@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 author: Thrive Creative Labs
 date modified: November 15, 2018
@@ -99,10 +100,12 @@ button,
       color: #25a233;
       background-color: #124f19; }
 
+/* CSS Document */
 h1, h2, h3 {
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1.25;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  color: #1b7926; }
 
 * ~ h1, * ~ h2, * ~ h3 {
   margin-top: 1em; }
@@ -152,6 +155,10 @@ button {
 @media (max-width: 700px) {
   .header-menu {
     display: none; } }
+.header-menu ul li.current-menu-item a {
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #1b7926;
+  color: #1b7926; }
 .header-menu ul li.menu-item-has-children {
   position: relative; }
   .header-menu ul li.menu-item-has-children ul {
@@ -215,7 +222,7 @@ a, a:visited {
   color: #2ecc40;
   text-decoration: none; }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #000; }
+    color: #ffdd00; }
 
 img {
   max-width: 100%;
@@ -420,10 +427,17 @@ img {
   margin-top: 2rem; }
   .feature-wrap .feature-image {
     max-width: 1440px;
-    margin: -4rem auto 0; }
-    .feature-wrap .feature-image img {
-      box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
+    margin: -4rem auto 0;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    line-height: 0; }
+    .feature-wrap .feature-image.page-featured-image {
+      padding-top: 300px;
+      background-position: 50% 50%; }
+      @media (max-width: 1440px) {
+        .feature-wrap .feature-image.page-featured-image {
+          padding-top: 22%; } }
 
+/* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 .testimonials-page-testimonials-listing {
   margin-bottom: 3rem; }
   .testimonials-page-testimonials-listing .testimonial-item {
