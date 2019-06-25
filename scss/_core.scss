@@ -99,13 +99,23 @@ hr {
 	position: relative;
 
 	@media (max-width: 700px) {
-		margin-bottom: 4rem;
+		padding: 1.5rem 2rem;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.site-logo {
 		display: block;
 		padding: 2rem 1rem 0;
 		text-align: center;
+		line-height: 0;
+
+		@media (max-width: 700px) {
+			padding: 0;
+		}
 
 		&.inside-menu {
 			padding: 0;
@@ -116,7 +126,7 @@ hr {
 
 			@media (max-width: 520px) {
 				width: 50%;
-				min-width: 220px;
+				min-width: 200px;
 			}
 		}
 	}

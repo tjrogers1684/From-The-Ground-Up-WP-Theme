@@ -180,23 +180,25 @@ button {
 
 .mobile-nav-btns {
   margin-top: 0;
-  position: absolute;
   top: 0.5rem;
   right: 2rem;
   font-size: 1.5em; }
   @media (max-width: 700px) {
     .mobile-nav-btns {
-      display: block; } }
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 2rem;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); } }
 
-.mobile-nav {
-  background: #f4f4f4; }
-  .mobile-nav ul,
-  .mobile-nav li {
-    margin: 0;
-    padding: 0; }
-    .mobile-nav ul li + li,
-    .mobile-nav li li + li {
-      border-top: 1px solid #bcf0c2; }
+.mobile-nav ul,
+.mobile-nav li {
+  margin: 0;
+  padding: 0; }
+  .mobile-nav ul li,
+  .mobile-nav li li {
+    border-bottom: 1px solid #bcf0c2; }
     .mobile-nav ul li a,
     .mobile-nav li li a {
       display: block;
@@ -266,11 +268,30 @@ img {
   position: relative; }
   @media (max-width: 700px) {
     .header-navigation {
-      margin-bottom: 4rem; } }
+      padding: 1.5rem 2rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center; } }
   .header-navigation .site-logo {
     display: block;
     padding: 2rem 1rem 0;
-    text-align: center; }
+    text-align: center;
+    line-height: 0; }
+    @media (max-width: 700px) {
+      .header-navigation .site-logo {
+        padding: 0; } }
     .header-navigation .site-logo.inside-menu {
       padding: 0; }
     .header-navigation .site-logo img {
@@ -278,7 +299,7 @@ img {
       @media (max-width: 520px) {
         .header-navigation .site-logo img {
           width: 50%;
-          min-width: 220px; } }
+          min-width: 200px; } }
   .header-navigation .header-menu {
     max-width: 1440px;
     margin: 0 auto;
@@ -437,6 +458,32 @@ img {
         .feature-wrap .feature-image.page-featured-image {
           padding-top: 22%; } }
 
+/* ----- UL, LI STYLES ----- */
+.content-area ul,
+.content-area li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+.content-area ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+          justify-content: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+          align-items: flex-start; }
+  .content-area ul li {
+    width: 33%;
+    padding: 0.5rem 1rem; }
+
 /* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 .testimonials-page-testimonials-listing {
   margin-bottom: 3rem; }
@@ -498,6 +545,72 @@ img {
         font-weight: bold; }
       .testimonials-page-testimonials-listing .testimonial-item .testimonial-item-content .testimonial-item-date {
         margin-top: 0; }
+
+/* CSS Document */
+.page-id-1461 .cities-serviced-listing-container {
+  margin: 2rem 0; }
+  .page-id-1461 .cities-serviced-listing-container .cities-serviced-listing {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+            justify-content: stretch;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+            align-items: flex-start; }
+    .page-id-1461 .cities-serviced-listing-container .cities-serviced-listing .city-item {
+      position: relative;
+      width: 33%;
+      padding: 0.5rem 1rem 0.5rem 1.25rem; }
+      .page-id-1461 .cities-serviced-listing-container .cities-serviced-listing .city-item:before {
+        content: '\f3c5';
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        left: 0;
+        top: 0.5rem;
+        color: #1b7926; }
+
+.single-area_service .city-services-listing-container {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: #fafafa;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
+  .single-area_service .city-services-listing-container .city-services-listing {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+            justify-content: stretch;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+            align-items: flex-start; }
+    .single-area_service .city-services-listing-container .city-services-listing .city-service-item {
+      position: relative;
+      width: 50%;
+      padding: 0.5rem 1rem 0.5rem 1.25rem; }
+      .single-area_service .city-services-listing-container .city-services-listing .city-service-item:before {
+        content: '\f02e';
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        left: 0;
+        top: 0.5rem;
+        color: #1b7926; }
 
 .blog .blog-listing {
   display: -webkit-box;
