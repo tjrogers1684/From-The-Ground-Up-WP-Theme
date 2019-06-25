@@ -34,7 +34,7 @@
 						<?php // ------------------------------- CITIES SERVICED LISTING ------------------------------- ?>
 						<div class="city-services-listing-container">
 
-							<h2>City Services</h2>
+							<h2>Services Offered</h2>
 
 							<div class="city-services-listing">
 
