@@ -6,16 +6,18 @@
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt,
 .woocommerce button.button.alt,
-.woocommerce input.button.alt {
+.woocommerce input.button.alt,
+.nf-form-content input[type=button] {
 	display: inline-block;
 	color: #fff !important;
-	background-color: $brand;
+	background-color: $brand !important;
 	padding: 0.5em 1em;
 	border-radius: 4px;
 	font-weight: bold;
+	cursor: pointer;
 
 	&:hover {
-		background-color: darken($brand, 10);
+		background-color: darken($brand, 10) !important;
 		color: #fff;
 	}
 

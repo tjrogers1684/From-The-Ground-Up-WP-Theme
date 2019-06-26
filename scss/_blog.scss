@@ -4,34 +4,86 @@
 // ---------------------------------------------------------------------------------
 .blog {
 	.blog-listing {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: stretch;
-
 		h1 {
 			width: 100%;
-			margin-bottom: 0;
+			//margin-bottom: 0;
 		}
 
-
 		.blog-item {
-			width: calc( 50% - 1rem );
-			padding: 1rem;
+			& + .blog-item {
+				margin-top: 2rem;
+				padding-top: 1.25rem;
+				border-top: 1px solid #e7e7e7;
+			}
+
 
 			.blog-item-content {
-				display: flex;
-				flex-direction: column;
-				flex-wrap: wrap;
-				justify-content: space-between;
-				align-items: stretch;
-				height: 100%;
+				h2 {
+					margin-bottom: 0;
+				}
 
 				.blog-article-meta {
-					align-self: flex-start;
+					margin-top: 0;
+					font-size: 0.9em;
+					color: #bbb;
+					font-style: italic;
+
+					.category-item:last-of-type {
+						.category-divider {
+							display: none;
+						}
+					}
+				}
+
+				.blog-article-text {
+					margin: 1.5rem 0;
 				}
 			}
+
+			.btn {
+				font-size: 0.9em;
+			}
+		}
+	}
+}
+
+// ---------------------------------------------------------------------------------
+// ----- SIDEBAR CATS --------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+.blog-categories {
+	ul, li {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		& + li {
+			border-top: 1px solid #b8cc82;
+		}
+
+		&.cat-item-13,
+		&.cat-item-1 {
+			display: none;
+		}
+
+		&.current-cat {
+			a {
+				background: $brand;
+				color: #fff;
+				padding: 0.5rem !important;
+			}
+		}
+
+		&:first-of-type {
+			a {
+				padding-top: 0;
+			}
+		}
+
+		a {
+			display: block;
+			padding: 0.5rem;
 		}
 	}
 }

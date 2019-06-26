@@ -85,7 +85,7 @@ function create_widget($name, $id, $description) {
 
 }
 // Create the actual widgets (ID is a unique string)
-create_widget("Name", "id", "Description");
+create_widget("Right Sidebar", "right_sidebar", "Sidebar widgets for the right-hand side of the content");
 
 
 // ---------------------------------------------------------------------------------

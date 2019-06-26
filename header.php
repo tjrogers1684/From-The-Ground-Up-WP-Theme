@@ -53,7 +53,9 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 	</div>
 </div>
 
-<?php if ( !is_front_page() ) { ?>
+
+<?php // SUBPAGE HEADERS ?>
+<?php if ( !is_front_page() && !is_home() ) { ?>
 	<?php if ( have_posts() ) { ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -75,4 +77,13 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 		<?php endwhile; ?><!-- PAGE MAIN QUERY -->
 
 	<?php } ?>
+<?php } ?>
+
+<?php // BLOG LANDING PAGE HEADER ?>
+<?php if ( is_home() ) { ?>
+	<div class="feature-wrap">
+		<div class="feature-image">
+			<div class="feature-image page-featured-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/hdr-blog.jpg)"></div>
+		</div>
+	</div>
 <?php } ?>
