@@ -91,7 +91,7 @@ button,
   .woocommerce button.button.alt.btn-alt,
   .woocommerce input.button.alt.btn-alt,
   .nf-form-content input[type=button].btn-alt {
-    background: #fff;
+    background: #fff !important;
     color: #2ecc40 !important; }
     .btn.btn-alt:hover, input.btn-alt[type="submit"]:hover,
     input.btn-alt[type="button"]:hover,
@@ -104,7 +104,9 @@ button,
     .woocommerce input.button.alt.btn-alt:hover,
     .nf-form-content input[type=button].btn-alt:hover {
       color: #25a233;
-      background-color: #124f19; }
+      color: #fff !important;
+      background-color: #124f19;
+      background-color: #ffdd00 !important; }
 
 /* CSS Document */
 h1, h2, h3 {
@@ -472,9 +474,14 @@ img {
             margin-top: 3rem; } }
         .footer-wrap-outer .footer-wrap .footer-section.footer-services h2 {
           font-size: 1rem;
-          font-weight: bold; }
-        .footer-wrap-outer .footer-wrap .footer-section.footer-services a:hover {
-          color: #a8ebaf; }
+          font-weight: bold;
+          color: #fff; }
+        .footer-wrap-outer .footer-wrap .footer-section.footer-services a {
+          display: block; }
+          .footer-wrap-outer .footer-wrap .footer-section.footer-services a:hover {
+            color: #ffdd00; }
+          .footer-wrap-outer .footer-wrap .footer-section.footer-services a + a {
+            margin-top: 0.75rem; }
 
 .not-front .footer-wrap-outer {
   margin-top: 3rem; }

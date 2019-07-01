@@ -1,4 +1,22 @@
-	<?php wp_footer(); ?>
+<?php
+	wp_footer();
+
+	$orlando_city_id = '1559';
+
+	//echo $city_id;
+
+	// ----- 6 TESTIMONIALS QUERY ----
+	$orlando_area_service_listing_args = [
+		'post_type' => 'area_service',
+		'posts_per_page' => '600',
+		'order' => 'ASC',
+		'orderby' => 'title',
+		'post_parent' => $orlando_city_id,
+	];
+
+	// The Query
+	$orlando_area_service_listing_query = new WP_Query( $orlando_area_service_listing_args );
+?>
 
 <div class="footer-wrap-outer">
 	<div class="footer-wrap">
@@ -35,26 +53,19 @@
 		<div class="footer-section footer-services">
 			<h2>Orlando Landscape Services</h2>
 
-			<p class="footer-service hardscaping">
-				<a href="#">Hardscaping</a><br/>
-				<span class="service-tagline">Paver driveways, walkways, retaining walls</span>
-			</p>
-			<p class="footer-service water-features">
-				<a href="#">Water Features</a><br/>
-				<span class="service-tagline">Ponds, waterfalls, Gratos</span>
-			</p>
-			<p class="footer-service landscape-design">
-				<a href="#">Landscape Design</a><br/>
-				<span class="service-tagline">3d designs, plant and flower gardens, rock garden</span>
-			</p>
-			<p class="footer-service sod-services">
-				<a href="#">Sod Services</a><br/>
-				<span class="service-tagline">Removal, installation, delivery, replacement</span>
-			</p>
-			<p class="footer-service landscape-lighting">
-				<a href="#">Landscape Lighting</a><br/>
-				<span class="service-tagline">Pond, house lighting, landscape garden lights</span>
-			</p>
+			<div class="orlando-services-listing">
+
+				<?php if ( $orlando_area_service_listing_query->have_posts() ) : while ($orlando_area_service_listing_query->have_posts() ) : $orlando_area_service_listing_query->the_post(); ?>
+
+					<a class="orlando-service-item-name" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+
+				<?php endwhile; ?>
+
+				<?php wp_reset_postdata(); ?>
+
+				<?php endif; ?>
+
+			</div>
 
 		</div>
 	</div>
