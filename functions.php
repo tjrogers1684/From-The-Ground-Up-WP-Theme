@@ -107,3 +107,36 @@ add_filter( 'rewrite_rules_array', 'thrive_prepend_page_rewrite_rules' );
 function thrive_prepend_page_rewrite_rules( $rewrite_rules ){
 	return $GLOBALS['thrive_page_rewrite_rules'] + $rewrite_rules;
 }
+
+
+
+
+add_filter( 'wpseo_breadcrumb_single_link' ,'wpseo_remove_breadcrumb_link', 10 ,2);
+function wpseo_remove_breadcrumb_link( $link_output , $link ){
+    $text_to_remove = 'Home';
+  
+    if( $link['text'] == $text_to_remove ) {
+      $link_output = '';
+    }
+ 
+    return $link_output;
+}
+
+
+add_filter( 'wpseo_breadcrumb_links', 'yoast_seo_breadcrumb_append_link' );
+function yoast_seo_breadcrumb_append_link( $links ) {
+    global $post;
+    if ( is_singular( 'area_service' ) ) {
+        $breadcrumb[] = array(
+            'url' => site_url( '/areas-served/' ),
+            'text' => 'Areas Served',
+        );
+        array_splice( $links, 1, -2, $breadcrumb );
+    }
+    return $links;
+}
+
+
+
+
+
