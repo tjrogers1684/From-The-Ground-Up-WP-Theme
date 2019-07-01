@@ -56,6 +56,12 @@ hr {
 	text-align: right;
 	padding: 0.5rem;
 
+	a {
+		&:hover {
+			color: $brand-alt;
+		}
+	}
+
 	@media (max-width: 410px) {
 			text-align: center;
 		}

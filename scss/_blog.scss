@@ -62,6 +62,7 @@
 
 		&.current {
 			background: #676767;
+			background: darken($brand, 20);
 			font-weight: bold;
 			color: #fff;
 		}
@@ -104,6 +105,7 @@
 		&.current-cat {
 			a {
 				background: #676767;
+				background: darken($brand, 20);
 				font-weight: bold;
 				color: #fff;
 				padding: 0.5rem !important;
