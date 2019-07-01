@@ -1,5 +1,5 @@
 <?php
-	
+
 	// ---------------------------------------------------------------------------------
 	// ----- AREA SERVICED CITY PAGES --------------------------------------------------
 	// ---------------------------------------------------------------------------------
@@ -37,32 +37,35 @@
 						<?php the_content(); ?>
 
 						<?php // ------------------------------- CITIES SERVICED LISTING ------------------------------- ?>
-						<div class="city-services-listing-container">
 
-							<h2>Services Offered</h2>
+						<?php if ( $city_area_service_listing_query->have_posts() ) { ?>
+							<div class="city-services-listing-container">
 
-							<div class="city-services-listing">
+								<h2>Services Offered</h2>
 
-								<?php if ( $city_area_service_listing_query->have_posts() ) : while ($city_area_service_listing_query->have_posts() ) : $city_area_service_listing_query->the_post(); ?>
+								<div class="city-services-listing">
 
-									<?php
-										//echo '<pre>' . print_r( $post, true ) . '<pre>';
-										//echo 'Parent ID = ' . $city_id;
-									?>
+									<?php if ( $city_area_service_listing_query->have_posts() ) : while ($city_area_service_listing_query->have_posts() ) : $city_area_service_listing_query->the_post(); ?>
 
-									<div class="city-service-item">
-										<p class="city-service-item-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
-									</div>
+										<?php
+											//echo '<pre>' . print_r( $post, true ) . '<pre>';
+											//echo 'Parent ID = ' . $city_id;
+										?>
 
-								<?php endwhile; ?>
+										<div class="city-service-item">
+											<p class="city-service-item-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+										</div>
 
-								<?php wp_reset_postdata(); ?>
+									<?php endwhile; ?>
 
-								<?php endif; ?>
+									<?php wp_reset_postdata(); ?>
+
+									<?php endif; ?>
+
+								</div>
 
 							</div>
-
-						</div>
+						<?php } ?>
 
 					<?php endwhile; ?><!-- PAGE MAIN QUERY -->
 
