@@ -743,5 +743,7 @@ img {
     padding-right: 1rem; }
     .single-post h1 + .blog-article-meta .category-item:last-of-type .category-divider {
       display: none; }
+.single-post .blog-article-social-share {
+  margin-top: 2rem; }
 
 /*# sourceMappingURL=all.css.map */
