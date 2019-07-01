@@ -2,7 +2,8 @@
 // ---------------------------------------------------------------------------------
 // ----- LANDING PAGE --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
-.blog {
+.blog,
+.archive {
 	.blog-listing {
 		h1 {
 			width: 100%;
@@ -13,7 +14,7 @@
 			& + .blog-item {
 				margin-top: 2rem;
 				padding-top: 1.25rem;
-				border-top: 1px solid #e7e7e7;
+				border-top: 2px solid #f7f7f7;
 			}
 
 
@@ -47,6 +48,38 @@
 	}
 }
 
+/* --------------------------------------------- PAGINATION -- */
+.blog-pagination {
+	padding-top: 4rem;
+	text-align: center;
+
+	.page-numbers {
+		display: inline-block;
+		padding: 0.75rem 0.75rem;
+		line-height: 1;
+		box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
+		margin: 0 0.25rem;
+
+		&.current {
+			background: #676767;
+			font-weight: bold;
+			color: #fff;
+		}
+
+		&.next,
+		&.prev {
+			background: $brand;
+			color: #fff;
+		}
+
+		&:hover {
+			background: $brand-alt;
+			color: #fff;
+		}
+	}
+}
+
+
 // ---------------------------------------------------------------------------------
 // ----- SIDEBAR CATS --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
@@ -59,31 +92,71 @@
 
 	li {
 		& + li {
-			border-top: 1px solid #b8cc82;
+			//border-top: 1px solid #b8cc82;
+			margin-top: 0.5rem;
 		}
 
 		&.cat-item-13,
 		&.cat-item-1 {
-			display: none;
+			//display: none;
 		}
 
 		&.current-cat {
 			a {
-				background: $brand;
+				background: #676767;
+				font-weight: bold;
 				color: #fff;
 				padding: 0.5rem !important;
 			}
 		}
 
-		&:first-of-type {
-			a {
-				padding-top: 0;
-			}
-		}
-
 		a {
 			display: block;
-			padding: 0.5rem;
+			padding: 0.5rem 1rem;
+			background: #f9fef7;
+			background: #fafafa;
+			font-weight: 100;
+			text-transform: capitalize;
+
+			&:hover {
+				background: $brand-alt;
+				color: #fff;
+			}
 		}
 	}
 }
+
+
+/* --------------------------------------------- ALL ARTICLES LINK -- */
+.sb-block.all-articles {
+	.btn {
+		display: block;
+		text-align: center;
+		padding: 0.75rem 1rem !important;
+	}
+}
+
+
+// ---------------------------------------------------------------------------------
+// ----- INDIVIDUAL ARTICLE PAGE ---------------------------------------------------
+// ---------------------------------------------------------------------------------
+.single-post {
+	h1 {
+		margin-bottom: 0;
+
+		& + .blog-article-meta {
+			margin-top: 0;
+			//font-size: 0.95em;
+			color: #bbb;
+			font-style: italic;
+			padding-right: 1rem;
+
+			.category-item:last-of-type {
+				.category-divider {
+					display: none;
+				}
+			}
+		}
+	}
+}
+

@@ -7,7 +7,7 @@
 
 		<div class="content-area blog-listing has-sidebar">
 
-			<h1 class="page-title">From The Ground Up Blog</h1>
+			<h1 class="page-title">FTGU Blog: <?php single_cat_title(); ?></h1>
 
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

@@ -195,12 +195,22 @@ hr {
 
 			&.has-sidebar {
 				width: 66%;
+
+				@media (max-width: 800px) {
+					width: 100%;
+				}
 			}
 		}
 
 		.sidebar-area {
 			width: 33%;
 			padding-left: 1.5rem;
+
+			@media (max-width: 800px) {
+				width: 100%;
+				padding-left: 0;
+				margin-top: 2rem;
+			}
 		}
 	}
 }
@@ -335,5 +345,11 @@ hr {
 				}
 			}
 		}
+	}
+}
+
+.not-front {
+	.footer-wrap-outer {
+		margin-top: 3rem;
 	}
 }

@@ -18,9 +18,11 @@
 		@include drop_shadow();
 		line-height: 0;
 
-		&.page-featured-image {
+		&.page-featured-image,
+		&.blog-featured-image {
 			padding-top: 300px;
 			background-position: 50% 50%;
+			background-size: cover !important;
 
 			@media (max-width: 1440px) {
 				padding-top: 22%;
@@ -57,6 +59,11 @@
 }
 
 
+/* --------------------------------------------- SB BLOCKS -- */
+.sb-block + .sb-block {
+	margin-top: 2rem;
+}
+
 
 /* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 
@@ -65,8 +72,6 @@
 // ----- TESTIMONIALS --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .testimonials-page-testimonials-listing {
-	margin-bottom: 3rem;
-
 	.testimonial-item {
 		display: flex;
 		flex-direction: row;
