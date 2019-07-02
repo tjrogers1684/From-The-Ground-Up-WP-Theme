@@ -671,6 +671,17 @@ img {
     .contact-info .contact-info-phone {
       margin-top: 1rem; } }
 
+.faq-container .faq-section + .faq-section {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 2px solid #f7f7f7; }
+.faq-container .faq-section .faq-question {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #1b7926; }
+.faq-container .faq-section .faq-answer + .faq-question {
+  margin-top: 2rem; }
+
 /* CSS Document */
 .page-id-1461 .cities-serviced-listing-container {
   margin-top: 2rem; }
@@ -825,7 +836,7 @@ img {
 .single-post h1 {
   margin-bottom: 0; }
   .single-post h1 + .blog-article-meta {
-    margin-top: 0;
+    margin: 0 0 2rem;
     color: #bbb;
     font-style: italic;
     padding-right: 1rem; }
