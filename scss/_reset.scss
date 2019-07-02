@@ -23,7 +23,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .flt-right {
   float: right;
-  margin: 0 0 0 15px;
+  margin: 0 0 1.5rem 1rem;
 }
 
 @media (max-width: 650px) {
@@ -35,7 +35,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .flt-left {
   float: left;
-  margin: 0 15px 0 0;
+  margin: 0 1.5rem 1rem 0;
 }
 
 @media (max-width: 650px) {
