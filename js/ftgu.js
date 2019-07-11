@@ -9,7 +9,7 @@ jQuery(function($) {
 
 // ----- move site logo into center of menu -----
 if ( $(window).width() >= 960 ){
-	let header_logo_pos = Math.floor($('.header-menu').find('li').length / 2);
+	let header_logo_pos = Math.floor($('.header-menu').find('.menu > li').length / 2);
 	$('.header-menu').find('li:nth-child('+header_logo_pos+')').after('<li class="header-menu-site-logo"></li>');
 	$('.header-navigation').find('.site-logo').addClass('inside-menu').appendTo('.header-menu-site-logo');
 };

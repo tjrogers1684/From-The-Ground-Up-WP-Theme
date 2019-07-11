@@ -14,15 +14,17 @@
 	ul li {
 
 		a {
+			padding: 0.5rem;
 		}
 
 		&:hover a {
 		}
 
-		&.current-menu-item a {
-			padding-bottom: 0.25rem;
-			border-bottom: 4px solid darken($brand, 20);
-			color: darken($brand, 20);
+		&.current-menu-item {
+			> a {
+				border-bottom: 4px solid darken($brand, 20);
+				color: darken($brand, 20);
+			}
 		}
 
 		&.menu-item-has-children {
@@ -32,16 +34,33 @@
 				display: none;
 				position: absolute;
 				top: 100%;
+				transform: translateY(3px);
 				left: 0;
 
 				li {
 					display: block;
 					width: 15em;
 
+					&.header-menu-site-logo {
+						display: none;
+					}
+
+					&.current-menu-item {
+						> a {
+							background: darken($brand, 20);
+							border-bottom: 0;
+							color: #fff;
+						}
+		}
+
 					a {
 						display: block;
+						background: $brand;
+						color: #fff;
+						padding: 0.5rem;
 
 						&:hover {
+							background: $brand-alt;
 						}
 					}
 				}

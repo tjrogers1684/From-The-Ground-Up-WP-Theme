@@ -121,6 +121,8 @@ hr {
 
 		@media (max-width: 700px) {
 			padding: 0;
+			width: 100%;
+			max-width: 260px;
 		}
 
 		&.inside-menu {
@@ -157,6 +159,8 @@ hr {
 
 				&.header-menu-site-logo {
 					margin: 0 2em;
+					width: 100%;
+					max-width: 260px;
 				}
 
 				a {

@@ -26,12 +26,12 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 
 <div class="header-banner">
 	<ul class="header-banner-social-menu">
-		<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-		<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-		<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-		<li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
-		<li><a href="#"><i class="fab fa-yelp"></i></a></li>
-		<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		<li><a href="https://www.facebook.com/fromthegroundupincfl/"><i class="fab fa-facebook-square"></i></a></li>
+		<li><a href="https://twitter.com/sodnrocks"><i class="fab fa-twitter-square"></i></a></li>
+		<li><a href="https://www.youtube.com/channel/UCle7ByEOF7XT4nqK8StIwXg"><i class="fab fa-youtube"></i></a></li>
+		<li><a href="https://www.pinterest.com/orlandosod/"><i class="fab fa-pinterest-square"></i></a></li>
+		<li><a href="https://www.yelp.com/biz/from-the-ground-up-oviedo"><i class="fab fa-yelp"></i></a></li>
+		<li><a href="https://www.linkedin.com/in/marc-rose-458508104/"><i class="fab fa-linkedin"></i></a></li>
 	</ul>
 	<span>Free Estimates. Call 407-501-2107</span>
 </div>
@@ -41,7 +41,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 </div>
 
 <div class="header-navigation">
-	<a href="<?php echo bloginfo('url'); ?>" class="site-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-ftgu.jpg" alt="From the Ground Up Landscaping"></a>
+	<a href="<?php echo bloginfo('url'); ?>" class="site-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/logo-ftgu.svg" alt="From the Ground Up Landscaping"></a>
 
 	<p class="mobile-nav-btns">
 		<a class="mobile-nav-open" href="#mobilenavopen"><i class="fa fa-bars"></i></a>
