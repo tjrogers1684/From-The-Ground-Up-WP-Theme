@@ -91,8 +91,11 @@
 /* ----- FULL WIDTH IMAGES ----- */
 .full-width-image-blog {
 	width: 85%;
-	margin: 2rem 0 0;
 	display: inline-block;
+}
+
+* + .full-width-image-blog {
+	margin: 2rem 0 0;
 }
 
 /* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
