@@ -54,6 +54,17 @@
 		li {
 			width: 33%;
 			padding: 0.5rem 1rem;
+			position: relative;
+
+			&:before {
+				content: '\f0da';
+				font-weight: 900;
+				font-family: "Font Awesome 5 Free";
+				position: absolute;
+				left: 0;
+				top: 0.5rem;
+				color: darken( $brand, 20 );
+			}
 		}
 	}
 
@@ -76,6 +87,13 @@
 	margin-top: 2rem;
 }
 
+
+/* ----- FULL WIDTH IMAGES ----- */
+.full-width-image-blog {
+	width: 85%;
+	margin: 2rem 0 0;
+	display: inline-block;
+}
 
 /* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 
