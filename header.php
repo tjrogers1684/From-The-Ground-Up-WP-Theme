@@ -32,6 +32,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 		<li><a href="https://www.pinterest.com/orlandosod/"><i class="fab fa-pinterest-square"></i></a></li>
 		<li><a href="https://www.yelp.com/biz/from-the-ground-up-oviedo"><i class="fab fa-yelp"></i></a></li>
 		<li><a href="https://www.linkedin.com/in/marc-rose-458508104/"><i class="fab fa-linkedin"></i></a></li>
+		<li><a href="https://www.instagram.com/ftgulandscapinginc/"><i class="fab fa-instagram"></i></a></li>
 	</ul>
 	<span>Free Estimates. Call 407-501-2107</span>
 </div>
