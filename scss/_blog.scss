@@ -139,6 +139,33 @@
 }
 
 
+/* --------------------------------------------- SIDEBAR TESTIMONIALS -- */
+.sb-testimonial {
+	text-align: center;
+
+	.testimonial-item {
+		background: #f7f7f7;
+		padding: 1.5rem;
+
+		.testimonial-item-pic {
+			margin-bottom: 1rem;
+
+			img {
+				border-radius: 50%;
+			}
+		}
+
+		.testimonial-item-author {
+			font-weight: bold;
+
+			& + .testimonial-item-date {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+
 /* --------------------------------------------- CONTACT CALLOUT -- */
 .sb-contact {
 	.btn {
