@@ -139,6 +139,59 @@
 }
 
 
+/* --------------------------------------------- CONTACT CALLOUT -- */
+.sb-contact {
+	.btn {
+		display: block;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		justify-content: flex-start;
+		align-items: center;
+		transition: 0.3s;
+
+		&:hover {
+			padding-left: 1.5rem;
+
+			.contact-icon {
+				transform: translateY(-0.25rem)rotate(-90deg);
+			}
+
+			.contact,
+			.us {
+				padding-left: 0.5rem;
+				font-weight: bold !important;
+			}
+		}
+
+		.contact-icon {
+			font-size: 2em;
+			padding-right: 0.5rem;
+			transition: 0.3s;
+		}
+
+		.contact-text {
+			line-height: 1.25;
+
+			.contact-text-section {
+				font-size: 1.75em;
+
+				&.contact {
+					transition: 0.3s;
+				}
+
+				&.us {
+					font-size: 1.5em;
+					font-weight: 100;
+					transition: 0.3s;
+				}
+			}
+		}
+	}
+}
+
+
 // ---------------------------------------------------------------------------------
 // ----- INDIVIDUAL ARTICLE PAGE ---------------------------------------------------
 // ---------------------------------------------------------------------------------
