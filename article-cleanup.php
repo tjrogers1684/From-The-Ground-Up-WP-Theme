@@ -1,3 +1,5 @@
+<?php // SIDEBAR: RANDOM TESTIMONIALS ?>
+
 <?php
 	$testimonials_sidebar_listing_args = [
 		'post_type' => 'testimonial',
@@ -33,7 +35,7 @@
 		<?php } ?>
 
 		<div class="testimonial-item-content">
-			<p class="testimonial-item-testimonial"><?php the_content(); ?></p>
+			<p class="testimonial-item-testimonial"><?php echo $testimonial_text; ?></p>
 			<p class="testimonial-item-author"> - <?php echo $first_name .' '.$last_name; ?></p>
 			<p class="testimonial-item-date"> <?php echo meks_time_ago(); /* post date in time ago format */ ?></p>
 		</div>
@@ -44,3 +46,5 @@
 <?php wp_reset_postdata(); ?>
 
 <?php endif; ?>
+
+<p class="more-testimonials-link"><a href="/testimonials" class="btn"><i class="fas fa-comment-alt"></i> More Testimonials</a></p>

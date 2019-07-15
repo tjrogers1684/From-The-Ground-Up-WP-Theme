@@ -112,7 +112,7 @@
 
 		</div>
 
-		<p class="more-testimonials-link"><a href="/testimonials" class="btn btn-alt"><i class="fas fa-comment-alt"></i> More Testimonials</a>
+		<p class="more-testimonials-link"><a href="/testimonials" class="btn btn-alt"><i class="fas fa-comment-alt"></i> More Testimonials</a></p>
 	</div>
 </div>
 

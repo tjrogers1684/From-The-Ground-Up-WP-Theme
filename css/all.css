@@ -911,18 +911,17 @@ img {
 
 /* --------------------------------------------- SIDEBAR TESTIMONIALS -- */
 .sb-testimonial {
-  text-align: center; }
-  .sb-testimonial .testimonial-item {
-    background: #f7f7f7;
-    padding: 1.5rem; }
-    .sb-testimonial .testimonial-item .testimonial-item-pic {
-      margin-bottom: 1rem; }
-      .sb-testimonial .testimonial-item .testimonial-item-pic img {
-        border-radius: 50%; }
-    .sb-testimonial .testimonial-item .testimonial-item-author {
-      font-weight: bold; }
-      .sb-testimonial .testimonial-item .testimonial-item-author + .testimonial-item-date {
-        margin-top: 0; }
+  text-align: center;
+  background: #f7f7f7;
+  padding: 1.5rem; }
+  .sb-testimonial .testimonial-item .testimonial-item-pic {
+    margin-bottom: 1rem; }
+    .sb-testimonial .testimonial-item .testimonial-item-pic img {
+      border-radius: 50%; }
+  .sb-testimonial .testimonial-item .testimonial-item-author {
+    font-weight: bold; }
+    .sb-testimonial .testimonial-item .testimonial-item-author + .testimonial-item-date {
+      margin-top: 0; }
 
 /* --------------------------------------------- CONTACT CALLOUT -- */
 .sb-contact .btn, .sb-contact input[type="submit"],
