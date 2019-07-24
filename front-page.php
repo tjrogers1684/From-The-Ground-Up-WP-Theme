@@ -46,12 +46,12 @@
 <div class="hp-surfaces-wrap">
 	<h2 class="hp-section-header">Surfaces</h2>
 	<ul class="hp-surfaces">
-		<li class="hp-surface-lawns"><a href="#"><span>Lawns</span></a></li>
-		<li class="hp-surface-pets"><a href="#"><span>Pets</span></a></li>
-		<li class="hp-surface-playgrounds"><a href="#"><span>Playgrounds</span></a></li>
-		<li class="hp-surface-putting"><a href="#"><span>Putting</span></a></li>
-		<li class="hp-surface-pavers"><a href="#"><span>Pavers</span></a></li>
-		<li class="hp-surface-natural"><a href="#"><span>Natural</span></a></li>
+		<li class="hp-surface-lawns"><a href="/surfaces/lawns/"><span>Lawns</span></a></li>
+		<li class="hp-surface-pets"><a href="/surfaces/pet/"><span>Pets</span></a></li>
+		<li class="hp-surface-playgrounds"><a href="/surfaces/playgrounds/"><span>Playgrounds</span></a></li>
+		<li class="hp-surface-putting"><a href="/surfaces/putting/"><span>Putting</span></a></li>
+		<li class="hp-surface-pavers"><a href="/surfaces/pavers/"><span>Pavers</span></a></li>
+		<li class="hp-surface-natural"><a href="/surfaces/natural-turf/"><span>Natural</span></a></li>
 	</ul>
 </div>
 
