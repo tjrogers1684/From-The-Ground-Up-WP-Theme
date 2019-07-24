@@ -824,6 +824,109 @@ img {
         top: 0.5rem;
         color: #1b7926; }
 
+/* CSS Document */
+.section-surfaces .content-area h1,
+.section-surfaces .content-area .page-leadin {
+  text-align: center; }
+.section-surfaces .content-area h1 {
+  margin-bottom: 0; }
+.section-surfaces .content-area .page-leadin {
+  padding: 3rem 0; }
+.section-surfaces .content-area .surfaces-landing-listing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+          align-items: stretch; }
+  .section-surfaces .content-area .surfaces-landing-listing .surface {
+    width: calc( 50% - 1rem );
+    margin: 0.25rem;
+    position: relative;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface:after, .section-surfaces .content-area .surfaces-landing-listing .surface:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface:after {
+      background: #2ecc40;
+      background: -webkit-linear-gradient(left, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+      background: linear-gradient(to right, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+      z-index: 1;
+      opacity: 0.75; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface:before {
+      background: #000;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      z-index: 2;
+      opacity: 0.25; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface:hover {
+      -webkit-transform: scale(1.075);
+              transform: scale(1.075);
+      z-index: 4; }
+      .section-surfaces .content-area .surfaces-landing-listing .surface:hover:before {
+        opacity: 0.5; }
+      .section-surfaces .content-area .surfaces-landing-listing .surface:hover .surface-content .surface-name {
+        top: 43%; }
+      .section-surfaces .content-area .surfaces-landing-listing .surface:hover .surface-content .surface-description {
+        top: 50%;
+        opacity: 1 !important; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface .surface-link-container {
+      line-height: 0;
+      margin: 0; }
+      .section-surfaces .content-area .surfaces-landing-listing .surface .surface-link-container .surface-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 6; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface .surface-photo {
+      line-height: 0; }
+    .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      text-shadow: 2px 2px 7px rgba(4, 4, 4, 0.75);
+      z-index: 3;
+      text-align: center; }
+      .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content p {
+        margin: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s; }
+        .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content p.surface-name {
+          font-size: 1.35em;
+          font-weight: bold;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); }
+        .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content p.surface-description {
+          font-weight: 100;
+          opacity: 0;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+                  transform: translateX(-50%); }
+
 .blog .blog-listing h1,
 .archive .blog-listing h1 {
   width: 100%; }
