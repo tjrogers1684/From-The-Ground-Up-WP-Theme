@@ -6,6 +6,12 @@
 // ----- LANDING PAGE --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .section-surfaces {
+	&.page-id-3919 {
+		.content-area {
+			max-width: 900px !important;
+		}
+	}
+
 	.content-area {
 		max-width: 1120px !important;
 
