@@ -1104,7 +1104,30 @@ img {
     .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item {
       line-height: 0;
       width: calc( 25% - 1rem );
-      margin: 0.25rem; }
+      margin: 0.25rem;
+      position: relative;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        z-index: 1; }
+        .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item:hover:after {
+          opacity: 0.6; }
+      .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #2ecc40;
+        background: -webkit-linear-gradient(left, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        background: -webkit-gradient(linear, left top, right top, from(rgba(46, 204, 64, 0.92061)), color-stop(35%, rgba(46, 204, 64, 0.80016)), to(rgba(255, 221, 0, 0.44442)));
+        background: linear-gradient(to right, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none; }
   .section-surfaces .surface-contact-section {
     margin-top: 2rem; }
 
