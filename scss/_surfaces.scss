@@ -137,6 +137,155 @@
 	}
 }
 
+// ---------------------------------------------------------------------------------
+// ----- INDIVIDUAL SURFACE PAGE ---------------------------------------------------
+// ---------------------------------------------------------------------------------
+.section-surfaces {
+	/* ----- BENEFITS SECTION ----- */
+	.surface-benefits-section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: stretch;
+
+		.benefits-photo,
+		.benefits-content {
+			width: 50%;
+		}
+
+		.benefits-photo {
+			padding-top: 50%;
+			background-size: cover;
+		}
+
+		.benefits-content {
+			padding: 2rem 0 2rem 2rem;
+
+			h2 {
+				margin-bottom: 0;
+				line-height: 1;
+			}
+
+			.benefits-tagline {
+				margin-top: 0;
+				font-style: italic;
+				color: #777;
+				font-size: 1.15em;
+			}
+
+			h3,
+			.product-get-started-link-container {
+				border-top: 1px solid #ddd;
+				padding-top: 1rem;
+			}
+
+			h3 {
+				margin-bottom: 0.5rem;
+			}
+
+			.product-get-started-link-container {
+				padding-top: 1.75rem;
+			}
+
+			.benefits-listing {
+				margin-left: 0.5rem;
+			}
+		}
+	}
+
+	/* ----- PRODUCT INFO SECTION ----- */
+	.surface-product-section {
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-top: 1rem;
+
+		.product-photo,
+		.product-content {
+			width: 50%;
+		}
+
+		.product-photo {
+
+		}
+
+		.product-content {
+			padding: 2rem 2rem 2rem 0;
+
+			h2 {
+				margin-bottom: 0;
+				line-height: 1;
+			}
+
+			.product-tagline {
+				margin-top: 0;
+				font-style: italic;
+				color: #777;
+				font-size: 1.15em;
+			}
+
+			.product-get-started-link-container {
+				border-top: 1px solid #ddd;
+				padding-top: 1.75rem;
+				margin-top: 1.5rem;
+			}
+
+			.benefits-listing {
+				margin-left: 0.5rem;
+			}
+		}
+	}
+
+	/* ----- PRODUCT GALLERY SECTION ----- */
+	.surface-gallery-section {
+		.surface-gallery {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+
+			.surface-gallery-item {
+				line-height: 0;
+				width: calc( 25% - 1rem );
+				margin: 0.25rem;
+			}
+		}
+	}
+
+	/* ----- PRODUCT GALLERY SECTION ----- */
+	.surface-contact-section {
+		margin-top: 2rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -98,6 +98,18 @@
 	margin: 2rem 0 0;
 }
 
+/* --------------------------------------------- LIGHTBOX GALLERIES -- */
+/* ----- LIGHTBOX OVERLAY ----- */
+#swipebox-overlay,
+.tos-desktop .tos-wrapper.tos-fixed {
+	background: rgba(46,204,64, 0.6);
+
+	.tos-caption {
+		display: none;
+	}
+}
+
+
 /* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 
 

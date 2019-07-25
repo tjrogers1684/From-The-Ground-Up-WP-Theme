@@ -580,6 +580,15 @@ img {
 * + .full-width-image-blog {
   margin: 2rem 0 0; }
 
+/* --------------------------------------------- LIGHTBOX GALLERIES -- */
+/* ----- LIGHTBOX OVERLAY ----- */
+#swipebox-overlay,
+.tos-desktop .tos-wrapper.tos-fixed {
+  background: rgba(46, 204, 64, 0.6); }
+  #swipebox-overlay .tos-caption,
+  .tos-desktop .tos-wrapper.tos-fixed .tos-caption {
+    display: none; }
+
 /* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 .testimonials-page-testimonials-listing .testimonial-item {
   display: -webkit-box;
@@ -926,6 +935,112 @@ img {
           left: 50%;
           -webkit-transform: translateX(-50%);
                   transform: translateX(-50%); }
+
+.section-surfaces {
+  /* ----- BENEFITS SECTION ----- */
+  /* ----- PRODUCT INFO SECTION ----- */
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  /* ----- PRODUCT GALLERY SECTION ----- */ }
+  .section-surfaces .surface-benefits-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+            align-items: stretch; }
+    .section-surfaces .surface-benefits-section .benefits-photo,
+    .section-surfaces .surface-benefits-section .benefits-content {
+      width: 50%; }
+    .section-surfaces .surface-benefits-section .benefits-photo {
+      padding-top: 50%;
+      background-size: cover; }
+    .section-surfaces .surface-benefits-section .benefits-content {
+      padding: 2rem 0 2rem 2rem; }
+      .section-surfaces .surface-benefits-section .benefits-content h2 {
+        margin-bottom: 0;
+        line-height: 1; }
+      .section-surfaces .surface-benefits-section .benefits-content .benefits-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .section-surfaces .surface-benefits-section .benefits-content h3,
+      .section-surfaces .surface-benefits-section .benefits-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1rem; }
+      .section-surfaces .surface-benefits-section .benefits-content h3 {
+        margin-bottom: 0.5rem; }
+      .section-surfaces .surface-benefits-section .benefits-content .product-get-started-link-container {
+        padding-top: 1.75rem; }
+      .section-surfaces .surface-benefits-section .benefits-content .benefits-listing {
+        margin-left: 0.5rem; }
+  .section-surfaces .surface-product-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    margin-top: 1rem; }
+    .section-surfaces .surface-product-section .product-photo,
+    .section-surfaces .surface-product-section .product-content {
+      width: 50%; }
+    .section-surfaces .surface-product-section .product-content {
+      padding: 2rem 2rem 2rem 0; }
+      .section-surfaces .surface-product-section .product-content h2 {
+        margin-bottom: 0;
+        line-height: 1; }
+      .section-surfaces .surface-product-section .product-content .product-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .section-surfaces .surface-product-section .product-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1.75rem;
+        margin-top: 1.5rem; }
+      .section-surfaces .surface-product-section .product-content .benefits-listing {
+        margin-left: 0.5rem; }
+  .section-surfaces .surface-gallery-section .surface-gallery {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center; }
+    .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item {
+      line-height: 0;
+      width: calc( 25% - 1rem );
+      margin: 0.25rem; }
+  .section-surfaces .surface-contact-section {
+    margin-top: 2rem; }
 
 .blog .blog-listing h1,
 .archive .blog-listing h1 {
