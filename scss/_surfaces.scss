@@ -64,7 +64,11 @@
 					z-index: 4;
 
 					&:before {
-						opacity: 0.5;
+						opacity: 0;
+					}
+
+					&:after {
+						@include background-image(linear-gradient(to top, darken($brand-alt, 10) 30%, rgba(darken($brand-alt, 10), 0.5) 75%));
 					}
 
 					.surface-content {
