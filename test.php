@@ -143,9 +143,51 @@ Everyone loves cream cheese camembert de normandie. Cheesy feet cheesy feet bocc
 
 
 
+<?php // ------------------------------------------------ WHY US PAGE --------------------------------------- ?>
 
+<div class="about-services-listing">
 
+<div class="service hardscaping">
+<div class="service-photo"><img src="/wp-content/uploads/2019/07/ph-services-img.jpg" /></div>
+<div class="service-content">
+<p class="service-name">Hardscaping</p>
+<p class="service-description">Paver driveways, walkways, retaining walls</p>
+</div>
+</div>
 
+<div class="service water-features">
+<div class="service-photo"><img src="http://sodandlandscaping.build/wp-content/uploads/2019/07/ph-services-img-2.jpg" /></div>
+<div class="service-content">
+<p class="service-name">Water Features</p>
+<p class="service-description">Ponds, waterfalls, Gratos</p>
+</div>
+</div>
+
+<div class="service landscape">
+<div class="service-photo"><img src="http://sodandlandscaping.build/wp-content/uploads/2019/07/ph-services-img-3.jpg" /></div>
+<div class="service-content">
+<p class="service-name">Landscape Design</p>
+<p class="service-description">3d designs, plant and flower gardens, rock garden</p>
+</div>
+</div>
+
+<div class="service sod">
+<div class="service-photo"><img src="http://sodandlandscaping.build/wp-content/uploads/2019/07/ph-services-img-2.jpg" /></div>
+<div class="service-content">
+<p class="service-name">Sod Services</p>
+<p class="service-description">Removal, installation, delivery, replacement</p>
+</div>
+</div>
+
+<div class="service lighting">
+<div class="service-photo"><img src="http://sodandlandscaping.build/wp-content/uploads/2019/07/ph-services-img-3.jpg" /></div>
+<div class="service-content">
+<p class="service-name">Landscape Lighting</p>
+<p class="service-description">Pond highlight, house lighting, landscape garden lights</p>
+</div>
+</div>
+
+</div>
 
 
 
