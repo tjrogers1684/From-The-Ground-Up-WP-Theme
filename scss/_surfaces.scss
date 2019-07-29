@@ -17,7 +17,8 @@
 
 		h1,
 		.page-leadin {
-			text-align: center;
+			//text-align: center;
+			max-width: 900px;
 		}
 
 		h1 {
@@ -26,8 +27,7 @@
 		}
 
 		.page-leadin {
-			padding: 3rem 0;
-			max-width: 900px;
+			padding-bottom: 3rem;
 			margin: 0 auto;
 		}
 
@@ -219,24 +219,14 @@
 
 	/* ----- PRODUCT INFO SECTION ----- */
 	.surface-product-section {
-		display: flex;
-		flex-direction: row-reverse;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: center;
 		margin-top: 1rem;
 
-		.product-photo,
 		.product-content {
-			width: 50%;
-		}
+			padding: 2rem 6.5rem;
 
-		.product-photo {
-
-		}
-
-		.product-content {
-			padding: 2rem 2rem 2rem 0;
+			@media (max-width: 1150px) {
+				padding: 4rem;
+			}
 
 			h2 {
 				margin-bottom: 0;
@@ -248,6 +238,10 @@
 				font-style: italic;
 				color: #777;
 				font-size: 1.15em;
+			}
+
+			.product-description {
+				margin: 0 auto;
 			}
 
 			.product-get-started-link-container {
@@ -268,7 +262,7 @@
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: stretch;
 			align-items: center;
 
 			.surface-gallery-item {

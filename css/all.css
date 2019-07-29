@@ -905,13 +905,12 @@ img {
   max-width: 1120px !important; }
   .section-surfaces .content-area h1,
   .section-surfaces .content-area .page-leadin {
-    text-align: center; }
+    max-width: 900px; }
   .section-surfaces .content-area h1 {
     margin-bottom: 0;
     line-height: 1; }
   .section-surfaces .content-area .page-leadin {
-    padding: 3rem 0;
-    max-width: 900px;
+    padding-bottom: 3rem;
     margin: 0 auto; }
   .section-surfaces .content-area .surfaces-landing-listing {
     display: -webkit-box;
@@ -1057,22 +1056,12 @@ img {
       .section-surfaces .surface-benefits-section .benefits-content .benefits-listing {
         margin-left: 0.5rem; }
   .section-surfaces .surface-product-section {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-            flex-direction: row-reverse;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-            align-items: center;
     margin-top: 1rem; }
-    .section-surfaces .surface-product-section .product-photo,
     .section-surfaces .surface-product-section .product-content {
-      width: 50%; }
-    .section-surfaces .surface-product-section .product-content {
-      padding: 2rem 2rem 2rem 0; }
+      padding: 2rem 6.5rem; }
+      @media (max-width: 1150px) {
+        .section-surfaces .surface-product-section .product-content {
+          padding: 2re4; } }
       .section-surfaces .surface-product-section .product-content h2 {
         margin-bottom: 0;
         line-height: 1; }
@@ -1081,6 +1070,8 @@ img {
         font-style: italic;
         color: #777;
         font-size: 1.15em; }
+      .section-surfaces .surface-product-section .product-content .product-description {
+        margin: 0 auto; }
       .section-surfaces .surface-product-section .product-content .product-get-started-link-container {
         border-top: 1px solid #ddd;
         padding-top: 1.75rem;
@@ -1094,8 +1085,8 @@ img {
     -webkit-box-direction: normal;
             flex-direction: row;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
-            justify-content: center;
+    -webkit-box-pack: stretch;
+            justify-content: stretch;
     -webkit-box-align: center;
             align-items: center; }
     .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item {
@@ -1313,5 +1304,4 @@ img {
       display: none; }
 .single-post .blog-article-social-share {
   margin-top: 2rem; }
-
 /*# sourceMappingURL=all.css.map */

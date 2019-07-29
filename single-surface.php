@@ -17,7 +17,6 @@
 			    <div class="content-area<?php if ( is_active_sidebar( 'right_sidebar' ) ) { echo ' has-sidebar'; } ?>">
 
 					<?php while ( have_posts() ) : the_post(); ?>
-						<h1 class="page-title"><?php the_title(); ?></h1>
 
 						<?php
 							$post_meta = get_post_meta( $post->ID );
@@ -33,6 +32,7 @@
 
 						<!-- LEADIN SECTION  -->
 						<div class="page-leadin">
+							<h1 class="page-title"><?php the_title(); ?></h1>
 							<?php the_content(); ?>
 						</div>
 
@@ -50,14 +50,12 @@
 
 						<!-- PRODUCT INFO SECTION  -->
 						<div class="surface-product-section">
-							<div class="product-photo"><img src="/wp-content/themes/ftgu/images/artificial-lawn-residential.jpg" alt=""></div>
-
 							<div class="product-content">
 								<h2>Product Name</h2>
 
 								<p class="product-tagline"><?php echo $product_tagline; ?></p>
 
-								<?php echo $product_description; ?>
+								<div class="product-description"><?php echo $product_description; ?></div>
 
 								<p class="product-get-started-link-container"><a href="/contact/" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
 							</div>
@@ -95,8 +93,6 @@
 						<div class="surface-contact-section">
 							<h2>Getting Started</h2>
 							<p><?php echo do_shortcode( '[ninja_form id=1]' ) ?></p>
-						</div>
-
 						</div>
 
 					<?php endwhile; ?><!-- PAGE MAIN QUERY -->
