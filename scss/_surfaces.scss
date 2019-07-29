@@ -84,11 +84,11 @@
 
 					.surface-content {
 						.surface-name {
-							top: 43%;
+							top: 35%;
 						}
 
 						.surface-description {
-							top: 50%;
+							top: 43%;
 							opacity: 1 !important;
 						}
 					}
@@ -128,6 +128,17 @@
 					z-index: 3;
 					text-align: center;
 
+					.surface-description {
+						font-weight: 100;
+						opacity: 0;
+						position: absolute;
+						top: 55%;
+						left: 50%;
+						transform: translateX(-50%);
+						margin: 0;
+						transition: 0.3s;
+					}
+
 					p {
 						margin: 0;
 						transition: 0.3s;
@@ -141,20 +152,15 @@
 							left: 50%;
 							transform: translate(-50%,-50%);
 						}
-
-						&.surface-description {
-							font-weight: 100;
-							opacity: 0;
-							position: absolute;
-							top: 55%;
-							left: 50%;
-							transform: translateX(-50%);
-						}
 					}
 				}
 			}
 		}
 	}
+}
+
+.page-id-3919 .content-area h1 {
+	margin-bottom: 1rem !important;
 }
 
 // ---------------------------------------------------------------------------------

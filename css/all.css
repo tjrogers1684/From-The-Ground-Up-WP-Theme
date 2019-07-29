@@ -963,9 +963,9 @@ img {
           background-image: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #ccb100), color-stop(75%, rgba(204, 177, 0, 0.5)));
           background-image: linear-gradient(to top, #ccb100 30%, rgba(204, 177, 0, 0.5) 75%); }
         .section-surfaces .content-area .surfaces-landing-listing .surface:hover .surface-content .surface-name {
-          top: 43%; }
+          top: 35%; }
         .section-surfaces .content-area .surfaces-landing-listing .surface:hover .surface-content .surface-description {
-          top: 50%;
+          top: 43%;
           opacity: 1 !important; }
       .section-surfaces .content-area .surfaces-landing-listing .surface .surface-link-container {
         line-height: 0;
@@ -992,6 +992,17 @@ img {
         text-shadow: 2px 2px 7px rgba(4, 4, 4, 0.75);
         z-index: 3;
         text-align: center; }
+        .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content .surface-description {
+          font-weight: 100;
+          opacity: 0;
+          position: absolute;
+          top: 55%;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+                  transform: translateX(-50%);
+          margin: 0;
+          -webkit-transition: 0.3s;
+          transition: 0.3s; }
         .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content p {
           margin: 0;
           -webkit-transition: 0.3s;
@@ -1004,14 +1015,9 @@ img {
             left: 50%;
             -webkit-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%); }
-          .section-surfaces .content-area .surfaces-landing-listing .surface .surface-content p.surface-description {
-            font-weight: 100;
-            opacity: 0;
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-                    transform: translateX(-50%); }
+
+.page-id-3919 .content-area h1 {
+  margin-bottom: 1rem !important; }
 
 .section-surfaces {
   /* ----- BENEFITS SECTION ----- */
@@ -1061,7 +1067,7 @@ img {
       padding: 2rem 6.5rem; }
       @media (max-width: 1150px) {
         .section-surfaces .surface-product-section .product-content {
-          padding: 2re4; } }
+          padding: 4rem; } }
       .section-surfaces .surface-product-section .product-content h2 {
         margin-bottom: 0;
         line-height: 1; }
@@ -1304,4 +1310,5 @@ img {
       display: none; }
 .single-post .blog-article-social-share {
   margin-top: 2rem; }
+
 /*# sourceMappingURL=all.css.map */
