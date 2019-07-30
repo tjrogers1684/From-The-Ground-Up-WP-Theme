@@ -25,6 +25,8 @@
 							$benefits_description = get_field('surface_benefits_section_surface_benefits_description');
 							$product_tagline = get_field('surface_product_info_section_surface_product_tagline');
 							$product_description = get_field('surface_product_info_section_surface_product_info_description');
+							$featured_img = get_field('surface_benefits_section_surface_benefits_image');
+							$featured_img_url = $featured_img['url'];
 							// $date_submitted = get_the_date();
 
 							//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
@@ -38,13 +40,13 @@
 
 						<!-- BENEFITS SECTION  -->
 						<div class="surface-benefits-section">
-							<div class="benefits-photo" style="background-image: url(/wp-content/themes/ftgu/images/artificial-lawn-residential.jpg);"></div>
+							<div class="benefits-photo" style="background-image: url(<?php echo $featured_img_url; ?>);"></div>
 							<div class="benefits-content">
 								<h2>Turf Benefits</h2>
 								<p class="benefits-tagline"><?php echo $benefits_tagline; ?></p>
 								<?php echo $benefits_description; ?>
 
-								<p class="product-get-started-link-container"><a href="/contact/" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								<p class="product-get-started-link-container"><a href="#contactform" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
 							</div>
 						</div>
 
@@ -57,7 +59,7 @@
 
 								<div class="product-description"><?php echo $product_description; ?></div>
 
-								<p class="product-get-started-link-container"><a href="/contact/" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								<p class="product-get-started-link-container"><a href="#contactform" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
 							</div>
 						</div>
 
@@ -90,6 +92,7 @@
 						</div>
 
 						<!-- CONTACT FORM SECTION  -->
+						<a name="contactform"></a>
 						<div class="surface-contact-section">
 							<h2>Getting Started</h2>
 							<p><?php echo do_shortcode( '[ninja_form id=1]' ) ?></p>
