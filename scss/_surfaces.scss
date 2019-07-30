@@ -55,6 +55,10 @@
 		.benefits-photo,
 		.benefits-content {
 			width: 50%;
+
+			@media (max-width: 700px) {
+				width: 100%;
+			}
 		}
 
 		.benefits-photo {
@@ -154,6 +158,11 @@
 				padding-top: 15%;
 				height: 0;
 				background-size: cover;
+
+				@media (max-width: 700px) {
+				width: calc( 33% - 1rem );
+				padding-top: 25%;
+			}
 
 				&:hover {
 					transform: scale(1.1);

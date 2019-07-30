@@ -982,6 +982,10 @@ img {
     .section-surfaces .surface-benefits-section .benefits-photo,
     .section-surfaces .surface-benefits-section .benefits-content {
       width: 50%; }
+      @media (max-width: 700px) {
+        .section-surfaces .surface-benefits-section .benefits-photo,
+        .section-surfaces .surface-benefits-section .benefits-content {
+          width: 100%; } }
     .section-surfaces .surface-benefits-section .benefits-photo {
       padding-top: 50%;
       background-size: cover; }
@@ -1049,6 +1053,10 @@ img {
       padding-top: 15%;
       height: 0;
       background-size: cover; }
+      @media (max-width: 700px) {
+        .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc( 33% - 1rem );
+          padding-top: 25%; } }
       .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
         -webkit-transform: scale(1.1);
                 transform: scale(1.1);
