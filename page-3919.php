@@ -43,14 +43,15 @@
 									$slug = $post->post_name;
 									// $excerpt = the_excerpt();
 									// $excerpt = wp_strip_all_tags( $excerpt );
+									$featured_img = get_field('surface_benefits_section_surface_benefits_image');
+									$featured_img_url = $featured_img['url'];
 
 									//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
 									//echo 'Surface OBJ<br/><pre>'.print_r( $post, true ).'</pre>';
 								?>
 
 								<div class="surface <?php echo $slug; ?>">
-									<div class="surface-photo">
-										<img src="http://sodandlandscaping.build/wp-content/uploads/2019/07/ph-surfaces-img.jpg" />
+									<div class="surface-photo" style="background-image: url(<?php echo $featured_img_url; ?>);">
 									</div>
 
 									<div class="surface-content">

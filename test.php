@@ -668,7 +668,7 @@ Usage topique – pour le cuir chevelu seulement
 <h3>Les raisons d’utiliser ce médicament:</h3>
 L’huile topique Derma-Smoothe/FS<sup>®</sup> sert à traiter l’eczéma atopique chez les adultes.
 
-L’huile topique Derma-Smoothe/FS<sup>®</sup> sert aussi à traiter la dermatite atopique chez les enfants âgés de 3 mois à 12 ans. Le produit ne doit pas être appliqué sur le visage, sous une couche ni sur la région anogénitale. La durée maximale du traitement par l’huile topique Derma-Smoothe/FS en application sur le corps est de 4 semaines. L’huile topique Derma-Smoothe/FS<sup>®</sup> ne doit pas être employée chez les nourrissons de moins de 3 mois.
+L’huile topique Derma-Smoothe/FS<sup>®</sup> sert aussi à traiter la dermatite atopique chez les enfants âgés de 3 mois à 12 ans. Le produit ne doit pas être appliqué sur le visage, sous une couche ni sur la région anogénitale. La durée maximale du traitement par l’huile topique Derma-Smoothe/FS<sup>®</sup> en application sur le corps est de 4 semaines. L’huile topique Derma-Smoothe/FS<sup>®</sup> ne doit pas être employée chez les nourrissons de moins de 3 mois.
 <h3>Les effets de ce médicament:</h3>
 Derma-Smoothe/FS<sup>®</sup> est un corticostéroïde topique qui atténue l’inflammation (enflure), la rougeur et les démangeaisons.
 <h3>Les circonstances où il est déconseillé d’utiliser ce médicament:</h3>

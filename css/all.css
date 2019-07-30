@@ -710,10 +710,10 @@ img {
             justify-content: flex-start;
     -webkit-box-align: center;
             align-items: center; }
-    @media (max-width: 650px) {
+    @media (max-width: 700px) {
       .contact-info .contact-info-address,
       .contact-info .contact-info-phone {
-        width: 100%; } }
+        width: 100% !important; } }
     .contact-info .contact-info-address h2,
     .contact-info .contact-info-phone h2 {
       width: 100%; }
@@ -730,6 +730,15 @@ img {
         font-size: 2em;
         margin-right: 1rem;
         color: #1b7926; }
+  @media (max-width: 860px) {
+    .contact-info .contact-info-address {
+      width: 65%; } }
+  @media (max-width: 860px) {
+    .contact-info .contact-info-phone {
+      width: 35%; } }
+  @media (max-width: 700px) {
+    .contact-info .contact-info-phone {
+      margin-top: 2rem; } }
   .contact-info .contact-info-address p {
     padding-left: 3.5rem; }
     .contact-info .contact-info-address p i {
@@ -766,6 +775,9 @@ img {
             justify-content: space-between;
     -webkit-box-align: stretch;
             align-items: stretch; }
+    @media (max-width: 760px) {
+      .page-id-1105 .content-area .about-us-split-content-container .about-us-section {
+        width: 100% !important; } }
     .page-id-1105 .content-area .about-us-split-content-container .about-us-section.left {
       padding-right: 2rem;
       width: 60%; }
@@ -774,6 +786,9 @@ img {
       padding: 2rem;
       background: #fafafa;
       box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
+      @media (max-width: 760px) {
+        .page-id-1105 .content-area .about-us-split-content-container .about-us-section.right {
+          margin-top: 2rem; } }
       .page-id-1105 .content-area .about-us-split-content-container .about-us-section.right ul {
         display: block; }
         .page-id-1105 .content-area .about-us-split-content-container .about-us-section.right ul li {
@@ -802,6 +817,12 @@ img {
     position: relative;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
+    @media (max-width: 560px) {
+      .surfaces-landing-listing .surface {
+        width: 100%;
+        margin: 0; }
+        .surfaces-landing-listing .surface + .surface {
+          margin-top: 1rem; } }
     .surfaces-landing-listing .surface:after, .surfaces-landing-listing .surface:before {
       content: '';
       position: absolute;
@@ -851,7 +872,11 @@ img {
         height: 100%;
         z-index: 6; }
     .surfaces-landing-listing .surface .surface-photo {
-      line-height: 0; }
+      line-height: 0;
+      width: 100%;
+      height: 0;
+      padding-top: 60%;
+      background-size: cover; }
       .surfaces-landing-listing .surface .surface-photo img {
         width: 100%;
         max-width: none; }
@@ -989,8 +1014,14 @@ img {
     .section-surfaces .surface-benefits-section .benefits-photo {
       padding-top: 50%;
       background-size: cover; }
+      @media (max-width: 700px) {
+        .section-surfaces .surface-benefits-section .benefits-photo {
+          margin-bottom: 2rem; } }
     .section-surfaces .surface-benefits-section .benefits-content {
       padding: 2rem 0 2rem 2rem; }
+      @media (max-width: 700px) {
+        .section-surfaces .surface-benefits-section .benefits-content {
+          padding: 0; } }
       .section-surfaces .surface-benefits-section .benefits-content h2 {
         margin-bottom: 0;
         line-height: 1; }
@@ -1011,11 +1042,17 @@ img {
         margin-left: 0.5rem; }
   .section-surfaces .surface-product-section {
     margin-top: 1rem; }
+    @media (max-width: 700px) {
+      .section-surfaces .surface-product-section {
+        margin-top: 0; } }
     .section-surfaces .surface-product-section .product-content {
       padding: 2rem 6.5rem; }
       @media (max-width: 1150px) {
         .section-surfaces .surface-product-section .product-content {
           padding: 4rem; } }
+      @media (max-width: 700px) {
+        .section-surfaces .surface-product-section .product-content {
+          padding: 2rem 0; } }
       .section-surfaces .surface-product-section .product-content h2 {
         margin-bottom: 0;
         line-height: 1; }
@@ -1057,6 +1094,10 @@ img {
         .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item {
           width: calc( 33% - 1rem );
           padding-top: 25%; } }
+      @media (max-width: 560px) {
+        .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc( 50% - 1rem );
+          padding-top: 35%; } }
       .section-surfaces .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
         -webkit-transform: scale(1.1);
                 transform: scale(1.1);
