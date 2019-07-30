@@ -24,6 +24,17 @@
 	// The Query
 	$hp_testimonials_query = new WP_Query( $hp_testimonials_args );
 
+	// ----- SURFACES QUERY ----
+	$hp_surfaces_surface_listing_args = [
+		'post_type' => 'surface',
+		'posts_per_page' => '600',
+		'order' => 'ASC',
+		//'orderby' => 'publish',
+	];
+
+	// The Query
+	$hp_surfaces_surface_listing_query = new WP_Query( $hp_surfaces_surface_listing_args );
+
 ?>
 
 <div class="feature-wrap">
@@ -46,12 +57,33 @@
 <div class="hp-surfaces-wrap">
 	<h2 class="hp-section-header">Surfaces</h2>
 	<ul class="hp-surfaces">
-		<li class="hp-surface-lawns"><a href="/surfaces/lawns/"><span>Lawns</span></a></li>
-		<li class="hp-surface-pets"><a href="/surfaces/pet/"><span>Pets</span></a></li>
-		<li class="hp-surface-playgrounds"><a href="/surfaces/playgrounds/"><span>Playgrounds</span></a></li>
-		<li class="hp-surface-putting"><a href="/surfaces/putting/"><span>Putting</span></a></li>
-		<li class="hp-surface-pavers"><a href="/surfaces/pavers/"><span>Pavers</span></a></li>
-		<li class="hp-surface-natural"><a href="/surfaces/natural-turf/"><span>Natural</span></a></li>
+		<?php if ( $hp_surfaces_surface_listing_query->have_posts() ) : while ($hp_surfaces_surface_listing_query->have_posts() ) : $hp_surfaces_surface_listing_query->the_post(); ?>
+
+			<?php
+				$post_meta = get_post_meta( $post->ID );
+				// $first_name = get_field('first_name');
+				// $last_name = get_field('last_name');
+				$slug = $post->post_name;
+				// $excerpt = the_excerpt();
+				// $excerpt = wp_strip_all_tags( $excerpt );
+				$featured_img = get_field('surface_benefits_section_surface_benefits_image');
+				$featured_img_url = $featured_img['url'];
+
+				//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
+				//echo 'Surface OBJ<br/><pre>'.print_r( $post, true ).'</pre>';
+			?>
+
+			<li class="hp-surface-<?php echo $slug; ?>">
+				<a style="background-image: url(<?php echo $featured_img_url; ?>);" href="<?php the_permalink(); ?>">
+					<span><?php the_title(); ?></span>
+				</a>
+			</li>
+
+		<?php endwhile; ?>
+
+		<?php wp_reset_postdata(); ?>
+
+		<?php endif; ?>
 	</ul>
 </div>
 
