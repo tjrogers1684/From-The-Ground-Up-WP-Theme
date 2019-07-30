@@ -673,6 +673,9 @@ img {
     .testimonials-page-testimonials-listing .testimonial-item .testimonial-item-content .testimonial-item-date {
       margin-top: 0; }
 
+.content-bottom > h2 {
+  display: none; }
+
 #nf-form-1-cont,
 #nf-form-2-cont {
   margin-top: 2rem; }
