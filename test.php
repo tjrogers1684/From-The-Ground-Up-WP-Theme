@@ -191,6 +191,47 @@ Everyone loves cream cheese camembert de normandie. Cheesy feet cheesy feet bocc
 
 
 
+<?php // ------------------------------------------------ WHY US PAGE FINAL --------------------------------------- ?>
+
+
+<div class="about-us-split-content-container">
+<div class="about-us-section left">
+	<strong>From The Ground Up Landscaping</strong> was designed with one thing in mind: improving the way landscape projects are performed. Our passion is felt from the moment we meet and carries throughout the entire design and installation of each and every project.
+
+	We've been in business since 2010 and service all of Central Florida including Tampa, Lakeland, Orlando, Kissimmee, Deland, Ormond Beach, New Symra and more. There are many ways in which we can help in crafting and creating the outdoor experience you've always dreamed of.
+
+	Our customer care and extensive knowledge separate us from other sod and landscaping companies. Are goal is to provide everyone whom we come into contact with, a competitively priced quote free of charge and the feeling that they were thoroughly educated about that service. We really do care about everyone's needs and are here to help, even its just to answer questions.
+
+	At the very least we want to leave people with a better understanding of how to properly care for their lawn and outdoor area. For this reason we update our blog every week with how to tips and do it yourself tips.  Don't hesitate to call us today!
+</div>
+
+<div class="about-us-section right">
+<h2>Some of the Ways we Enhance the Outdoors</h2>
+
+<ul class="about-us-services">
+	<li><span>Hardscaping</span>Paver driveways, walkways, retaining walls</li>
+	<li><span>Water Features</span>Ponds, waterfalls, Gratos</li>
+	<li><span>Landscape Design</span>3d designs, plant and flower gardens, rock garden</li>
+	<li><span>Sod Services</span>Removal, installation, delivery, replacement</li>
+	<li><span>Landscape Lighting</span>Pond highlight, house lighting, landscape garden lights</li>
+</ul>
+</div>
+</div>
+
+
+[do_widget id=execphp-3]
+
+<div class="about-us-partners-section">
+<h2><strong>Partner Companies</strong></h2>
+Maybe, you live out of the major cities we service or even out of the state. Maybe you came across our website or we've helped you with a local project and you now need help with another project elsewhere. If we can't help you maybe one of the many partnering companies we work with are able to help.
+
+Some are local specialty landscape supply centers, others are landscape architects with custom designs available. Whatever your need, this is just another example of how From The Ground Landscaping Inc goes the extra mile. If one of these companies are able to help, don't forget to mention us, you never know, they might provide a discount!
+<ol>
+ 	<li>For other landscaping companies who provide landscaping services please visit our <a href="http://sodandlandscaping.build/partnered-landscape-companies/">landscape partners </a>page. We only recommend the highest rated companies for while bring equal or greater quality than us.</li>
+ 	<li>If you looking for sod farms who specialize in St Augustine and turf grasses, please take a look at sod farmers in your local area. Some may only specialize in one or two varieties but their quality is top notch.</li>
+ 	<li>Come see the landscape supply centers we work with. Some are even local to those in Orlando or Tampa.</li>
+</ol>
+</div>
 
 
 

@@ -749,98 +749,34 @@ img {
 .faq-container .faq-section .faq-answer + .faq-question {
   margin-top: 2rem; }
 
-.about-services-listing-container {
-  margin-top: 2rem; }
-  .about-services-listing-container .about-services-listing {
+.page-id-1105 .content-area {
+  max-width: 1120px !important; }
+  .page-id-1105 .content-area .about-us-split-content-container {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
             flex-direction: row;
     flex-wrap: wrap;
-    -webkit-box-pack: stretch;
-            justify-content: stretch;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: stretch;
             align-items: stretch; }
-    .about-services-listing-container .about-services-listing .service {
-      width: calc( 50% - 1rem );
-      margin: 0.25rem;
-      position: relative;
-      -webkit-transition: 0.3s;
-      transition: 0.3s; }
-      .about-services-listing-container .about-services-listing .service:after, .about-services-listing-container .about-services-listing .service:before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 100%;
-        width: 100%; }
-      .about-services-listing-container .about-services-listing .service:after {
-        background: #2ecc40;
-        background: -webkit-linear-gradient(left, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
-        background: -webkit-gradient(linear, left top, right top, from(rgba(46, 204, 64, 0.92061)), color-stop(35%, rgba(46, 204, 64, 0.80016)), to(rgba(255, 221, 0, 0.44442)));
-        background: linear-gradient(to right, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
-        z-index: 1;
-        opacity: 0.75; }
-      .about-services-listing-container .about-services-listing .service:before {
-        background: #000;
-        -webkit-transition: 0.3s;
-        transition: 0.3s;
-        z-index: 2;
-        opacity: 0.25; }
-      .about-services-listing-container .about-services-listing .service:hover {
-        -webkit-transform: scale(1.075);
-                transform: scale(1.075);
-        z-index: 4; }
-        .about-services-listing-container .about-services-listing .service:hover:before {
-          opacity: 0; }
-        .about-services-listing-container .about-services-listing .service:hover:after {
-          background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIzMCUiIHN0b3AtY29sb3I9IiNjY2IxMDAiLz48c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI2NjYjEwMCIgc3RvcC1vcGFjaXR5PSIwLjUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-          background-size: 100%;
-          background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(30%, #ccb100), color-stop(75%, rgba(204, 177, 0, 0.5)));
-          background-image: -webkit-linear-gradient(bottom, #ccb100 30%, rgba(204, 177, 0, 0.5) 75%);
-          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #ccb100), color-stop(75%, rgba(204, 177, 0, 0.5)));
-          background-image: linear-gradient(to top, #ccb100 30%, rgba(204, 177, 0, 0.5) 75%); }
-        .about-services-listing-container .about-services-listing .service:hover .service-content .service-name {
-          top: 43%; }
-        .about-services-listing-container .about-services-listing .service:hover .service-content .service-description {
-          top: 50%;
-          opacity: 1 !important; }
-      .about-services-listing-container .about-services-listing .service .service-photo {
-        line-height: 0; }
-        .about-services-listing-container .about-services-listing .service .service-photo img {
-          width: 100%;
-          max-width: none; }
-      .about-services-listing-container .about-services-listing .service .service-content {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        color: #fff;
-        text-shadow: 2px 2px 7px rgba(4, 4, 4, 0.75);
-        z-index: 3;
-        text-align: center; }
-        .about-services-listing-container .about-services-listing .service .service-content p {
-          margin: 0;
-          -webkit-transition: 0.3s;
-          transition: 0.3s; }
-          .about-services-listing-container .about-services-listing .service .service-content p.service-name {
-            font-size: 1.35em;
-            font-weight: bold;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%); }
-          .about-services-listing-container .about-services-listing .service .service-content p.service-description {
-            font-weight: 100;
-            opacity: 0;
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-                    transform: translateX(-50%); }
+    .page-id-1105 .content-area .about-us-split-content-container .about-us-section.left {
+      padding-right: 2rem;
+      width: 60%; }
+    .page-id-1105 .content-area .about-us-split-content-container .about-us-section.right {
+      width: 40%;
+      padding: 2rem;
+      background: #fafafa;
+      box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2); }
+      .page-id-1105 .content-area .about-us-split-content-container .about-us-section.right ul {
+        display: block; }
+        .page-id-1105 .content-area .about-us-split-content-container .about-us-section.right ul li {
+          width: auto; }
+  .page-id-1105 .content-area .about-us-partners-section {
+    max-width: 900px !important;
+    margin: 2rem auto 0; }
 
 .subpage-surfaces {
   margin-top: 3rem; }
