@@ -6,7 +6,7 @@
 
 	get_header();
 
-	// ----- 6 TESTIMONIALS QUERY ----
+	// ----- SURFACES QUERY ----
 	$surfaces_page_surface_listing_args = [
 		'post_type' => 'surface',
 		'posts_per_page' => '600',
@@ -31,7 +31,7 @@
 						<h1 class="page-title"><?php the_title(); ?></h1>
 						<?php the_content(); ?>
 
-						<?php // ------------------------------- TESTIMONIALS LISTING ------------------------------- ?>
+						<?php // ------------------------------- SURFACES LISTING ------------------------------- ?>
 						<div class="surfaces-landing-listing">
 
 							<?php if ( $surfaces_page_surface_listing_query->have_posts() ) : while ($surfaces_page_surface_listing_query->have_posts() ) : $surfaces_page_surface_listing_query->the_post(); ?>
