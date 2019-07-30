@@ -95,6 +95,8 @@
 							<p><?php echo do_shortcode( '[ninja_form id=1]' ) ?></p>
 						</div>
 
+						<p><?php echo do_shortcode( '[do_widget id=custom_html-4]' ) ?></p>
+
 					<?php endwhile; ?><!-- PAGE MAIN QUERY -->
 
 				</div>
