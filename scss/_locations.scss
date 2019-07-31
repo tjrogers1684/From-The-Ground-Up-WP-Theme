@@ -58,6 +58,15 @@
 // ----- CITY PAGE -----------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .single-area_service {
+	.breadcrumb-wrap {
+		font-size: 0.8em;
+		color: #666;
+
+		a {
+			color: #bbb;
+		}
+	}
+
 	.city-services-listing-container {
 		margin: 2rem 0;
 		padding: 2rem;

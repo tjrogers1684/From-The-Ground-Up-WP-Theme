@@ -33,13 +33,13 @@
 			    <div class="content-area<?php if ( is_active_sidebar( 'right_sidebar' ) ) { echo ' has-sidebar'; } ?>">
 
 					<?php while ( have_posts() ) : the_post(); ?>
-						<h1 class="page-title"><?php the_title(); ?></h1>
-
 						<?php
 							if ( function_exists('yoast_breadcrumb') && !wp_is_mobile() ) {
 								yoast_breadcrumb( '<div class="breadcrumb-wrap"><p id="breadcrumbs" class="breadcrumb-wrap-inner">','</p></div>' );
 							}
 						?>
+
+						<h1 class="page-title"><?php the_title(); ?></h1>
 
 						<?php the_content(); ?>
 
