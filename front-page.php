@@ -61,13 +61,12 @@
 
 			<?php
 				$post_meta = get_post_meta( $post->ID );
-				// $first_name = get_field('first_name');
-				// $last_name = get_field('last_name');
 				$slug = $post->post_name;
-				// $excerpt = the_excerpt();
-				// $excerpt = wp_strip_all_tags( $excerpt );
 				$featured_img = get_field('surface_benefits_section_surface_benefits_image');
 				$featured_img_url = $featured_img['url'];
+				$title = get_the_title();
+				$title = explode(" ", $title);
+				$title = $title[count($title)-1];
 
 				//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
 				//echo 'Surface OBJ<br/><pre>'.print_r( $post, true ).'</pre>';
@@ -75,7 +74,7 @@
 
 			<li class="hp-surface-<?php echo $slug; ?>">
 				<a style="background-image: url(<?php echo $featured_img_url; ?>);" href="<?php the_permalink(); ?>">
-					<span><?php the_title(); ?></span>
+					<span><?php echo $title; ?></span>
 				</a>
 			</li>
 

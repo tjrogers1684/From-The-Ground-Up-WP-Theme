@@ -1,7 +1,7 @@
 <?php
 
 // ---------------------------------------------------------------------------------
-// ----- TESTIMONIALS LANDING PAGE -------------------------------------------------
+// ----- SURFACES LANDING PAGE -------------------------------------------------
 // ---------------------------------------------------------------------------------
 
 	get_header();
@@ -38,16 +38,12 @@
 
 								<?php
 									$post_meta = get_post_meta( $post->ID );
-									// $first_name = get_field('first_name');
-									// $last_name = get_field('last_name');
 									$slug = $post->post_name;
-									// $excerpt = the_excerpt();
-									// $excerpt = wp_strip_all_tags( $excerpt );
 									$featured_img = get_field('surface_benefits_section_surface_benefits_image');
 									$featured_img_url = $featured_img['url'];
-
-									//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
-									//echo 'Surface OBJ<br/><pre>'.print_r( $post, true ).'</pre>';
+									$title = get_the_title();
+									$title = explode(" ", $title);
+									$title = $title[count($title)-1];
 								?>
 
 								<div class="surface <?php echo $slug; ?>">
@@ -55,7 +51,7 @@
 									</div>
 
 									<div class="surface-content">
-										<p class="surface-name"><?php the_title(); ?></p>
+										<p class="surface-name"><?php echo $title; ?></p>
 										<div class="surface-description"><?php the_excerpt(); ?></div>
 									</div>
 
