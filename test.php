@@ -236,38 +236,32 @@ Some are local specialty landscape supply centers, others are landscape architec
 
 <?php // ------------------------------------------------ FAQ PAGE --------------------------------------- ?>
 
-
-
 <h2>Sod FAQS</h2>
 <h3>What types of sod are best for Central Florida?</h3>
 We have many different varieties of sod available to us here in Central Florida. Several different type of St Augustine, Zoysia, Bermuda and Bahia grasses are available. Soil conditions and sun light conditions play a role in determining which one fits your needs. <a href="http://www.sodandlandscaping.services/sod-service-information/types-of-grass/">Read our in depth outline</a> for a thorough look a each variety.
-<h3 class="faq-question">What is the best time of year to re-sod my home?</h3>
-<p class="faq-answer">If you're local to the Central Florida area, the optimal time of year to re-sod is October and March. Through mid June to mid September we don't not recommend installing Seville St Augustine due to increased risk of fungus's. During the Winter months it is not recommend to install Zoysia grasses as this is when the grass is dormant. Other than these periods for these varieties, we can re-sod year-round.</p>
+<h3>What is the best time of year to re-sod my home?</h3>
+<p>If you're local to the Central Florida area, the optimal time of year to re-sod is October and March. Through mid June to mid September we don't not recommend installing Seville St Augustine due to increased risk of fungus's. During the Winter months it is not recommend to install Zoysia grasses as this is when the grass is dormant. Other than these periods for these varieties, we can re-sod year-round.</p>
 
-<h3 class="faq-question">Do you spray the weeds before removal?</h3>
-<p class="faq-answer">Yes, whenever we start a sod project we spray first and that could take up to a week to die. During the summer, usually another week after before we can start the service project. Sod removal service is a bit tricky and we recommend you read up on <a href="http://www.sodandlandscaping.services/2016/08/10/how-to-remove-grass/">grass removal processes</a> before you attempt any projects on your own.</p>
+<h3>Do you spray the weeds before removal?</h3>
+<p>Yes, whenever we start a sod project we spray first and that could take up to a week to die. During the summer, usually another week after before we can start the service project. Sod removal service is a bit tricky and we recommend you read up on <a href="http://www.sodandlandscaping.services/2016/08/10/how-to-remove-grass/">grass removal processes</a> before you attempt any projects on your own.</p>
 
-<h3 class="faq-question">How much of a heads up do you need for scheduling services?</h3>
-<p class="faq-answer">From April to the end of October, we're usually booked two weeks in advance. Sometimes with smaller sod projects, we'll be able to squeeze them in sooner. From November to March we're usually only a week out from services. We're on a first come, first serve basis.</p>
+<h3>How much of a heads up do you need for scheduling services?</h3>
+<p>From April to the end of October, we're usually booked two weeks in advance. Sometimes with smaller sod projects, we'll be able to squeeze them in sooner. From November to March we're usually only a week out from services. We're on a first come, first serve basis.</p>
 
-<h3 class="faq-question">How long does it take for you to complete my sod project?</h3>
-<p class="faq-answer">Most projects can be completed with 1-3 days. Bigger projects, such as newly constructed commercial office can take a full week or two to complete.</p>
-
+<h3>How long does it take for you to complete my sod project?</h3>
+<p>Most projects can be completed with 1-3 days. Bigger projects, such as newly constructed commercial office can take a full week or two to complete.</p>
 
 <hr />
 
-<div class="faq-section">
 <h2>Landscaping FAQS</h2>
-<h3 class="faq-question">How long will the landscape design process take?</h3>
-<p class="faq-answer">If you're looking for only a design from us, please allow up to 10 business days for completion. If you're seeking our landscaping services it could vary. Not all landscaping projects are the same. Smaller projects are usually completed within 3 days. Larger projects such as new commercial installs and large residential properties could take up to 10 days.</p>
+<h3>How long will the landscape design process take?</h3>
+<p>If you're looking for only a design from us, please allow up to 10 business days for completion. If you're seeking our landscaping services it could vary. Not all landscaping projects are the same. Smaller projects are usually completed within 3 days. Larger projects such as new commercial installs and large residential properties could take up to 10 days.</p>
 
-<h3 class="faq-question">Why should I hire a professional landscape design company?</h3>
-<p class="faq-answer">When looking to create a new feel to your home you may not know all the <a href="http://www.sodandlandscaping.services/landscaping-services/">landscaping options available</a> to you such as, pergolas, fire pit, paver types and more. A great landscape design company will know how to incorporate these elements into property.</p>
+<h3>Why should I hire a professional landscape design company?</h3>
+<p>When looking to create a new feel to your home you may not know all the <a href="http://www.sodandlandscaping.services/landscaping-services/">landscaping options available</a> to you such as, pergolas, fire pit, paver types and more. A great landscape design company will know how to incorporate these elements into property.</p>
 
-<h3 class="faq-question">Why should I professionally landscape my home?</h3>
-<p class="faq-answer">The average person doesn't know what to look for when it comes to the right plants or landscaping elements for their garden. There are many things to take into consideration such as soil conditions, sun light conditions, themes and overall feel. A <a href="http://www.sodandlandscaping.services/orlando-landscape-service/">landscape service company</a> of our caliber can help with many different outdoor services to give you the ultimate design and installation.</p>
-
-</div>
+<h3>Why should I professionally landscape my home?</h3>
+<p>The average person doesn't know what to look for when it comes to the right plants or landscaping elements for their garden. There are many things to take into consideration such as soil conditions, sun light conditions, themes and overall feel. A <a href="http://www.sodandlandscaping.services/orlando-landscape-service/">landscape service company</a> of our caliber can help with many different outdoor services to give you the ultimate design and installation.</p>
 
 
 

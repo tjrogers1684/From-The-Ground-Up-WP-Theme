@@ -53,9 +53,7 @@
 						<!-- PRODUCT INFO SECTION  -->
 						<div class="surface-product-section">
 							<div class="product-content">
-								<h2>Product Name</h2>
-
-								<p class="product-tagline"><?php echo $product_tagline; ?></p>
+								<h2><?php echo $product_tagline; ?></h2>
 
 								<div class="product-description"><?php echo $product_description; ?></div>
 
