@@ -52,3 +52,7 @@ button {
 .checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
 	color: darken($brand, 20) !important;
 }
+
+.listradio-wrap .nf-field-element label.nf-checked-label:before {
+	background: darken($brand, 20) !important;
+}

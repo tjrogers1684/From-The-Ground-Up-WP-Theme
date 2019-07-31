@@ -172,6 +172,9 @@ button {
 .checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
   color: #1b7926 !important; }
 
+.listradio-wrap .nf-field-element label.nf-checked-label:before {
+  background: #1b7926 !important; }
+
 @media (max-width: 700px) {
   .header-menu {
     display: none; } }
