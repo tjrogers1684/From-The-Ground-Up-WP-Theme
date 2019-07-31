@@ -441,7 +441,13 @@
 	h2 {
 		//display: none;
 	}
+
+	.surfaces-landing-listing {
+		margin-top: 0;
+	}
 }
+
+
 
 .surfaces-landing-listing {
 	display: flex;
@@ -449,6 +455,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: stretch;
+	margin-top: 3rem;
 
 	.surface {
 		width: calc( 50% - 1rem );
