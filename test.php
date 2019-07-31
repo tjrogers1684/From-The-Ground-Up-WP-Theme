@@ -266,3 +266,146 @@ We have many different varieties of sod available to us here in Central Florida.
 
 
 
+
+
+
+
+<figure><img class="alignnone wp-image-1448 size-full" src="https://www.hillderm.com/wp-content/uploads/2019/06/Tolak-canada-en-300x124-1.jpg" alt="" width="300" height="124" /><figcaption>DIN 02485346</figcaption></figure>
+<!-- PAGES 20-23 FROM PRODUCT PM -->
+
+<strong><sup>Pr</sup>Tolak <sup>®</sup>
+Crème de fluoro-uracile</strong>
+fluoro-uracile à 4 % (p/p) (sous forme de fluoro-uracile sodique)
+<h3>Pourquoi Tolak<sup>®</sup> est-il utilisé?</h3>
+Tolak<sup>®</sup> sert au traitement des lésions de kératose actinique (KA) sur le visage, les oreilles et le cuir chevelu chez l’adulte. Les lésions de KA sont de petites plaques squameuses, croûteuses ou rugueuses qui se forment sur la couche externe de la peau et qui se composent de cellules précancéreuses à croissance rapide.
+
+On ignore si Tolak<sup>®</sup> est sûr et efficace chez les enfants.
+<h3>Comment Tolak<sup>®</sup> agit-il?</h3>
+Tolak<sup>®</sup> agit en détruisant les cellules de kératose actinique (KA). L’ingrédient actif de Tolak<sup>®</sup>, le fluoro-uracile, pénètre dans les cellules de KA. Les cellules cessent alors de fonctionner et meurent.
+
+Comme Tolak<sup>®</sup> détruit les cellules de KA anormales, la peau devient irritée. La peau redevient normale dans les 4 semaines suivant l’arrêt du traitement.
+<h3>Quels sont les ingrédients de Tolak<sup>®</sup>?</h3>
+<strong>Ingrédients médicinaux</strong>: fluoro-uracile (sous forme de fluoro-uracile sodique)
+
+<strong>Ingrédients non médicinaux</strong>: acide citrique anhydre, acide stéarique, alcool cétylique, alcool stéarylique, arlacel-165, eau purifiée, glycérine, huile d’arachide, hydroxyde de sodium, hydroxytoluène butylé, méthyl gluceth-10, méthylparabène, myristate d’isopropyle et propylparabène.
+<h3>Tolak<sup>®</sup> est offert dans les formes posologiques qui suivent:</h3>
+Crème à 4 % (p/p)
+<h3>N’utilisez pas Tolak<sup>®</sup> si:</h3>
+<ul class="no-not-use">
+ 	<li>Vous êtes enceinte ou pourriez le devenir</li>
+ 	<li><strong>Femmes</strong> enceintes ou prévoyant une grossesse:
+<ul>
+ 	<li>Tolak<sup>®</sup> pourrait nuire à l’enfant à naître ou provoquer une interruption de la grossesse.</li>
+ 	<li>Toutes les femmes pouvant devenir enceintes doivent faire un test de grossesse avant
+d’utiliser Tolak<sup>®</sup>.</li>
+ 	<li>Vous devez utiliser une méthode contraceptive fiable pendant que vous appliquez
+Tolak<sup>®</sup> et continuer de l’utiliser pendant 1 mois après la dernière application de Tolak<sup>®</sup>.</li>
+ 	<li>Parlez à votre professionnel de la santé au sujet des méthodes contraceptives qui pourraient vous convenir pendant votre traitement par Tolak<sup>®</sup>.</li>
+ 	<li>Si vous devenez enceinte pendant votre traitement par Tolak<sup>®</sup>, cessez de l’utiliser et parlez immédiatement à votre professionnel de la santé.</li>
+</ul>
+</li>
+ 	<li>Votre organisme ne produit pas suffisamment de l’enzyme appelée dihydropyrimidine déshydrogénase (DPD) (autrement dit, vous avez un déficit en DPD). Si cette enzyme n’est pas présente en quantité suffisante, Tolak<sup>®</sup> pourrait entraîner des effets secondaires graves. Si vous avez des douleurs dans la région de l’estomac (abdominales), une diarrhée sanglante, des vomissements, de la fièvre et des frissons, communiquez immédiatement avec votre professionnel de la santé. Ce sont là des signes d’un effet secondaire grave de Tolak<sup>®</sup> que l’on appelle « <strong>toxicité générale</strong> ».</li>
+ 	<li>Vous êtes allergique au fluoro-uracile ou à tout autre ingrédient de ce médicament. <strong>Tolak<sup>®</sup> contient de l’huile d’arachide.</strong></li>
+</ul>
+<strong>Consultez votre professionnel de la santé avant d’utiliser Tolak<sup>®</sup> afin de réduire la possibilité d’effets secondaires et d’assurer sa bonne utilisation. S’il y a lieu, mentionnez les états ou problèmes suivants à votre professionnel de la santé:</strong>
+<ul>
+ 	<li>Vous allaitez ou prévoyez le faire. On ignore si Tolak<sup>®</sup> passe dans le lait maternel. En accord
+avec votre professionnel de la santé, vous devez décider si vous utiliserez Tolak<sup>®</sup> ou si vous
+allaiterez.</li>
+ 	<li>Vous serez exposé aux rayons solaires, à une lampe solaire ou à un lit de bronzage.
+L’exposition à des rayons ultraviolets immédiatement après l’application de Tolak<sup>®</sup> pourrait entraîner un grave coup de soleil.</li>
+</ul>
+<h3>Autres mises en garde que vous devriez connaître:</h3>
+Évitez tout contact de Tolak<sup>®</sup> avec les yeux, la bouche, les lèvres, les narines ou d’autres muqueuses comme le vagin. Une irritation, une inflammation et des ulcères peuvent apparaître dans ces régions après l’application de Tolak<sup>®</sup>.
+
+De graves réactions cutanées peuvent survenir durant un traitement par Tolak<sup>®</sup>. Si vous avez de l’eczéma ou des démangeaisons graves à l’endroit où vous avez appliqué Tolak<sup>®</sup> ou ailleurs sur le corps, cessez d’appliquer Tolak<sup>®</sup>. Communiquez immédiatement avec votre professionnel de la santé.
+
+<strong>Informez votre professionnel de la santé de tous les produits de santé que vous prenez, y compris les médicaments, les vitamines, les minéraux, les suppléments naturels ou les produits de médecine alternative.</strong>
+<h3>Les médicaments qui suivent pourraient interagir avec Tolak<sup>®</sup>:</h3>
+<ul>
+ 	<li>Les médicaments qui agissent sur le bon fonctionnement de l’enzyme DPD, comme la capécitabine, la brivudine, la sorivudine et l’interféron alpha.</li>
+ 	<li>Un médicament appelé warfarine qui sert à prévenir la formation de caillots sanguins. L’utilisation de Tolak<sup>®</sup> avec la warfarine pourrait entraîner des saignements.</li>
+ 	<li>Un médicament appelé phénytoïne, qui sert à traiter les convulsions.</li>
+ 	<li>Un médicament appelé leucovorine, qui peut être utilisé dans le traitement de certains
+cancers. La leucovorine peut amplifier l’action et les effets secondaires de Tolak<sup>®</sup>.</li>
+</ul>
+<h3>Comment utiliser Tolak<sup>®</sup>:</h3>
+Utilisez toujours Tolak<sup>®</sup> exactement comme vous l’a expliqué votre médecin, votre pharmacien ou votre infirmière. Vérifiez auprès de votre médecin, de votre infirmière ou de votre pharmacien si vous avez des doutes.
+<ul>
+ 	<li>Avant d’appliquer Tolak<sup>®</sup>, nettoyez, rincez et séchez doucement les régions à traiter.</li>
+ 	<li>Appliquez une mince couche de Tolak<sup>®</sup> sur les régions touchées.</li>
+ 	<li>Massez doucement afin de faire pénétrer la crème uniformément.</li>
+ 	<li>Utilisez Tolak<sup>®</sup> uniquement sur les régions touchées et pas sur la peau entourant les
+lésions de kératose actinique. Évitez le contact de Tolak<sup>®</sup> avec la peau d’autres
+personnes.</li>
+ 	<li>Après avoir appliqué Tolak<sup>®</sup>, lavez-vous les mains à fond.</li>
+ 	<li>Tolak<sup>®</sup> est destiné uniquement à un usage topique. Évitez tout contact avec les yeux, la
+bouche, les lèvres, les narines ou le vagin.</li>
+ 	<li><strong>Ne couvrez pas les régions traitées d’un pansement hermétique après avoir appliqué Tolak<sup>®</sup>.</strong></li>
+ 	<li><strong>Évitez les rayons solaires.</strong> Tolak<sup>®</sup> peut sensibiliser votre peau au soleil. Vous pourriez subir un coup de soleil grave. Limitez votre exposition au soleil durant le traitement par Tolak<sup>®</sup>.</li>
+</ul>
+<h3>Dose habituelle:</h3>
+Appliquez Tolak<sup>®</sup> sur les régions touchées 1 fois/jour pendant 4 semaines.
+<h3>Surdosage:</h3>
+En cas d’ingestion accidentelle, communiquez immédiatement avec votre professionnel de la santé, les urgences d’un hôpital ou le centre antipoison de votre région, même si vous n’avez aucun symptôme.
+<h3>Dose oubliée:</h3>
+Si vous oubliez une dose de ce médicament, il n’est pas nécessaire de la compenser. Omettez la dose oubliée et poursuivez le traitement en prenant la dose suivante au moment prévu.
+<h3>Quels sont les effets secondaires qui pourraient être associés à Tolak<sup>®</sup>?</h3>
+La liste qui suit n’englobe pas tous les effets secondaires qui pourraient résulter d’un traitement par Tolak<sup>®</sup>. Si vous avez des effets secondaires qui ne sont pas énumérés ci-après, communiquez avec votre professionnel de la santé.
+<ul>
+ 	<li>Réactions à l’endroit où est appliqué le traitement (rougeur, desquamation/sécheresse, enflure, formation d’une croûte, rupture de la peau, sensation de picotement/brûlure, et démangeaisons).</li>
+ 	<li>Dermatite de contact allergique (démangeaisons intenses ou éruption cutanée avec rougeurs dans les zones traitées ou ailleurs sur le corps).</li>
+ 	<li>Irritation des yeux</li>
+ 	<li>Gonflement des yeux</li>
+ 	<li>Problèmes de sommeil</li>
+</ul>
+<h5><img class="alignnone wp-image-1534 size-full" src="https://www.hillderm.com/wp-content/uploads/2019/07/tolak-fr-side-effects.jpg" alt="" width="800" height="339" /></h5>
+Si vous êtes aux prises avec un symptôme ou un effet secondaire qui n’est pas énuméré ci-dessus ou qui s’aggrave au point de nuire à vos activités quotidiennes, parlez à votre professionnel de la santé.
+<h3>Déclaration des effets secondaires</h3>
+Vous pouvez déclarer à Santé Canada les effets secondaires soupçonnés d'être associés à l'utilisation d'un produit de santé :
+<ul>
+ 	<li>en visitant <a href="https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medeffet-canada/declaration-effets-indesirables.html">le site Web de déclaration des effets indésirables</a> pour vous informer sur la façon de faire une déclaration en ligne, par courrier, ou par télécopieur; ou</li>
+ 	<li>en téléphonant sans frais au 1-866-234-2345.</li>
+</ul>
+REMARQUE : Consultez votre professionnel de la santé si vous avez besoin de renseignements sur le traitement des effets secondaires. Le Programme Canada Vigilance ne donne pas de conseils médicaux.
+<h3>Entreposage:</h3>
+Tolak<sup>®</sup> doit être conservé à une température comprise entre 20 et 25°C.
+<ul>
+ 	<li>Tolak<sup>®</sup> craint le gel.</li>
+ 	<li>N’appliquez pas Tolak<sup>®</sup> après la date de péremption imprimée sur le tube.</li>
+</ul>
+Gardez hors de la portée et de la vue des enfants.
+
+Il ne faut pas jeter les médicaments dans l’évier ou les toilettes ni avec les ordures ménagères. Demandez à votre pharmacien comment vous débarrasser des médicaments dont vous n’avez plus besoin. Ces mesures aident à protéger l’environnement.
+<h2>Pour de plus amples renseignements sur ce médicament:</h2>
+<ul>
+ 	<li>Parlez à un professionnel de la santé.</li>
+ 	<li>Consultez la monographie de produit complète – laquelle a été rédigée à l’intention des professionnels de la santé et comporte les Renseignements pour le patient – en cliquant sur le lien ci-après.</li>
+</ul>
+<!-- LINK TO FULL PM -->
+
+<hr />
+
+<a class="btn prescription-full-info" href="/wp-content/uploads/canada-products/tolak-pm-fr.pdf"><i class="fas fa-file-prescription"></i> Monographie de produit complète</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

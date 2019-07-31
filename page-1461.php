@@ -42,8 +42,21 @@
 
 								<?php if ( $cities_serviced_listing_query->have_posts() ) : while ($cities_serviced_listing_query->have_posts() ) : $cities_serviced_listing_query->the_post(); ?>
 
+									<?php  
+										$post_meta = get_post_meta( $post->ID );
+										$area_city = get_field('area_served_city');
+
+										//echo 'Testimonial META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
+									?>
+
 									<div class="city-item">
-										<p class="city-item-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+										<p class="city-item-name">
+											<?php if ( $area_city ) { ?>
+												<a href="<?php the_permalink(); ?>"><?php echo $area_city; ?></a>
+											<?php } elseif (!$area_city) { ?>
+												<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+											<?php } ?>
+										</p>
 									</div>
 
 								<?php endwhile; ?>
