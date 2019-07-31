@@ -53,6 +53,10 @@ button {
 	color: darken($brand, 20) !important;
 }
 
+.listradio-wrap .nf-field-element label.nf-checked-label:after {
+	border-color: darken($brand, 20) !important;
+}
+
 .listradio-wrap .nf-field-element label.nf-checked-label:before {
 	background: darken($brand, 20) !important;
 }
