@@ -92,7 +92,7 @@
 						<!-- CONTACT FORM SECTION  -->
 						<a name="contactform"></a>
 						<div class="surface-contact-section">
-							<h2>Getting Started</h2>
+							<h2>Get Your Free Quote</h2>
 							<p><?php echo do_shortcode( '[ninja_form id=1]' ) ?></p>
 						</div>
 
