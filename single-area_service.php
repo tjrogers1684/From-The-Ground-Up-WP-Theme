@@ -27,17 +27,17 @@
 <div class="page-wrap">
 
 		<div class="content-wrap">
+			<?php if ( function_exists('yoast_breadcrumb') && !wp_is_mobile() ) {
+					yoast_breadcrumb( '<div class="breadcrumb-wrap"><p id="breadcrumbs" class="breadcrumb-wrap-inner">','</p></div>' );
+			} ?>
 
 			<?php if ( have_posts() ) { ?>
 
-			    <div class="content-area<?php if ( is_active_sidebar( 'right_sidebar' ) ) { echo ' has-sidebar'; } ?>">
+				<?php $has_parent = count(get_post_ancestors(get_the_ID())); ?>
+
+				<div class="content-area <?php if($has_parent){ echo 'has-sidebar'; } ?>">
 
 					<?php while ( have_posts() ) : the_post(); ?>
-						<?php
-							if ( function_exists('yoast_breadcrumb') && !wp_is_mobile() ) {
-								yoast_breadcrumb( '<div class="breadcrumb-wrap"><p id="breadcrumbs" class="breadcrumb-wrap-inner">','</p></div>' );
-							}
-						?>
 
 						<h1 class="page-title"><?php the_title(); ?></h1>
 
@@ -63,6 +63,7 @@
 											<p class="city-service-item-name"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
 										</div>
 
+
 									<?php endwhile; ?>
 
 									<?php wp_reset_postdata(); ?>
@@ -80,7 +81,17 @@
 
 			<?php } ?>
 
-			<?php get_sidebar(); ?>
+			<?php if($has_parent){ ?>
+			<div class="sidebar-area">
+				<div class="sidebar-contact-callout">
+					<h2>Free Estimates:</h2>
+					<p class="sidebar-contact-callout-phone">Call 407-501-2107</p>
+					<p>Or complete the form below:</p>
+					<?php echo do_shortcode('[ninja_form id=3]'); ?>
+				</div>
+			</div>
+			<?php } ?>
+
 
 		</div>
 
