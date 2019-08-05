@@ -63,7 +63,7 @@ button,
 .nf-form-content input[type=button] {
   display: inline-block;
   color: #fff !important;
-  background-color: #2ecc40 !important;
+  background-color: #62bb46 !important;
   padding: 0.5em 1em;
   border-radius: 4px;
   font-weight: bold;
@@ -78,7 +78,7 @@ button,
   .woocommerce button.button.alt:hover,
   .woocommerce input.button.alt:hover,
   .nf-form-content input[type=button]:hover {
-    background-color: #25a233 !important;
+    background-color: #4e9737 !important;
     background-color: #ffdd00 !important;
     color: #fff; }
   .btn.btn-alt, input.btn-alt[type="submit"],
@@ -92,7 +92,7 @@ button,
   .woocommerce input.button.alt.btn-alt,
   .nf-form-content input[type=button].btn-alt {
     background: #fff !important;
-    color: #2ecc40 !important; }
+    color: #62bb46 !important; }
     .btn.btn-alt:hover, input.btn-alt[type="submit"]:hover,
     input.btn-alt[type="button"]:hover,
     button.btn-alt:hover,
@@ -103,9 +103,9 @@ button,
     .woocommerce button.button.alt.btn-alt:hover,
     .woocommerce input.button.alt.btn-alt:hover,
     .nf-form-content input[type=button].btn-alt:hover {
-      color: #25a233;
+      color: #4e9737;
       color: #fff !important;
-      background-color: #124f19;
+      background-color: #274c1c;
       background-color: #ffdd00 !important; }
 
 /* CSS Document */
@@ -113,7 +113,7 @@ h1, h2, h3 {
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 1em;
-  color: #1b7926; }
+  color: #3b712a; }
 
 * ~ h1, * ~ h2, * ~ h3 {
   margin-top: 1em; }
@@ -151,6 +151,14 @@ select {
   background: none !important;
   box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.05) !important; }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+textarea {
+  background: #fff !important; }
+
 textarea {
   font-family: sans-serif;
   padding: 1rem;
@@ -170,13 +178,13 @@ button {
   display: none; }
 
 .checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
-  color: #1b7926 !important; }
+  color: #3b712a !important; }
 
 .listradio-wrap .nf-field-element label.nf-checked-label:after {
-  border-color: #1b7926 !important; }
+  border-color: #3b712a !important; }
 
 .listradio-wrap .nf-field-element label.nf-checked-label:before {
-  background: #1b7926 !important; }
+  background: #3b712a !important; }
 
 @media (max-width: 700px) {
   .header-menu {
@@ -184,8 +192,8 @@ button {
 .header-menu ul li a {
   padding: 0.5rem; }
 .header-menu ul li.current-menu-item > a {
-  border-bottom: 4px solid #1b7926;
-  color: #1b7926; }
+  border-bottom: 4px solid #3b712a;
+  color: #3b712a; }
 .header-menu ul li.menu-item-has-children {
   position: relative; }
   .header-menu ul li.menu-item-has-children ul {
@@ -201,12 +209,12 @@ button {
       .header-menu ul li.menu-item-has-children ul li.header-menu-site-logo {
         display: none; }
       .header-menu ul li.menu-item-has-children ul li.current-menu-item > a {
-        background: #1b7926;
+        background: #3b712a;
         border-bottom: 0;
         color: #fff; }
       .header-menu ul li.menu-item-has-children ul li a {
         display: block;
-        background: #2ecc40;
+        background: #62bb46;
         color: #fff;
         padding: 0.5rem; }
         .header-menu ul li.menu-item-has-children ul li a:hover {
@@ -238,7 +246,7 @@ button {
   padding: 0; }
   .mobile-nav ul li,
   .mobile-nav li li {
-    border-bottom: 1px solid #bcf0c2; }
+    border-bottom: 1px solid #d1ebc9; }
     .mobile-nav ul li a,
     .mobile-nav li li a {
       display: block;
@@ -262,7 +270,7 @@ body {
   font-size: 17px !important; }
 
 a, a:visited {
-  color: #2ecc40;
+  color: #62bb46;
   text-decoration: none; }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
     color: #ffdd00; }
@@ -280,7 +288,7 @@ hr {
   position: relative; }
 
 .header-banner {
-  background: #2ecc40;
+  background: #62bb46;
   color: #fff;
   text-align: right;
   padding: 0.5rem; }
@@ -510,7 +518,7 @@ hr {
 /* CSS Document */
 .feature-wrap {
   padding: 2rem;
-  background: #2ecc40 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
   background-size: cover;
   color: #fff;
   margin-top: 2rem; }
@@ -558,7 +566,7 @@ hr {
       position: absolute;
       left: 0;
       top: 0.5rem;
-      color: #1b7926; }
+      color: #3b712a; }
 .content-area ol {
   padding-left: 2rem; }
 
@@ -596,7 +604,7 @@ hr {
   height: 4rem;
   margin: 0;
   width: 4rem;
-  color: #25a233;
+  color: #4e9737;
   position: absolute;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%); }
@@ -782,7 +790,7 @@ hr {
 .faq-container .faq-section .faq-question {
   font-weight: bold;
   font-size: 1.25em;
-  color: #1b7926; }
+  color: #3b712a; }
 .faq-container .faq-section .faq-answer + .faq-question {
   margin-top: 2rem; }
 
@@ -943,6 +951,28 @@ hr {
           -webkit-transform: translate(-50%, -50%);
                   transform: translate(-50%, -50%); }
 
+.surface-contact-section {
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  background: #005336;
+  margin-left: calc(-100vw / 2 + 1120px / 2);
+  margin-right: calc(-100vw / 2 + 1120px / 2);
+  padding: 2rem 1.5rem;
+  color: #fff; }
+  .surface-contact-section h2,
+  .surface-contact-section .nf-form-content,
+  .surface-contact-section .nf-after-form-content {
+    max-width: 1120px;
+    margin: auto; }
+  .surface-contact-section h2 {
+    color: #fff; }
+  .surface-contact-section .nf-error-msg, .surface-contact-section .ninja-forms-req-symbol {
+    color: #ff5555 !important; }
+  .surface-contact-section .nf-error.field-wrap .nf-field-element:after {
+    background: #ff5555 !important; }
+  .surface-contact-section .nf-error .ninja-forms-field {
+    border-color: #ff5555 !important; }
+
 /* CSS Document */
 .page-id-1461 .cities-serviced-listing-container {
   margin-top: 2rem; }
@@ -968,7 +998,7 @@ hr {
         position: absolute;
         left: 0;
         top: 0.5rem;
-        color: #1b7926; }
+        color: #3b712a; }
 
 .single-area_service .breadcrumb-wrap {
   font-size: 0.8em;
@@ -1003,7 +1033,7 @@ hr {
         position: absolute;
         left: 0;
         top: 0.5rem;
-        color: #1b7926; }
+        color: #3b712a; }
 .single-area_service .sidebar-contact-callout {
   padding: 1rem 1rem 0;
   background: #f7f7f7;
@@ -1236,11 +1266,11 @@ hr {
     margin: 0 0.25rem; }
     .blog-pagination .page-numbers.current {
       background: #676767;
-      background: #1b7926;
+      background: #3b712a;
       font-weight: bold;
       color: #fff; }
     .blog-pagination .page-numbers.next, .blog-pagination .page-numbers.prev {
-      background: #2ecc40;
+      background: #62bb46;
       color: #fff; }
     .blog-pagination .page-numbers:hover {
       background: #ffdd00;
@@ -1254,7 +1284,7 @@ hr {
   margin-top: 0.5rem; }
 .blog-categories li.current-cat a {
   background: #676767;
-  background: #1b7926;
+  background: #3b712a;
   font-weight: bold;
   color: #fff;
   padding: 0.5rem !important; }

@@ -1,6 +1,6 @@
 .feature-wrap {
   padding: 2rem;
-  background: #2ecc40 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
   background-size: cover;
   color: #fff;
   margin-top: 2rem; }
@@ -107,12 +107,12 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiMyNWEyMzMiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNWEyMzMiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+        background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiM0ZTk3MzciLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ZTk3MzciIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
         background-size: 100%;
-        background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(20%, #25a233), color-stop(100%, rgba(37, 162, 51, 0)));
-        background-image: -webkit-linear-gradient(bottom, #25a233 20%, rgba(37, 162, 51, 0) 100%);
-        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #25a233), to(rgba(37, 162, 51, 0)));
-        background-image: linear-gradient(to top, #25a233 20%, rgba(37, 162, 51, 0) 100%);
+        background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(20%, #4e9737), color-stop(100%, rgba(78, 151, 55, 0)));
+        background-image: -webkit-linear-gradient(bottom, #4e9737 20%, rgba(78, 151, 55, 0) 100%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #4e9737), to(rgba(78, 151, 55, 0)));
+        background-image: linear-gradient(to top, #4e9737 20%, rgba(78, 151, 55, 0) 100%);
         border-radius: 10000px;
         -webkit-transition: 0.3s;
         transition: 0.3s; }
@@ -300,7 +300,7 @@
       .hp-testimonials-wrap-outer .hp-testimonials-wrap .slick-arrow.fa-arrow-circle-right {
         right: 0.5rem; }
       .hp-testimonials-wrap-outer .hp-testimonials-wrap .slick-arrow:hover {
-        color: #124f19; }
+        color: #274c1c; }
     .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-testimonials-listing {
       position: relative; }
       .hp-testimonials-wrap-outer .hp-testimonials-wrap .hp-testimonials-listing .hp-testimonial-item {

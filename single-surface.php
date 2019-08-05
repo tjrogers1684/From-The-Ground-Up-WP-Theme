@@ -93,10 +93,10 @@
 						<a name="contactform"></a>
 						<div class="surface-contact-section">
 							<h2>Get Your Free Quote</h2>
-							<p><?php echo do_shortcode( '[ninja_form id=1]' ) ?></p>
+							<p><?php echo do_shortcode( '[ninja_form id=4]' ) ?></p>
 						</div>
 
-						<p><?php echo do_shortcode( '[do_widget id=custom_html-4]' ) ?></p>
+						<?php echo do_shortcode( '[do_widget id=custom_html-4]' ) ?>
 
 					<?php endwhile; ?><!-- PAGE MAIN QUERY -->
 
