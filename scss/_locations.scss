@@ -1,5 +1,5 @@
-@import 'compass/css3';
-@import 'bits';
+@import "compass/css3";
+@import "bits";
 
 /* CSS Document */
 
@@ -7,103 +7,127 @@
 // ----- LANDING PAGE --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .page-id-1461 {
-	.content-area {
-		// ul {
-		// 	li {
-		// 		position: relative;
-		// 		padding: 0.5rem 1rem 0.5rem 1.25rem;
+  .content-area {
+    // ul {
+    // 	li {
+    // 		position: relative;
+    // 		padding: 0.5rem 1rem 0.5rem 1.25rem;
 
-		// 		&:before {
-		// 			content: '\f3c5';
-		// 			font-weight: 900;
-		// 			font-family: "Font Awesome 5 Free";
-		// 			position: absolute;
-		// 			left: 0;
-		// 			top: 0.5rem;
-		// 		}
-		// 	}
-		// }
-	}
+    // 		&:before {
+    // 			content: '\f3c5';
+    // 			font-weight: 900;
+    // 			font-family: "Font Awesome 5 Free";
+    // 			position: absolute;
+    // 			left: 0;
+    // 			top: 0.5rem;
+    // 		}
+    // 	}
+    // }
+  }
 
-	.cities-serviced-listing-container {
-		margin-top: 2rem;
+  .cities-serviced-listing-container {
+    margin-top: 2rem;
 
-		.cities-serviced-listing {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: stretch;
-			align-items: flex-start;
+    .cities-serviced-listing {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: stretch;
+      align-items: flex-start;
 
-			.city-item {
-				position: relative;
-				width: 33%;
-				padding: 0.5rem 1rem 0.5rem 1.25rem;
+      .city-item {
+        position: relative;
+        width: 33%;
+        padding: 0.5rem 1rem 0.5rem 1.25rem;
 
-				&:before {
-					content: '\f3c5';
-					font-weight: 900;
-					font-family: "Font Awesome 5 Free";
-					position: absolute;
-					left: 0;
-					top: 0.5rem;
-					color: darken( $brand, 20 );
-				}
-			}
-		}
-	}
+        &:before {
+          content: "\f3c5";
+          font-weight: 900;
+          font-family: "Font Awesome 5 Free";
+          position: absolute;
+          left: 0;
+          top: 0.5rem;
+          color: darken($brand, 20);
+        }
+      }
+    }
+  }
 }
 
 // ---------------------------------------------------------------------------------
 // ----- CITY PAGE -----------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .single-area_service {
-	.breadcrumb-wrap {
-		font-size: 0.8em;
-		color: #666;
+  .breadcrumb-wrap {
+    font-size: 0.8em;
+    color: #666;
+    margin: -1rem 0 2rem 0;
 
-		& + h1 {
-			margin-top: 0.5rem;
-		}
+    a {
+      color: #bbb;
+    }
+  }
 
-		a {
-			color: #bbb;
-		}
-	}
+  .city-services-listing-container {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: #fafafa;
+    // background: $brand url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+    // background-size: cover;
+    // color: #fff;
+    @include drop_shadow();
 
-	.city-services-listing-container {
-		margin: 2rem 0;
-		padding: 2rem;
-		background: #fafafa;
-		// background: $brand url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
-		// background-size: cover;
-		// color: #fff;
-		@include drop_shadow();
+    .city-services-listing {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: stretch;
+      align-items: flex-start;
 
-		.city-services-listing {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: stretch;
-			align-items: flex-start;
+      .city-service-item {
+        position: relative;
+        width: 50%;
+        padding: 0.5rem 1rem 0.5rem 1.25rem;
 
-			.city-service-item {
-				position: relative;
-				width: 50%;
-				padding: 0.5rem 1rem 0.5rem 1.25rem;
+        &:before {
+          content: "\f02e";
+          //content: '\f0a3';
+          font-weight: 900;
+          font-family: "Font Awesome 5 Free";
+          position: absolute;
+          left: 0;
+          top: 0.5rem;
+          color: darken($brand, 20);
+        }
+      }
+    }
+  }
 
-				&:before {
-					content: '\f02e';
-					//content: '\f0a3';
-					font-weight: 900;
-					font-family: "Font Awesome 5 Free";
-					position: absolute;
-					left: 0;
-					top: 0.5rem;
-					color: darken( $brand, 20 );
-				}
-			}
-		}
-	}
+  .sidebar-contact-callout {
+    padding: 1rem 1rem 0;
+    background: #f7f7f7;
+    border-radius: 5px;
+
+    h2 {
+      margin: 0;
+      text-align: center;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+
+    .sidebar-contact-callout-phone {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 0 0 2rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      background: #fff !important;
+    }
+  }
 }
-
