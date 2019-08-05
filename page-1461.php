@@ -6,18 +6,6 @@
 
 	get_header();
 
-	// ----- 6 TESTIMONIALS QUERY ----
-	$cities_serviced_listing_args = [
-		'post_type' => 'area_service',
-		'posts_per_page' => '600',
-		'order' => 'ASC',
-		'orderby' => 'title',
-		'post_parent' => 0,
-	];
-
-	// The Query
-	$cities_serviced_listing_query = new WP_Query( $cities_serviced_listing_args );
-
 ?>
 
 <div class="page-wrap">

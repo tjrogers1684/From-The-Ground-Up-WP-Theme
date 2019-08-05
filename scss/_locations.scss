@@ -29,15 +29,11 @@
     margin-top: 2rem;
 
     .cities-serviced-listing {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: stretch;
-      align-items: flex-start;
+      column-count: 3;
+      column-gap: 40px;
 
       .city-item {
         position: relative;
-        width: 33%;
         padding: 0.5rem 1rem 0.5rem 1.25rem;
 
         &:before {
@@ -50,6 +46,16 @@
           color: darken($brand, 20);
         }
       }
+    }
+  }
+
+  .county-services-listing {
+    display: block;
+    column-count: 3;
+    column-gap: 40px;
+
+    li {
+      width: auto;
     }
   }
 }
@@ -102,6 +108,8 @@
       }
     }
   }
+
+
 
   .sidebar-contact-callout {
     padding: 1rem 1rem 0;

@@ -992,19 +992,14 @@ hr {
 .page-id-1461 .cities-serviced-listing-container {
   margin-top: 2rem; }
   .page-id-1461 .cities-serviced-listing-container .cities-serviced-listing {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
-    flex-wrap: wrap;
-    -webkit-box-pack: stretch;
-            justify-content: stretch;
-    -webkit-box-align: start;
-            align-items: flex-start; }
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px; }
     .page-id-1461 .cities-serviced-listing-container .cities-serviced-listing .city-item {
       position: relative;
-      width: 33%;
       padding: 0.5rem 1rem 0.5rem 1.25rem; }
       .page-id-1461 .cities-serviced-listing-container .cities-serviced-listing .city-item:before {
         content: "\f3c5";
@@ -1014,6 +1009,16 @@ hr {
         left: 0;
         top: 0.5rem;
         color: #3b712a; }
+.page-id-1461 .county-services-listing {
+  display: block;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px; }
+  .page-id-1461 .county-services-listing li {
+    width: auto; }
 
 .single-area_service .breadcrumb-wrap {
   font-size: 0.8em;
