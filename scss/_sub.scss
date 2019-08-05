@@ -604,7 +604,7 @@
 }
 
 .surface-contact-section,
-.nf-form-cont {
+.section-contact .nf-form-cont {
 	background: $brand url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
 	background-size: cover;
 	//background: #d0b714;
@@ -638,11 +638,39 @@
 	}
 }
 
-.nf-form-cont {
+.section-contact .nf-form-cont {
 	margin-left: calc(-100vw / 2 + 900px / 2);
 	margin-right: calc(-100vw / 2 + 900px / 2);
 	padding: 2rem 1.5rem;
 	margin-top: 3rem;
+
+	.nf-row {
+		nf-cells {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: stretch;
+
+			.nf-cell {
+				float: none !important;
+				padding: 0 0.6rem !important;
+			}
+
+			.textarea-container,
+			.textarea-wrap,
+			.nf-field-element,
+			.nf-form-content textarea.ninja-forms-field,
+			.nf-field-element textarea {
+				height: 100% !important;
+				margin: 0;
+			}
+
+			.nf-field-element textarea {
+				height: 85% !important;
+			}
+		}
+	}
 }
 
 

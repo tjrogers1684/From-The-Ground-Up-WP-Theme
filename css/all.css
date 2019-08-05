@@ -952,7 +952,7 @@ hr {
                   transform: translate(-50%, -50%); }
 
 .surface-contact-section,
-.nf-form-cont {
+.section-contact .nf-form-cont {
   background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
   background-size: cover;
   background: #005336;
@@ -963,30 +963,53 @@ hr {
   .surface-contact-section h2,
   .surface-contact-section .nf-form-content,
   .surface-contact-section .nf-after-form-content,
-  .nf-form-cont h2,
-  .nf-form-cont .nf-form-content,
-  .nf-form-cont .nf-after-form-content {
+  .section-contact .nf-form-cont h2,
+  .section-contact .nf-form-cont .nf-form-content,
+  .section-contact .nf-form-cont .nf-after-form-content {
     max-width: 1120px;
     margin: auto; }
   .surface-contact-section h2,
-  .nf-form-cont h2 {
+  .section-contact .nf-form-cont h2 {
     color: #fff; }
   .surface-contact-section .nf-error-msg, .surface-contact-section .ninja-forms-req-symbol,
-  .nf-form-cont .nf-error-msg,
-  .nf-form-cont .ninja-forms-req-symbol {
+  .section-contact .nf-form-cont .nf-error-msg,
+  .section-contact .nf-form-cont .ninja-forms-req-symbol {
     color: #ff5555 !important; }
   .surface-contact-section .nf-error.field-wrap .nf-field-element:after,
-  .nf-form-cont .nf-error.field-wrap .nf-field-element:after {
+  .section-contact .nf-form-cont .nf-error.field-wrap .nf-field-element:after {
     background: #ff5555 !important; }
   .surface-contact-section .nf-error .ninja-forms-field,
-  .nf-form-cont .nf-error .ninja-forms-field {
+  .section-contact .nf-form-cont .nf-error .ninja-forms-field {
     border-color: #ff5555 !important; }
 
-.nf-form-cont {
+.section-contact .nf-form-cont {
   margin-left: calc(-100vw / 2 + 900px / 2);
   margin-right: calc(-100vw / 2 + 900px / 2);
   padding: 2rem 1.5rem;
   margin-top: 3rem; }
+  .section-contact .nf-form-cont .nf-row nf-cells {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+            align-items: stretch; }
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-cell {
+      float: none !important;
+      padding: 0 0.6rem !important; }
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container,
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-wrap,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-form-content textarea.ninja-forms-field,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
+      height: 100% !important;
+      margin: 0; }
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
+      height: 85% !important; }
 
 /* CSS Document */
 .page-id-1461 .cities-serviced-listing-container {
