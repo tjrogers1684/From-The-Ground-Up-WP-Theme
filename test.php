@@ -401,6 +401,86 @@ Il ne faut pas jeter les médicaments dans l’évier ou les toilettes ni avec
 
 
 
+<figure><img class="alignnone size-full wp-image-1505" src="https://www.hillderm.com/wp-content/uploads/2019/07/derm-otic-canada-300.jpg" alt="DermOtic Ear Drops" width="300" height="420" /><figcaption>DIN 02300559</figcaption></figure>
+<!-- PAGES 25-27 FROM PRODUCT PM -->
+
+<strong><sup>Pr</sup></strong>Gouttes otiques Huile DermOtic<sup>®</sup>
+(solution otique d’acétonide de fluocinolone) à 0,01 % p/v
+<h2>Au Sujet De Ce Médicament</h2>
+<h3>Les raisons d’utiliser ce médicament:</h3>
+Les gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v servent à traiter l’otite externe eczémateuse chronique (inflammation de l’oreille externe) chez les adultes et les enfants de 12 ans ou plus. Le produit ne doit pas être appliqué sur le visage.
+<h3>Les effets de ce médicament:</h3>
+La préparation de gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v est un corticostéroïde topique. Lorsqu’on les applique sur la région atteinte, les gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v exercent un effet anti-inflammatoire; on pense qu’elles nuisent à la production des prostaglandines et des leucotriènes, médiateurs importants de l’inflammation, et atténuent ainsi l’inflammation de l’oreille (enflure), les rougeurs et les démangeaisons.
+<h3>Les circonstances où il est déconseillé d’utiliser ce médicament:</h3>
+<ol>
+ 	<li><strong>Vous ne devez pas utiliser ce produit en présence</strong>
+<strong>d’une hypersensibilité (allergie) à l’un des ingrédients de la préparation. (Consultez la liste des ingrédients non médicinaux.)</strong></li>
+ 	<li><strong>Ce produit contient de l’huile d’arachide raffinée.</strong></li>
+ 	<li>Vous ne devez pas appliquer ce produit dans les yeux ni
+près des yeux.</li>
+ 	<li>Vous ne devez pas utiliser ce médicament en présence d’une perforation de la membrane du tympan, de tubes dans les oreilles ou d’une infection de l’oreille non traitée (bactérienne, fongique ou virale). Si vous avez des doutes au sujet d’une telle infection, consultez le médecin.</li>
+</ol>
+<h3>L’ingrédient médicinal:</h3>
+Acétonide de fluocinolone
+<h3>Les ingrédients non médicinaux importants:</h3>
+<strong>Huile d’arachide raffinée</strong> NF, huile minérale légère, oleth-2, myristate d’isopropyle, alcool isopropylique, parfum en crème et parfum de baume de pin.
+
+L'huile d'arachide utilisée dans les gouttes otiques Huile DermOtic<sup>®</sup> est soumise à un test de détection des protéines résiduelles reposant sur l'analyse des acides aminés; le critère d'acceptation pour la concentration totale en protéines est d'au plus 0,5 partie par million.
+<h3>La présentation:</h3>
+Huile, pour usage otique seulement. Teneur : 0,01 % p/v
+
+<strong>L’emballage renferme un compte-gouttes.</strong>
+<h2>Mises En Garde Et Précautions</h2>
+<strong>Consultez votre médecin ou votre pharmacien AVANT d’utiliser les gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v.:</strong>
+<ol>
+ 	<li>N’appliquez pas le produit dans les yeux (ni près des yeux) ni sur le visage, les aisselles ou l’aine. Si le produit entre en contact avec les yeux, rincez abondamment à l’eau.</li>
+ 	<li>Vous ne devez pas utiliser ce médicament pour une maladie autre que celle pour laquelle on vous l’a prescrit.</li>
+ 	<li>En cas de réaction allergique pendant le traitement, p. ex. une éruption cutanée, des accès de démangeaisons intenses, l’apparition de petites saillies (papules) ou toute autre manifestation cutanée, cessez d’utiliser le produit et consultez le médecin.</li>
+</ol>
+<h2>Interactions Médicamenteuses</h2>
+<strong>Il n’y a pas d’interactions médicamenteuses connues avec les gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v. On n’a pas mené d’études sur les interactions avec ce produit.</strong>
+<h2>Utilisation Appropriée De Ce Médicament</h2>
+<h3>Dose habituelle:</h3>
+Otite externe eczémateuse chronique chez les adultes et les enfants de 12 ans ou plus:
+
+À l’aide du compte-gouttes fourni, instiller 5 gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v dans l’oreille atteinte. Incliner la tête afin que l’oreille à traiter soit orientée vers le haut. Tirer légèrement le lobe de l’oreille vers l’arrière et le haut, puis instiller 5 gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v dans l’oreille. Garder la tête inclinée pendant 1 minute environ afin que les gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v pénètrent dans le conduit auditif. Éponger délicatement l’excédent de liquide à l’extérieur de l’oreille à l’aide d’un tampon d’ouate propre. Suivre ces instructions 2 fois/jour pendant 7 jours chez les enfants et les adolescents, et pendant 7 à 14 jours chez les adultes. Si l’état de l’enfant ne s’est pas amélioré après 1 semaine, consultez son médecin. Ne mettez pas de bouchons, de tampons d’ouate ni quelque autre pansement que ce soit dans l’oreille pendant l’utilisation du produit.
+<h3>Surdosage:</h3>
+Si le produit est avalé, consultez le médecin.
+<h3>Dose oubliée:</h3>
+Si une application de ce médicament a été oubliée, il n’est pas nécessaire de compenser la dose oubliée. Omettez la dose oubliée et poursuivez le traitement en procédant à l’application suivante à l’heure habituelle. Ne doublez pas la dose.
+<h2>Effets Secondaires Et Mesures À Prendre</h2>
+Des effets indésirables locaux, peu fréquents, ont été signalés chez des patients traités par des corticostéroïdes topiques. De tels effets peuvent survenir plus fréquemment lorsque ces médicaments sont appliqués sous pansement occlusif, surtout s’il s’agit de corticostéroïdes puissants. Voici la liste de ces réactions, par ordre décroissant approximatif de fréquence : (fréquentes) sensation de brûlure, démangeaisons, irritation, sécheresse, (peu fréquentes) folliculite, acné, éclaircissement de la peau, éruption cutanée autour de la bouche, dermatite de contact allergique, (rares) surinfection, amincissement de la peau, vergetures et bosses. Si des saillies et des réactions cutanées soudaines se manifestent (même s’il ne s’agit que de démangeaisons intenses) ou si toute autre réaction allergique se produit, cessez immédiatement d’utiliser les gouttes otiques Huile DermOtic<sup>®</sup> (solution d’acétonide de fluocinolone) à 0,01% p/v et amorcez le traitement approprié. Si les effets secondaires persistent, consultez le médecin ou le pharmacien.
+<figure><img class="wp-image-1527 size-full aligncenter" src="https://www.hillderm.com/wp-content/uploads/2019/07/derm-otic-fr-side-effects.jpg" alt="" width="700" height="493" /><figcaption><strong>Cette liste d’effets secondaires n’est pas exhaustive. En cas d’effet inattendu ressenti lors de l’utilisation des gouttes otiques Huile DermOtic<sup>®</sup> (solution otique d’acétonide de fluocinolone) à 0,01 % p/v, communiquez avec votre médecin ou votre pharmacien.</strong></figcaption></figure>
+<h2>Comment Conserver Le Médicament</h2>
+Gardez le flacon hermétiquement fermé. Conservez le produit à une température de 25°C (77°F). Gardez ce produit hors de la portée des enfants.
+<h2>Déclaration des effets secondaires</h2>
+Vous pouvez déclarer à Santé Canada les effets secondaires soupçonnés d'être associés à l'utilisation d'un produit de santé:
+<ul>
+ 	<li>en visitant <a href="https://www.canada.ca/fr/sante-canada/services/medicaments-produits-sante/medeffet-canada/declaration-effets-indesirables.html">le site Web de déclaration des effets indésirables</a> pour vous informer sur la façon de faire une déclaration en ligne, par courrier, ou par télécopieur; ou</li>
+ 	<li>en téléphonant sans frais au 1-866-234-2345.</li>
+</ul>
+REMARQUE : Consultez votre professionnel de la santé si vous avez besoin de renseignements sur le traitement des effets secondaires. Le Programme Canada Vigilance ne donne pas de conseils médicaux.
+<h2>Pour de plus amples renseignements sur ce médicament:</h2>
+<ul>
+ 	<li>Parlez à un professionnel de la santé.</li>
+ 	<li>Consultez la monographie de produit complète – laquelle a été rédigée à l’intention des professionnels de la santé et comporte les Renseignements pour le patient – en cliquant sur le lien ci-après.</li>
+</ul>
+<!-- LINK TO FULL PM -->
+
+<hr />
+
+<a class="btn prescription-full-info" href="/wp-content/uploads/canada-products/derm-otic-fr.pdf"><i class="fas fa-file-prescription"></i> Monographie de produit complète</a>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

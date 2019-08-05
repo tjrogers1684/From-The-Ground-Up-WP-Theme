@@ -527,6 +527,9 @@ hr {
         .feature-wrap .feature-image.page-featured-image, .feature-wrap .feature-image.blog-featured-image {
           padding-top: 22%; } }
 
+.cities-serviced-block > h2 {
+  display: none; }
+
 /* ----- UL, LI STYLES ----- */
 .content-area ul,
 .content-area ul li {
