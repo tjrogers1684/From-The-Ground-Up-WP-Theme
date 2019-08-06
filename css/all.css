@@ -269,26 +269,32 @@ button {
       padding: 0.5rem 0.5rem; }
 
 /* CSS Document */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box; }
 
 :root {
   font-size: 17px; }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth; }
 
 body {
   color: #444;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-size: 17px !important; }
 
-a, a:visited {
+a,
+a:visited {
   color: #62bb46;
   text-decoration: none; }
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
+  a:hover, a:focus,
+  a:visited:hover,
+  a:visited:focus {
     color: #ffdd00; }
 
 img {
@@ -433,14 +439,9 @@ hr {
         margin-top: 2rem; } }
 
 .footer-wrap-outer {
-  background: #342e29 url(/wp-content/themes/ftgu/images/bkd-footer-wrap.jpg) no-repeat;
-  background-size: 2600px;
+  background: #342e29 url(/wp-content/themes/ftgu/images/bkd-footer-wrap.jpg) repeat-x;
   color: #fff;
-  padding: 17rem 2rem 7rem; }
-  @media (max-width: 770px) {
-    .footer-wrap-outer {
-      padding-top: 22rem;
-      background-size: cover; } }
+  padding: 12rem 2rem 5rem; }
   @media (max-width: 620px) {
     .footer-wrap-outer {
       padding-bottom: 3rem; } }
