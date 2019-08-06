@@ -614,6 +614,11 @@
 	padding: 2rem 1.5rem;
 	color: #fff;
 
+	@media (max-width: 1200px) {
+		margin-left: calc(-100vw / 2 + 100% / 2);
+		margin-right: calc(-100vw / 2 + 100% / 2);
+	}
+
 	h2,
 	.nf-form-content,
 	.nf-after-form-content {
@@ -636,15 +641,17 @@
 	.nf-error .ninja-forms-field {
 		border-color: #ff5555 !important;
 	}
-}
 
-.section-contact .nf-form-cont {
-	margin-left: calc(-100vw / 2 + 900px / 2);
-	margin-right: calc(-100vw / 2 + 900px / 2);
-	padding: 2rem 1.5rem;
-	margin-top: 3rem;
+	.nf-response-msg {
+		max-width: 900px;
+		margin: 0 auto;
+	}
 
 	.nf-row {
+		& + .nf-row {
+			margin-top: 2rem;
+		}
+
 		nf-cells {
 			display: flex;
 			flex-direction: row;
@@ -666,10 +673,37 @@
 				margin: 0;
 			}
 
+			.textarea-container {
+				.nf-field {
+					height: 100% !important;
+				}
+			}
+
 			.nf-field-element textarea {
 				height: 85% !important;
 			}
 		}
+	}
+
+	.list-wrap {
+		ul {
+			li {
+				width: calc( 50% - 0.5rem );
+				//padding: 0 0.5rem !important;
+			}
+		}
+	}
+}
+
+.section-contact .nf-form-cont {
+	margin-left: calc(-100vw / 2 + 900px / 2);
+	margin-right: calc(-100vw / 2 + 900px / 2);
+	padding: 2rem 1.5rem;
+	margin-top: 3rem;
+
+	@media (max-width: 960px) {
+		margin-left: calc(-100vw / 2 + 100% / 2);
+		margin-right: calc(-100vw / 2 + 100% / 2);
 	}
 }
 

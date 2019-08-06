@@ -60,12 +60,15 @@ button {
 
 .checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
 	color: darken($brand, 20) !important;
+	color: $brand !important;
 }
 
 .listradio-wrap .nf-field-element label.nf-checked-label:after {
 	border-color: darken($brand, 20) !important;
+	border-color: $brand !important;
 }
 
 .listradio-wrap .nf-field-element label.nf-checked-label:before {
 	background: darken($brand, 20) !important;
+	background: $brand !important;
 }

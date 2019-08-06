@@ -95,7 +95,7 @@
 							<h2>Get Your Free Quote</h2>
 							<p>
 								<?php echo do_shortcode( '[ninja_form id=1]' ) ?>
-								<?php // echo do_shortcode( '[ninja_form id=4]' ) ?>
+								<?php //echo do_shortcode( '[ninja_form id=4]' ) ?>
 							</p>
 						</div>
 

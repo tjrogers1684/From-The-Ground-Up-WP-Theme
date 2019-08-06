@@ -177,13 +177,16 @@ button {
   display: none; }
 
 .checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
-  color: #3b712a !important; }
+  color: #3b712a !important;
+  color: #62bb46 !important; }
 
 .listradio-wrap .nf-field-element label.nf-checked-label:after {
-  border-color: #3b712a !important; }
+  border-color: #3b712a !important;
+  border-color: #62bb46 !important; }
 
 .listradio-wrap .nf-field-element label.nf-checked-label:before {
-  background: #3b712a !important; }
+  background: #3b712a !important;
+  background: #62bb46 !important; }
 
 @media (max-width: 700px) {
   .header-menu {
@@ -1007,6 +1010,11 @@ hr {
   margin-right: calc(-100vw / 2 + 1120px / 2);
   padding: 2rem 1.5rem;
   color: #fff; }
+  @media (max-width: 1200px) {
+    .surface-contact-section,
+    .section-contact .nf-form-cont {
+      margin-left: calc(-100vw / 2 + 100% / 2);
+      margin-right: calc(-100vw / 2 + 100% / 2); } }
   .surface-contact-section h2,
   .surface-contact-section .nf-form-content,
   .surface-contact-section .nf-after-form-content,
@@ -1028,12 +1036,14 @@ hr {
   .surface-contact-section .nf-error .ninja-forms-field,
   .section-contact .nf-form-cont .nf-error .ninja-forms-field {
     border-color: #ff5555 !important; }
-
-.section-contact .nf-form-cont {
-  margin-left: calc(-100vw / 2 + 900px / 2);
-  margin-right: calc(-100vw / 2 + 900px / 2);
-  padding: 2rem 1.5rem;
-  margin-top: 3rem; }
+  .surface-contact-section .nf-response-msg,
+  .section-contact .nf-form-cont .nf-response-msg {
+    max-width: 900px;
+    margin: 0 auto; }
+  .surface-contact-section .nf-row + .nf-row,
+  .section-contact .nf-form-cont .nf-row + .nf-row {
+    margin-top: 2rem; }
+  .surface-contact-section .nf-row nf-cells,
   .section-contact .nf-form-cont .nf-row nf-cells {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1050,9 +1060,15 @@ hr {
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
             align-items: stretch; }
+    .surface-contact-section .nf-row nf-cells .nf-cell,
     .section-contact .nf-form-cont .nf-row nf-cells .nf-cell {
       float: none !important;
       padding: 0 0.6rem !important; }
+    .surface-contact-section .nf-row nf-cells .textarea-container,
+    .surface-contact-section .nf-row nf-cells .textarea-wrap,
+    .surface-contact-section .nf-row nf-cells .nf-field-element,
+    .surface-contact-section .nf-row nf-cells .nf-form-content textarea.ninja-forms-field,
+    .surface-contact-section .nf-row nf-cells .nf-field-element textarea,
     .section-contact .nf-form-cont .nf-row nf-cells .textarea-container,
     .section-contact .nf-form-cont .nf-row nf-cells .textarea-wrap,
     .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element,
@@ -1060,8 +1076,25 @@ hr {
     .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
       height: 100% !important;
       margin: 0; }
+    .surface-contact-section .nf-row nf-cells .textarea-container .nf-field,
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container .nf-field {
+      height: 100% !important; }
+    .surface-contact-section .nf-row nf-cells .nf-field-element textarea,
     .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
       height: 85% !important; }
+  .surface-contact-section .list-wrap ul li,
+  .section-contact .nf-form-cont .list-wrap ul li {
+    width: calc( 50% - 0.5rem ); }
+
+.section-contact .nf-form-cont {
+  margin-left: calc(-100vw / 2 + 900px / 2);
+  margin-right: calc(-100vw / 2 + 900px / 2);
+  padding: 2rem 1.5rem;
+  margin-top: 3rem; }
+  @media (max-width: 960px) {
+    .section-contact .nf-form-cont {
+      margin-left: calc(-100vw / 2 + 100% / 2);
+      margin-right: calc(-100vw / 2 + 100% / 2); } }
 
 /* CSS Document */
 .page-id-1461 .cities-serviced-listing-container {
@@ -1510,5 +1543,4 @@ hr {
       display: none; }
 .single-post .blog-article-social-share {
   margin-top: 2rem; }
-
 /*# sourceMappingURL=all.css.map */
