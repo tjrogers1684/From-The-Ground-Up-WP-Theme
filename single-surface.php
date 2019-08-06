@@ -76,13 +76,7 @@
 										echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
 											'<a rel=”lightbox” href="'.$item['sizes']['large'].'">'.
 											'</a>'.
-											'</p>';
-
-										// echo '<div class="news-article-gallery-image">'.
-										// '<a rel=”lightbox” class="gallery-node-gallery-image-lightbox" href="'.$item['sizes']['large'].'">'.
-										// '<img src="'.$item['sizes']['gallery-thumbnail'].'" />'.
-										// '</a>'.
-										// '</div>';
+										'</p>';
 									}
 
 								?>
@@ -95,7 +89,6 @@
 							<h2>Get Your Free Quote</h2>
 							<p>
 								<?php echo do_shortcode( '[ninja_form id=1]' ) ?>
-								<?php //echo do_shortcode( '[ninja_form id=4]' ) ?>
 							</p>
 						</div>
 

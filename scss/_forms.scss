@@ -1,11 +1,10 @@
-
-@import 'buttons';
+@import "buttons";
 
 // ---------------------------------------------------------------------------------
 // ----- COMMON STYLES -------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 label {
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 input[type="text"],
@@ -15,12 +14,12 @@ input[type="password"],
 input[type="number"],
 textarea,
 select {
-	width: 100%;
-	padding: 0.5rem;
-	font-size: 1em;
-	border: 1px solid #eee !important;
-	background: none !important;
-	box-shadow: 0 0.15rem 0.5rem rgba(0,0,0,0.05) !important;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1em;
+  border: 1px solid #eee !important;
+  background: none !important;
+  box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.05) !important;
 }
 
 input[type="text"],
@@ -29,46 +28,89 @@ input[type="tel"],
 input[type="password"],
 input[type="number"],
 textarea {
-	background: #fff !important;
+  background: #fff !important;
 }
 
 textarea {
-	font-family: sans-serif;
-	padding: 1rem;
-	resize: none;
+  font-family: sans-serif;
+  padding: 1rem;
+  resize: none;
 }
 
 input[type="submit"],
 input[type="button"],
 button {
-	@extend .btn;
-	border: 0;
-	font-size: 1em;
+  @extend .btn;
+  border: 0;
+  font-size: 1em;
 }
 
 .nf-form-fields-required {
-	display: none !important;
+  display: none !important;
 }
 
-.listcheckbox-wrap,
-.listradio-wrap {
-	li:before {
-		display: none;
-	}
+// ---------------------------------------------------------------------------------
+// ----- NINJA FORMS ---------------------------------------------------------------
+// ---------------------------------------------------------------------------------
+// ----- CHECKBOXES & RADIOS -----
+div.listcheckbox-wrap,
+div.listradio-wrap {
+  li {
+    &:before {
+      display: none !important;
+    }
+  }
+
+  .nf-field-element {
+    input {
+      position: fixed;
+      top: -100px;
+      left: 0;
+    }
+
+    label {
+      padding: 0 !important;
+      margin: 0 !important;
+
+      &:before {
+        font-size: 1em;
+        opacity: 1 !important;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900 !important;
+        content: "\f0c8" !important;
+        color: #fff !important;
+        position: static !important;
+        margin-right: 0.5em;
+        height: auto !important;
+        width: auto !important;
+      }
+      &:after {
+        display: none !important;
+      }
+      &.nf-checked-label {
+        font-weight: bold;
+        &:before {
+          content: "\f14a" !important;
+          color: $brand-alt !important;
+        }
+      }
+    }
+  }
 }
 
-
-.checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
-	color: darken($brand, 20) !important;
-	color: $brand !important;
-}
-
-.listradio-wrap .nf-field-element label.nf-checked-label:after {
-	border-color: darken($brand, 20) !important;
-	border-color: $brand !important;
-}
-
-.listradio-wrap .nf-field-element label.nf-checked-label:before {
-	background: darken($brand, 20) !important;
-	background: $brand !important;
+// ----- RADIOS -----
+div.listradio-wrap {
+  .nf-field-element {
+    label {
+      &:before {
+        content: "\f111" !important;
+        background: none !important;
+      }
+      &.nf-checked-label {
+        &:before {
+          content: "\f058" !important;
+        }
+      }
+    }
+  }
 }
