@@ -63,22 +63,18 @@
 
 						<!-- GALLERY SECTION  -->
 						<div class="surface-gallery-section">
-							<h2>Product Gallery</h2>
+							<h2><?php echo ($post->post_name) ? ucwords(str_replace('-', ' ', $post->post_name)) : 'Product'; ?> Gallery</h2>
 
 							<div class="surface-gallery">
 								<?php
 									$gallitems = get_field( 'surface_product_gallery' );
 
-									//url('.$item['url'].
-
 									foreach ($gallitems as $item) {
-										// echo '<pre>'.print_r($item, true).'</pre>';
 										echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
-											'<a rel=”lightbox” href="'.$item['sizes']['large'].'">'.
+											'<a rel="lightbox" href="'.$item['sizes']['large'].'">'.
 											'</a>'.
 										'</p>';
 									}
-
 								?>
 							</div>
 						</div>
