@@ -1,4 +1,4 @@
-@import 'bits';
+@import "bits";
 
 .btn,
 .button,
@@ -7,39 +7,38 @@
 .woocommerce a.button.alt,
 .woocommerce button.button.alt,
 .woocommerce input.button.alt,
-.nf-form-content input[type=button] {
-	display: inline-block;
-	color: #fff !important;
-	background-color: $brand !important;
-	padding: 0.5em 1em;
-	border-radius: 4px;
-	font-weight: bold;
-	cursor: pointer;
+.nf-form-content input[type="button"] {
+  display: inline-block;
+  color: #fff !important;
+  background-color: $brand !important;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
 
-	&:hover {
-		background-color: darken($brand, 10) !important;
-		background-color: $brand-alt !important;
-		color: #fff;
-	}
+  &:hover {
+    background-color: darken($brand, 10) !important;
+    background-color: $brand-alt !important;
+    color: #fff;
+  }
 
-	&.btn-alt {
-		background: #fff !important;
-		color: $brand !important;
+  &.btn-alt {
+    background: #fff !important;
+    color: $brand !important;
 
-		&:hover {
-			color: darken($brand, 10);
-			color: #fff !important;
-			background-color: darken($brand, 30);
-			background-color: $brand-alt !important;
-		}
-	}
+    &:hover {
+      color: darken($brand, 20) !important;
+      background-color: darken($brand, 30);
+      background-color: $brand-alt !important;
+    }
+  }
 
-	&.btn-sm {
-	}
+  &.btn-sm {
+  }
 
-	&.btn-xsm {
-	}
+  &.btn-xsm {
+  }
 
-	&.btn-lg {
-	}
+  &.btn-lg {
+  }
 }

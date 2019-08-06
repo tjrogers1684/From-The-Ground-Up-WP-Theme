@@ -1,6 +1,6 @@
 .feature-wrap {
   padding: 2rem;
-  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.png) 50% 50% no-repeat;
   background-size: cover;
   color: #fff;
   margin-top: 2rem; }
@@ -101,7 +101,7 @@
       -webkit-transition: 0.3s;
       transition: 0.3s; }
       .hp-surfaces li a:after {
-        content: '';
+        content: "";
         position: absolute;
         bottom: 0;
         left: 0;
@@ -204,14 +204,16 @@
       -webkit-animation: hover 4s ease infinite alternate;
               animation: hover 4s ease infinite alternate; }
 @-webkit-keyframes hover {
-  0%, 100% {
+  0%,
+        100% {
     -webkit-transform: translate(0, -29%);
             transform: translate(0, -29%); }
   50% {
     -webkit-transform: translate(1%, -27%);
             transform: translate(1%, -27%); } }
 @keyframes hover {
-  0%, 100% {
+  0%,
+        100% {
     -webkit-transform: translate(0, -29%);
             transform: translate(0, -29%); }
   50% {
@@ -226,14 +228,16 @@
           -webkit-animation: hover 5s ease infinite;
                   animation: hover 5s ease infinite; }
         @-webkit-keyframes hover {
-          0%, 100% {
+          0%,
+          100% {
             -webkit-transform: translate(0, -50%);
                     transform: translate(0, -50%); }
           50% {
             -webkit-transform: translate(1%, -45%);
                     transform: translate(1%, -45%); } }
         @keyframes hover {
-          0%, 100% {
+          0%,
+          100% {
             -webkit-transform: translate(0, -50%);
                     transform: translate(0, -50%); }
           50% {
@@ -249,14 +253,16 @@
           -webkit-animation: hover 5s ease infinite;
                   animation: hover 5s ease infinite; }
         @-webkit-keyframes hover {
-          0%, 100% {
+          0%,
+          100% {
             -webkit-transform: translate(0, 0);
                     transform: translate(0, 0); }
           50% {
             -webkit-transform: translate(1%, -5%);
                     transform: translate(1%, -5%); } }
         @keyframes hover {
-          0%, 100% {
+          0%,
+          100% {
             -webkit-transform: translate(0, 0);
                     transform: translate(0, 0); }
           50% {
@@ -372,11 +378,11 @@
     -webkit-box-align: start;
             align-items: flex-start; }
     .hp-blog-listing-container .hp-blog-listing .hp-blog-item {
-      width: calc( 33.3% - 1rem );
+      width: calc(33.3% - 1rem);
       padding: 0 1.5rem; }
       @media (max-width: 720px) {
         .hp-blog-listing-container .hp-blog-listing .hp-blog-item {
-          width: calc( 50% - 1rem );
+          width: calc(50% - 1rem);
           margin-top: 2rem; } }
       @media (max-width: 720px) {
         .hp-blog-listing-container .hp-blog-listing .hp-blog-item {
