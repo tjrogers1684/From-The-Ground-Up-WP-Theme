@@ -1,11 +1,9 @@
-
 $brand: #62bb46;
 $brand-dk: #005336;
 $brand-alt: #ffdd00;
 
 $maintext: #444;
 
-
-@mixin drop_shadow(){
-	box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.2);
+@mixin drop_shadow() {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
 }
