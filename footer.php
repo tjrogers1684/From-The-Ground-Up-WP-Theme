@@ -27,7 +27,7 @@
 
 			<div class="footer-connect-address">
 				<p>
-					From the Ground Up Landscaping, Inc<br/>
+					<strong>From the Ground Up Landscaping, Inc</strong><br/>
 					1029 Gould Place<br/>
 					Oviedo, FL 32765
 				</p>
