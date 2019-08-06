@@ -70,9 +70,10 @@
 									$gallitems = get_field( 'surface_product_gallery' );
 
 									foreach ($gallitems as $item) {
-										echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
-											'<a rel="lightbox" href="'.$item['sizes']['large'].'">'.
-											'</a>'.
+										echo '<p class="surface-gallery-item">'.
+										'<a rel="lightbox" class="surface-gallery-item-image" href="'.$item['sizes']['large'].'">'.
+										'<img src="'.$item['sizes']['thumbnail'].'" />'.
+										'</a>'.
 										'</p>';
 									}
 								?>
@@ -85,6 +86,7 @@
 							<h2>Request a Free Estimate!</h2>
 							<p>
 								<?php echo do_shortcode( '[ninja_form id=1]' ) ?>
+								<?php //echo do_shortcode( '[ninja_form id=4]' ) ?>
 							</p>
 						</div>
 
