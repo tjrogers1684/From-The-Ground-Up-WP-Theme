@@ -1104,16 +1104,9 @@ hr {
 .section-contact .nf-form-cont {
   background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.png) 50% 50%;
   padding: 2rem 1.5rem;
-  color: #fff;
+  color: #ffffff;
   margin-left: -2rem;
-  margin-right: -2rem;
-  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
-  background-size: cover;
-  background: #005336;
-  margin-left: calc(-100vw / 2 + 1120px / 2);
-  margin-right: calc(-100vw / 2 + 1120px / 2);
-  padding: 2rem 1.5rem;
-  color: #fff; }
+  margin-right: -2rem; }
   @media (min-width: 1200px) {
     .surface-contact-section,
     .section-contact .nf-form-cont {
@@ -1131,82 +1124,6 @@ hr {
   .section-contact .nf-form-cont h2 {
     text-align: center;
     font-size: 2.5em;
-    color: #fff; }
-  .surface-contact-section .nf-error-msg,
-  .surface-contact-section .ninja-forms-req-symbol,
-  .section-contact .nf-form-cont .nf-error-msg,
-  .section-contact .nf-form-cont .ninja-forms-req-symbol {
-    color: #ff5555 !important; }
-  .surface-contact-section .nf-error.field-wrap .nf-field-element:after,
-  .section-contact .nf-form-cont .nf-error.field-wrap .nf-field-element:after {
-    background: #ff5555 !important; }
-  .surface-contact-section .nf-error .ninja-forms-field,
-  .section-contact .nf-form-cont .nf-error .ninja-forms-field {
-    border-color: #ff5555 !important; }
-  .surface-contact-section .nf-response-msg,
-  .section-contact .nf-form-cont .nf-response-msg {
-    max-width: 900px;
-    margin: 0 auto; }
-  .surface-contact-section .nf-row + .nf-row,
-  .section-contact .nf-form-cont .nf-row + .nf-row {
-    margin-top: 2rem; }
-  .surface-contact-section .nf-row nf-cells,
-  .section-contact .nf-form-cont .nf-row nf-cells {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-            flex-direction: row;
-    -webkit-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-            align-items: stretch; }
-    .surface-contact-section .nf-row nf-cells .nf-cell,
-    .section-contact .nf-form-cont .nf-row nf-cells .nf-cell {
-      float: none !important;
-      padding: 0 0.6rem !important; }
-    .surface-contact-section .nf-row nf-cells .textarea-container,
-    .surface-contact-section .nf-row nf-cells .textarea-wrap,
-    .surface-contact-section .nf-row nf-cells .nf-field-element,
-    .surface-contact-section .nf-row nf-cells .nf-form-content textarea.ninja-forms-field,
-    .surface-contact-section .nf-row nf-cells .nf-field-element textarea,
-    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container,
-    .section-contact .nf-form-cont .nf-row nf-cells .textarea-wrap,
-    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element,
-    .section-contact .nf-form-cont .nf-row nf-cells .nf-form-content textarea.ninja-forms-field,
-    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
-      height: 100% !important;
-      margin: 0; }
-    .surface-contact-section .nf-row nf-cells .textarea-container .nf-field,
-    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container .nf-field {
-      height: 100% !important; }
-    .surface-contact-section .nf-row nf-cells .nf-field-element textarea,
-    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
-      height: 85% !important; }
-  .surface-contact-section .list-wrap ul li,
-  .section-contact .nf-form-cont .list-wrap ul li {
-    width: calc(50% - 0.5rem); }
-  @media (max-width: 1200px) {
-    .surface-contact-section,
-    .section-contact .nf-form-cont {
-      margin-left: calc(-100vw / 2 + 100% / 2);
-      margin-right: calc(-100vw / 2 + 100% / 2); } }
-  .surface-contact-section h2,
-  .surface-contact-section .nf-form-content,
-  .surface-contact-section .nf-after-form-content,
-  .section-contact .nf-form-cont h2,
-  .section-contact .nf-form-cont .nf-form-content,
-  .section-contact .nf-form-cont .nf-after-form-content {
-    max-width: 1120px;
-    margin: auto; }
-  .surface-contact-section h2,
-  .section-contact .nf-form-cont h2 {
     color: #fff; }
   .surface-contact-section .nf-error-msg,
   .surface-contact-section .ninja-forms-req-symbol,
@@ -1399,7 +1316,7 @@ hr {
   /* ----- BENEFITS SECTION ----- */
   /* ----- PRODUCT INFO SECTION ----- */
   /* ----- PRODUCT GALLERY SECTION ----- */
-  /* ----- PRODUCT GALLERY SECTION ----- */ }
+  /* ----- SURFACE CONTACT SECTION ----- */ }
   .single-surface .content-area {
     max-width: 1120px !important; }
     .single-surface .content-area h1 {
@@ -1704,7 +1621,8 @@ hr {
         height: 100%;
         line-height: 0; }
   .single-surface .surface-contact-section {
-    margin-top: 2rem; }
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
     .single-surface .surface-contact-section h2,
     .single-surface .surface-contact-section .submit-container {
       text-align: center; }
