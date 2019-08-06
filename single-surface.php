@@ -72,7 +72,6 @@
 									//url('.$item['url'].
 
 									foreach ($gallitems as $item) {
-<<<<<<< HEAD
 										//echo '<pre>'.print_r($item, true).'</pre>';
 
 										// echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
@@ -84,12 +83,6 @@
 										'<a rel=”lightbox” class="surface-gallery-item-image" href="'.$item['sizes']['large'].'">'.
 										'<img src="'.$item['sizes']['thumbnail'].'" />'.
 										'</a>'.
-=======
-										// echo '<pre>'.print_r($item, true).'</pre>';
-										echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
-											'<a rel=”lightbox” href="'.$item['sizes']['large'].'">'.
-											'</a>'.
->>>>>>> ddaec2516be8f7436f7b1cb718b2be8582133d63
 										'</p>';
 									}
 
@@ -103,6 +96,7 @@
 							<h2>Request a Free Estimate!</h2>
 							<p>
 								<?php echo do_shortcode( '[ninja_form id=1]' ) ?>
+								<?php //echo do_shortcode( '[ninja_form id=4]' ) ?>
 							</p>
 						</div>
 
