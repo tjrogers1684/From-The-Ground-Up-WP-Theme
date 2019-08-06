@@ -1320,6 +1320,7 @@ hr {
   /* ----- BENEFITS SECTION ----- */
   /* ----- PRODUCT INFO SECTION ----- */
   /* ----- PRODUCT GALLERY SECTION ----- */
+<<<<<<< HEAD
   /* ----- PRODUCT GALLERY SECTION ----- */
   /* ----- BENEFITS SECTION ----- */
   /* ----- PRODUCT INFO SECTION ----- */
@@ -1481,6 +1482,9 @@ hr {
     .single-surface .surface-contact-section h2,
     .single-surface .surface-contact-section .submit-container {
       text-align: center; }
+=======
+  /* ----- PRODUCT GALLERY SECTION ----- */ }
+>>>>>>> 37a3ae0270e69f7e19d4b902132a123d1d506611
   .single-surface .content-area {
     max-width: 1120px !important; }
     .single-surface .content-area h1 {
@@ -1588,6 +1592,7 @@ hr {
             align-items: center; }
     .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
       line-height: 0;
+<<<<<<< HEAD
       width: calc(25% - 1rem);
       margin: 0.25rem;
       position: relative;
@@ -1743,6 +1748,9 @@ hr {
     .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
       line-height: 0;
       width: calc(25% - 1rem);
+=======
+      width: calc( 25% - 1rem );
+>>>>>>> 37a3ae0270e69f7e19d4b902132a123d1d506611
       margin: 0.25rem;
       position: relative;
       -webkit-transition: 0.3s;
@@ -1752,11 +1760,11 @@ hr {
       background-size: cover; }
       @media (max-width: 700px) {
         .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
-          width: calc(33% - 1rem);
+          width: calc( 33% - 1rem );
           padding-top: 25%; } }
       @media (max-width: 560px) {
         .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
-          width: calc(50% - 1rem);
+          width: calc( 50% - 1rem );
           padding-top: 35%; } }
       .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
         -webkit-transform: scale(1.1);
@@ -1765,7 +1773,7 @@ hr {
         .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover:after {
           opacity: 0.6; }
       .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:after {
-        content: "";
+        content: '';
         position: absolute;
         bottom: 0;
         left: 0;
@@ -1785,11 +1793,7 @@ hr {
         height: 100%;
         line-height: 0; }
   .single-surface .surface-contact-section {
-    margin-top: 4rem;
-    margin-bottom: 4rem; }
-    .single-surface .surface-contact-section h2,
-    .single-surface .surface-contact-section .submit-container {
-      text-align: center; }
+    margin-top: 2rem; }
 
 .blog .blog-listing h1,
 .archive .blog-listing h1 {
