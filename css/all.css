@@ -1008,6 +1008,8 @@ hr {
     .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
       height: 100% !important;
       margin: 0; }
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container .nf-field {
+      height: 100% !important; }
     .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
       height: 85% !important; }
 

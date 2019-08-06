@@ -666,6 +666,12 @@
 				margin: 0;
 			}
 
+			.textarea-container {
+				.nf-field {
+					height: 100% !important;
+				}
+			}
+
 			.nf-field-element textarea {
 				height: 85% !important;
 			}
