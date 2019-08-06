@@ -72,17 +72,18 @@
 									//url('.$item['url'].
 
 									foreach ($gallitems as $item) {
-										// echo '<pre>'.print_r($item, true).'</pre>';
-										echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
-											'<a rel=”lightbox” href="'.$item['sizes']['large'].'">'.
-											'</a>'.
-											'</p>';
+										//echo '<pre>'.print_r($item, true).'</pre>';
 
-										// echo '<div class="news-article-gallery-image">'.
-										// '<a rel=”lightbox” class="gallery-node-gallery-image-lightbox" href="'.$item['sizes']['large'].'">'.
-										// '<img src="'.$item['sizes']['gallery-thumbnail'].'" />'.
-										// '</a>'.
-										// '</div>';
+										// echo '<p class="surface-gallery-item" style="background-image: url('.$item['url'].')">'.
+										// 	'<a rel=”lightbox” href="'.$item['sizes']['large'].'">'.
+										// 	'</a>'.
+										// 	'</p>';
+
+										echo '<p class="surface-gallery-item">'.
+										'<a rel=”lightbox” class="surface-gallery-item-image" href="'.$item['sizes']['large'].'">'.
+										'<img src="'.$item['sizes']['thumbnail'].'" />'.
+										'</a>'.
+										'</p>';
 									}
 
 								?>
