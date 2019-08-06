@@ -488,4 +488,74 @@ REMARQUE : Consultez votre professionnel de la santé si vous avez besoin de re
 
 
 
+			<?php
+
+// ----- SURFACES QUERY ----
+	$surfaces_surface_listing_args = [
+		'post_type' => 'surface',
+		'posts_per_page' => '600',
+		'order' => 'ASC',
+		//'orderby' => 'publish',
+	];
+
+	// The Query
+	$surfaces_surface_listing_query = new WP_Query( $surfaces_surface_listing_args );
+
+?>
+
+<?php // ------------------------------- SURFACES LISTING ------------------------------- ?>
+						<div class="surfaces-landing-listing">
+
+							<?php if ( $surfaces_surface_listing_query->have_posts() ) : while ($surfaces_surface_listing_query->have_posts() ) : $surfaces_surface_listing_query->the_post(); ?>
+
+								<?php
+									$post_meta = get_post_meta( $post->ID );
+									$slug = get_post_field('post_name');
+									$title = get_field('surface_display_listings_short_name');
+									$featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
+
+									//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
+									//echo 'Surface OBJ<br/><pre>'.print_r( $post, true ).'</pre>';
+								?>
+
+								<div class="surface <?php echo $slug; ?>">
+									<div class="surface-photo" style="background-image: url(<?php echo $featured_img_url; ?>);">
+									</div>
+
+									<div class="surface-content">
+										<p class="surface-name"><?php echo $title; ?></p>
+										<div class="surface-description"><?php the_excerpt(); ?></div>
+									</div>
+
+									<p class="surface-link-container"><a href="<?php the_permalink(); ?>" class="surface-link">&nbsp;</a></p>
+								</div>
+
+							<?php endwhile; ?>
+
+							<?php wp_reset_postdata(); ?>
+
+							<?php endif; ?>
+
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

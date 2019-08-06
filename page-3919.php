@@ -41,9 +41,6 @@
 									$slug = $post->post_name;
 									//$featured_img = get_the_post_thumbnail_url(get_the_ID(),'full');
 									$featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');
-									$title = get_the_title();
-									$title = explode(" ", $title);
-									$title = $title[count($title)-1];
 									$title = get_field('surface_display_listings_short_name');
 									//$featured_img = get_field('surface_benefits_section_surface_benefits_image');
 								?>
