@@ -989,6 +989,10 @@ hr {
   .surface-contact-section .nf-error .ninja-forms-field,
   .section-contact .nf-form-cont .nf-error .ninja-forms-field {
     border-color: #ff5555 !important; }
+  .surface-contact-section .nf-response-msg,
+  .section-contact .nf-form-cont .nf-response-msg {
+    max-width: 900px;
+    margin: 0 auto; }
   .surface-contact-section .nf-row + .nf-row,
   .section-contact .nf-form-cont .nf-row + .nf-row {
     margin-top: 2rem; }
