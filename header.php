@@ -34,7 +34,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 		<li><a href="https://www.linkedin.com/in/marc-rose-458508104/"><i class="fab fa-linkedin"></i></a></li>
 		<li><a href="https://www.instagram.com/ftgulandscapinginc/"><i class="fab fa-instagram"></i></a></li>
 	</ul>
-	<span>Free Estimates. Call 407-501-2107</span>
+<span class="header-banner-phone">Free Estimates. Call <?php if(wp_is_mobile()){ ?><a href="tel:407-501-2107">407-501-2107</a><?php } else { ?>407-501-2107<?php } ?></span>
 </div>
 
 <div class="mobile-nav">
