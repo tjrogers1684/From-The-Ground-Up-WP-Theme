@@ -46,7 +46,7 @@
 								<p class="benefits-tagline"><?php echo $benefits_tagline; ?></p>
 								<?php echo $benefits_description; ?>
 
-								<p class="product-get-started-link-container"><a href="#contactform" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								<p class="product-get-started-link-container"><a href="#contactform" class="btn">Request a Free Estimate</a></p>
 							</div>
 						</div>
 
@@ -57,7 +57,7 @@
 
 								<div class="product-description"><?php echo $product_description; ?></div>
 
-								<p class="product-get-started-link-container"><a href="#contactform" class="btn">Let's Get Started! <i class="fas fa-long-arrow-alt-right"></i></a></p>
+								<p class="product-get-started-link-container"><a href="#contactform" class="btn">Request a Free Estimate</a></p>
 							</div>
 						</div>
 
@@ -92,10 +92,10 @@
 						<!-- CONTACT FORM SECTION  -->
 						<a name="contactform"></a>
 						<div class="surface-contact-section">
-							<h2>Get Your Free Quote</h2>
+							<h2>Request a Free Estimate</h2>
 							<p>
-								<?php echo do_shortcode( '[ninja_form id=1]' ) ?>
-								<?php //echo do_shortcode( '[ninja_form id=4]' ) ?>
+								<?php //echo do_shortcode( '[ninja_form id=1]' ) ?>
+								<?php echo do_shortcode( '[ninja_form id=4]' ) ?>
 							</p>
 						</div>
 
