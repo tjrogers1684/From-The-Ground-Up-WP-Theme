@@ -44,6 +44,8 @@
 									$title = get_the_title();
 									$title = explode(" ", $title);
 									$title = $title[count($title)-1];
+									$title = get_field('surface_display_listings_short_name');
+									//$featured_img = get_field('surface_benefits_section_surface_benefits_image');
 								?>
 
 								<div class="surface <?php echo $slug; ?>">
