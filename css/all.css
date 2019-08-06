@@ -193,12 +193,21 @@ button {
   .header-menu {
     display: none; } }
 .header-menu ul li a {
-  padding: 0.5rem; }
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px; }
+.header-menu ul li:hover a {
+  background: #62bb46;
+  color: #fff; }
+.header-menu ul li.header-menu-site-logo:hover a {
+  background: none; }
 .header-menu ul li.current-menu-item > a {
-  border-bottom: 4px solid #3b712a;
-  color: #3b712a; }
+  border-bottom: 5px solid #3b712a;
+  color: #3b712a;
+  border-radius: 0 !important; }
 .header-menu ul li.menu-item-has-children {
   position: relative; }
+  .header-menu ul li.menu-item-has-children > a {
+    border-radius: 5px 5px 0 0; }
   .header-menu ul li.menu-item-has-children ul {
     display: none;
     position: absolute;
@@ -213,13 +222,18 @@ button {
         display: none; }
       .header-menu ul li.menu-item-has-children ul li.current-menu-item > a {
         background: #3b712a;
-        border-bottom: 0;
+        border-bottom: 5px;
         color: #fff; }
+      .header-menu ul li.menu-item-has-children ul li:first-of-type a {
+        border-radius: 0 5px 0 0; }
+      .header-menu ul li.menu-item-has-children ul li:last-of-type a {
+        border-radius: 0 0 5px 5px; }
       .header-menu ul li.menu-item-has-children ul li a {
         display: block;
         background: #62bb46;
         color: #fff;
-        padding: 0.5rem; }
+        padding: 0.5rem;
+        border-radius: 0; }
         .header-menu ul li.menu-item-has-children ul li a:hover {
           background: #ffdd00; }
   .header-menu ul li.menu-item-has-children:hover ul {

@@ -14,21 +14,35 @@
 	ul li {
 
 		a {
-			padding: 0.5rem;
+			padding: 0.5rem 0.75rem;
+			border-radius: 5px;
 		}
 
 		&:hover a {
+			background: $brand;
+			color: #fff;
+		}
+
+		&.header-menu-site-logo {
+			&:hover a {
+				background: none;
+			}
 		}
 
 		&.current-menu-item {
 			> a {
-				border-bottom: 4px solid darken($brand, 20);
+				border-bottom: 5px solid darken($brand, 20);
 				color: darken($brand, 20);
+				border-radius: 0 !important;
 			}
 		}
 
 		&.menu-item-has-children {
 			position: relative;
+
+			> a {
+				border-radius: 5px 5px 0 0;
+			}
 
 			ul {
 				display: none;
@@ -48,16 +62,29 @@
 					&.current-menu-item {
 						> a {
 							background: darken($brand, 20);
-							border-bottom: 0;
+							border-bottom: 5px;
 							color: #fff;
 						}
-		}
+					}
+
+					&:first-of-type {
+						a {
+							border-radius: 0 5px 0 0;
+						}
+					}
+
+					&:last-of-type {
+						a {
+							border-radius: 0 0 5px 5px;
+						}
+					}
 
 					a {
 						display: block;
 						background: $brand;
 						color: #fff;
 						padding: 0.5rem;
+						border-radius: 0;
 
 						&:hover {
 							background: $brand-alt;
