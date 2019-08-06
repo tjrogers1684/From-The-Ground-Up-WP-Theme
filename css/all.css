@@ -1106,7 +1106,14 @@ hr {
   padding: 2rem 1.5rem;
   color: #fff;
   margin-left: -2rem;
-  margin-right: -2rem; }
+  margin-right: -2rem;
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  background: #005336;
+  margin-left: calc(-100vw / 2 + 1120px / 2);
+  margin-right: calc(-100vw / 2 + 1120px / 2);
+  padding: 2rem 1.5rem;
+  color: #fff; }
   @media (min-width: 1200px) {
     .surface-contact-section,
     .section-contact .nf-form-cont {
@@ -1185,6 +1192,85 @@ hr {
   .surface-contact-section .list-wrap ul li,
   .section-contact .nf-form-cont .list-wrap ul li {
     width: calc(50% - 0.5rem); }
+  @media (max-width: 1200px) {
+    .surface-contact-section,
+    .section-contact .nf-form-cont {
+      margin-left: calc(-100vw / 2 + 100% / 2);
+      margin-right: calc(-100vw / 2 + 100% / 2); } }
+  .surface-contact-section h2,
+  .surface-contact-section .nf-form-content,
+  .surface-contact-section .nf-after-form-content,
+  .section-contact .nf-form-cont h2,
+  .section-contact .nf-form-cont .nf-form-content,
+  .section-contact .nf-form-cont .nf-after-form-content {
+    max-width: 1120px;
+    margin: auto; }
+  .surface-contact-section h2,
+  .section-contact .nf-form-cont h2 {
+    color: #fff; }
+  .surface-contact-section .nf-error-msg,
+  .surface-contact-section .ninja-forms-req-symbol,
+  .section-contact .nf-form-cont .nf-error-msg,
+  .section-contact .nf-form-cont .ninja-forms-req-symbol {
+    color: #ff5555 !important; }
+  .surface-contact-section .nf-error.field-wrap .nf-field-element:after,
+  .section-contact .nf-form-cont .nf-error.field-wrap .nf-field-element:after {
+    background: #ff5555 !important; }
+  .surface-contact-section .nf-error .ninja-forms-field,
+  .section-contact .nf-form-cont .nf-error .ninja-forms-field {
+    border-color: #ff5555 !important; }
+  .surface-contact-section .nf-response-msg,
+  .section-contact .nf-form-cont .nf-response-msg {
+    max-width: 900px;
+    margin: 0 auto; }
+  .surface-contact-section .nf-row + .nf-row,
+  .section-contact .nf-form-cont .nf-row + .nf-row {
+    margin-top: 2rem; }
+  .surface-contact-section .nf-row nf-cells,
+  .section-contact .nf-form-cont .nf-row nf-cells {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+            align-items: stretch; }
+    .surface-contact-section .nf-row nf-cells .nf-cell,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-cell {
+      float: none !important;
+      padding: 0 0.6rem !important; }
+    .surface-contact-section .nf-row nf-cells .textarea-container,
+    .surface-contact-section .nf-row nf-cells .textarea-wrap,
+    .surface-contact-section .nf-row nf-cells .nf-field-element,
+    .surface-contact-section .nf-row nf-cells .nf-form-content textarea.ninja-forms-field,
+    .surface-contact-section .nf-row nf-cells .nf-field-element textarea,
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container,
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-wrap,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-form-content textarea.ninja-forms-field,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
+      height: 100% !important;
+      margin: 0; }
+    .surface-contact-section .nf-row nf-cells .textarea-container .nf-field,
+    .section-contact .nf-form-cont .nf-row nf-cells .textarea-container .nf-field {
+      height: 100% !important; }
+    .surface-contact-section .nf-row nf-cells .nf-field-element textarea,
+    .section-contact .nf-form-cont .nf-row nf-cells .nf-field-element textarea {
+      height: 85% !important; }
+  .surface-contact-section .list-wrap ul li,
+  .section-contact .nf-form-cont .list-wrap ul li {
+    width: calc(50% - 0.5rem); }
+  .surface-contact-section .submit-container,
+  .section-contact .nf-form-cont .submit-container {
+    margin-bottom: 0; }
 
 .section-contact .nf-form-cont {
   margin-left: calc(-100vw / 2 + 900px / 2);
@@ -1309,7 +1395,11 @@ hr {
   /* ----- BENEFITS SECTION ----- */
   /* ----- PRODUCT INFO SECTION ----- */
   /* ----- PRODUCT GALLERY SECTION ----- */
-  /* ----- CONTACT FORM SECTION ----- */ }
+  /* ----- CONTACT FORM SECTION ----- */
+  /* ----- BENEFITS SECTION ----- */
+  /* ----- PRODUCT INFO SECTION ----- */
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  /* ----- PRODUCT GALLERY SECTION ----- */ }
   .single-surface .content-area {
     max-width: 1120px !important; }
     .single-surface .content-area h1 {
@@ -1462,6 +1552,162 @@ hr {
   .single-surface .surface-contact-section {
     margin-top: 4rem;
     margin-bottom: 4rem; }
+  .single-surface .content-area {
+    max-width: 1120px !important; }
+    .single-surface .content-area h1 {
+      margin-bottom: 0;
+      line-height: 1; }
+    .single-surface .content-area .page-leadin {
+      max-width: 900px;
+      padding-bottom: 3rem;
+      margin: 0 auto; }
+  .single-surface .surface-benefits-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+            align-items: stretch; }
+    .single-surface .surface-benefits-section .benefits-photo,
+    .single-surface .surface-benefits-section .benefits-content {
+      width: 50%; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-photo,
+        .single-surface .surface-benefits-section .benefits-content {
+          width: 100%; } }
+    .single-surface .surface-benefits-section .benefits-photo {
+      padding-top: 50%;
+      background-size: cover; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-photo {
+          margin-bottom: 2rem; } }
+    .single-surface .surface-benefits-section .benefits-content {
+      padding: 2rem 0 2rem 2rem; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-content {
+          padding: 0; } }
+      .single-surface .surface-benefits-section .benefits-content h2 {
+        margin-bottom: 0;
+        line-height: 1; }
+      .single-surface .surface-benefits-section .benefits-content .benefits-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .single-surface .surface-benefits-section .benefits-content h3,
+      .single-surface .surface-benefits-section .benefits-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1rem; }
+      .single-surface .surface-benefits-section .benefits-content h3 {
+        margin-bottom: 0.5rem; }
+      .single-surface .surface-benefits-section .benefits-content .product-get-started-link-container {
+        padding-top: 1.75rem;
+        text-align: center; }
+      .single-surface .surface-benefits-section .benefits-content ul {
+        margin-left: 0.5rem; }
+  .single-surface .surface-product-section {
+    margin-top: 1rem; }
+    @media (max-width: 700px) {
+      .single-surface .surface-product-section {
+        margin-top: 0; } }
+    .single-surface .surface-product-section .product-content {
+      padding: 2rem 6.5rem; }
+      @media (max-width: 1150px) {
+        .single-surface .surface-product-section .product-content {
+          padding: 4rem; } }
+      @media (max-width: 700px) {
+        .single-surface .surface-product-section .product-content {
+          padding: 2rem 0; } }
+      .single-surface .surface-product-section .product-content h2 {
+        line-height: 1; }
+      .single-surface .surface-product-section .product-content .product-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .single-surface .surface-product-section .product-content .product-description {
+        margin: 0 auto; }
+      .single-surface .surface-product-section .product-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1.75rem;
+        margin-top: 1.5rem;
+        text-align: center; }
+      .single-surface .surface-product-section .product-content .benefits-listing {
+        margin-left: 0.5rem; }
+  .single-surface .surface-gallery-section .surface-gallery {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+            justify-content: stretch;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center; }
+    .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+      line-height: 0;
+      width: calc(25% - 1rem);
+      margin: 0.25rem;
+      position: relative;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      padding-top: 15%;
+      height: 0;
+      background-size: cover; }
+      @media (max-width: 700px) {
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc(33% - 1rem);
+          padding-top: 25%; } }
+      @media (max-width: 560px) {
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc(50% - 1rem);
+          padding-top: 35%; } }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        z-index: 1; }
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover:after {
+          opacity: 0.6; }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #2ecc40;
+        background: -webkit-linear-gradient(left, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        background: linear-gradient(to right, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none; }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        line-height: 0; }
+  .single-surface .surface-contact-section {
+    margin-top: 2rem; }
+    .single-surface .surface-contact-section h2,
+    .single-surface .surface-contact-section .submit-container {
+      text-align: center; }
 
 .blog .blog-listing h1,
 .archive .blog-listing h1 {

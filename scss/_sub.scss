@@ -704,6 +704,101 @@
       }
     }
   }
+
+  background: $brand url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg)
+    50% 50% no-repeat;
+  background-size: cover;
+  //background: #d0b714;
+  background: $brand-dk;
+  margin-left: calc(-100vw / 2 + 1120px / 2);
+  margin-right: calc(-100vw / 2 + 1120px / 2);
+  padding: 2rem 1.5rem;
+  color: #fff;
+
+  @media (max-width: 1200px) {
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+  }
+
+  h2,
+  .nf-form-content,
+  .nf-after-form-content {
+    max-width: 1120px;
+    margin: auto;
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  .nf-error-msg,
+  .ninja-forms-req-symbol {
+    color: #ff5555 !important;
+  }
+
+  .nf-error.field-wrap .nf-field-element:after {
+    background: #ff5555 !important;
+  }
+
+  .nf-error .ninja-forms-field {
+    border-color: #ff5555 !important;
+  }
+
+  .nf-response-msg {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .nf-row {
+    & + .nf-row {
+      margin-top: 2rem;
+    }
+
+    nf-cells {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+
+      .nf-cell {
+        float: none !important;
+        padding: 0 0.6rem !important;
+      }
+
+      .textarea-container,
+      .textarea-wrap,
+      .nf-field-element,
+      .nf-form-content textarea.ninja-forms-field,
+      .nf-field-element textarea {
+        height: 100% !important;
+        margin: 0;
+      }
+
+      .textarea-container {
+        .nf-field {
+          height: 100% !important;
+        }
+      }
+
+      .nf-field-element textarea {
+        height: 85% !important;
+      }
+    }
+  }
+
+  .list-wrap {
+    ul {
+      li {
+        width: calc(50% - 0.5rem);
+        //padding: 0 0.5rem !important;
+      }
+    }
+  }
+
+  .submit-container {
+    margin-bottom: 0;
+  }
 }
 
 .section-contact .nf-form-cont {
