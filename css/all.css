@@ -1316,6 +1316,8 @@ hr {
         line-height: 0; }
   .single-surface .surface-contact-section {
     margin-top: 2rem; }
+    .single-surface .surface-contact-section h2 {
+      text-align: center; }
 
 .blog .blog-listing h1,
 .archive .blog-listing h1 {
