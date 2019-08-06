@@ -82,27 +82,83 @@ button,
     background-color: #ffdd00 !important;
     color: #fff; }
   .btn.btn-alt, input.btn-alt[type="submit"],
+  .surface-contact-section .nf-form-content input[type="submit"],
+  .section-contact .nf-form-cont .nf-form-content input[type="submit"],
   input.btn-alt[type="button"],
+  .surface-contact-section .nf-form-content input[type="button"],
+  .section-contact .nf-form-cont .nf-form-content input[type="button"],
   button.btn-alt,
   .button.btn-alt,
+  .surface-contact-section .nf-form-content input.button[type="button"],
+  .surface-contact-section .nf-form-content input.button[type="submit"],
+  .section-contact .nf-form-cont .nf-form-content input.button[type="button"],
+  .section-contact .nf-form-cont .nf-form-content input.button[type="submit"],
   [type="button"].btn-alt,
+  .surface-contact-section .nf-form-content input[type="button"],
+  .section-contact .nf-form-cont .nf-form-content input[type="button"],
   .woocommerce #respond input#submit.alt.btn-alt,
+  .woocommerce #respond .surface-contact-section .nf-form-content input#submit.alt[type="button"],
+  .surface-contact-section .nf-form-content .woocommerce #respond input#submit.alt[type="button"],
+  .woocommerce #respond .surface-contact-section .nf-form-content input#submit.alt[type="submit"],
+  .surface-contact-section .nf-form-content .woocommerce #respond input#submit.alt[type="submit"],
+  .woocommerce #respond .section-contact .nf-form-cont .nf-form-content input#submit.alt[type="button"],
+  .section-contact .nf-form-cont .nf-form-content .woocommerce #respond input#submit.alt[type="button"],
+  .woocommerce #respond .section-contact .nf-form-cont .nf-form-content input#submit.alt[type="submit"],
+  .section-contact .nf-form-cont .nf-form-content .woocommerce #respond input#submit.alt[type="submit"],
   .woocommerce a.button.alt.btn-alt,
   .woocommerce button.button.alt.btn-alt,
   .woocommerce input.button.alt.btn-alt,
-  .nf-form-content input[type="button"].btn-alt {
+  .woocommerce .surface-contact-section .nf-form-content input.button.alt[type="button"],
+  .surface-contact-section .nf-form-content .woocommerce input.button.alt[type="button"],
+  .woocommerce .surface-contact-section .nf-form-content input.button.alt[type="submit"],
+  .surface-contact-section .nf-form-content .woocommerce input.button.alt[type="submit"],
+  .woocommerce .section-contact .nf-form-cont .nf-form-content input.button.alt[type="button"],
+  .section-contact .nf-form-cont .nf-form-content .woocommerce input.button.alt[type="button"],
+  .woocommerce .section-contact .nf-form-cont .nf-form-content input.button.alt[type="submit"],
+  .section-contact .nf-form-cont .nf-form-content .woocommerce input.button.alt[type="submit"],
+  .nf-form-content input[type="button"].btn-alt,
+  .surface-contact-section .nf-form-content input[type="button"],
+  .section-contact .nf-form-cont .nf-form-content input[type="button"] {
     background: #fff !important;
     color: #62bb46 !important; }
     .btn.btn-alt:hover, input.btn-alt[type="submit"]:hover,
+    .surface-contact-section .nf-form-content input[type="submit"]:hover,
+    .section-contact .nf-form-cont .nf-form-content input[type="submit"]:hover,
     input.btn-alt[type="button"]:hover,
+    .surface-contact-section .nf-form-content input[type="button"]:hover,
+    .section-contact .nf-form-cont .nf-form-content input[type="button"]:hover,
     button.btn-alt:hover,
     .button.btn-alt:hover,
+    .surface-contact-section .nf-form-content input.button[type="button"]:hover,
+    .surface-contact-section .nf-form-content input.button[type="submit"]:hover,
+    .section-contact .nf-form-cont .nf-form-content input.button[type="button"]:hover,
+    .section-contact .nf-form-cont .nf-form-content input.button[type="submit"]:hover,
     [type="button"].btn-alt:hover,
+    .surface-contact-section .nf-form-content input[type="button"]:hover,
+    .section-contact .nf-form-cont .nf-form-content input[type="button"]:hover,
     .woocommerce #respond input#submit.alt.btn-alt:hover,
+    .woocommerce #respond .surface-contact-section .nf-form-content input#submit.alt[type="button"]:hover,
+    .surface-contact-section .nf-form-content .woocommerce #respond input#submit.alt[type="button"]:hover,
+    .woocommerce #respond .surface-contact-section .nf-form-content input#submit.alt[type="submit"]:hover,
+    .surface-contact-section .nf-form-content .woocommerce #respond input#submit.alt[type="submit"]:hover,
+    .woocommerce #respond .section-contact .nf-form-cont .nf-form-content input#submit.alt[type="button"]:hover,
+    .section-contact .nf-form-cont .nf-form-content .woocommerce #respond input#submit.alt[type="button"]:hover,
+    .woocommerce #respond .section-contact .nf-form-cont .nf-form-content input#submit.alt[type="submit"]:hover,
+    .section-contact .nf-form-cont .nf-form-content .woocommerce #respond input#submit.alt[type="submit"]:hover,
     .woocommerce a.button.alt.btn-alt:hover,
     .woocommerce button.button.alt.btn-alt:hover,
     .woocommerce input.button.alt.btn-alt:hover,
-    .nf-form-content input[type="button"].btn-alt:hover {
+    .woocommerce .surface-contact-section .nf-form-content input.button.alt[type="button"]:hover,
+    .surface-contact-section .nf-form-content .woocommerce input.button.alt[type="button"]:hover,
+    .woocommerce .surface-contact-section .nf-form-content input.button.alt[type="submit"]:hover,
+    .surface-contact-section .nf-form-content .woocommerce input.button.alt[type="submit"]:hover,
+    .woocommerce .section-contact .nf-form-cont .nf-form-content input.button.alt[type="button"]:hover,
+    .section-contact .nf-form-cont .nf-form-content .woocommerce input.button.alt[type="button"]:hover,
+    .woocommerce .section-contact .nf-form-cont .nf-form-content input.button.alt[type="submit"]:hover,
+    .section-contact .nf-form-cont .nf-form-content .woocommerce input.button.alt[type="submit"]:hover,
+    .nf-form-content input[type="button"].btn-alt:hover,
+    .surface-contact-section .nf-form-content input[type="button"]:hover,
+    .section-contact .nf-form-cont .nf-form-content input[type="button"]:hover {
       color: #3b712a !important;
       background-color: #274c1c;
       background-color: #ffdd00 !important; }
@@ -172,21 +228,46 @@ button {
 .nf-form-fields-required {
   display: none !important; }
 
-.listcheckbox-wrap li:before,
-.listradio-wrap li:before {
-  display: none; }
+div.listcheckbox-wrap li:before,
+div.listradio-wrap li:before {
+  display: none !important; }
+div.listcheckbox-wrap .nf-field-element input,
+div.listradio-wrap .nf-field-element input {
+  position: fixed;
+  top: -100px;
+  left: 0; }
+div.listcheckbox-wrap .nf-field-element label,
+div.listradio-wrap .nf-field-element label {
+  padding: 0 !important;
+  margin: 0 !important; }
+  div.listcheckbox-wrap .nf-field-element label:before,
+  div.listradio-wrap .nf-field-element label:before {
+    font-size: 1em;
+    opacity: 1 !important;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900 !important;
+    content: "\f0c8" !important;
+    color: #fff !important;
+    position: static !important;
+    margin-right: 0.5em;
+    height: auto !important;
+    width: auto !important; }
+  div.listcheckbox-wrap .nf-field-element label:after,
+  div.listradio-wrap .nf-field-element label:after {
+    display: none !important; }
+  div.listcheckbox-wrap .nf-field-element label.nf-checked-label,
+  div.listradio-wrap .nf-field-element label.nf-checked-label {
+    font-weight: bold; }
+    div.listcheckbox-wrap .nf-field-element label.nf-checked-label:before,
+    div.listradio-wrap .nf-field-element label.nf-checked-label:before {
+      content: "\f14a" !important;
+      color: #ffdd00 !important; }
 
-.checkbox-wrap .nf-field-element label.nf-checked-label:before, .checkbox-wrap .nf-field-label label.nf-checked-label:before, .listcheckbox-wrap .nf-field-element label.nf-checked-label:before, .listcheckbox-wrap .nf-field-label label.nf-checked-label:before {
-  color: #3b712a !important;
-  color: #62bb46 !important; }
-
-.listradio-wrap .nf-field-element label.nf-checked-label:after {
-  border-color: #3b712a !important;
-  border-color: #62bb46 !important; }
-
-.listradio-wrap .nf-field-element label.nf-checked-label:before {
-  background: #3b712a !important;
-  background: #62bb46 !important; }
+div.listradio-wrap .nf-field-element label:before {
+  content: "\f111" !important;
+  background: none !important; }
+div.listradio-wrap .nf-field-element label.nf-checked-label:before {
+  content: "\f058" !important; }
 
 @media (max-width: 700px) {
   .header-menu {
@@ -535,8 +616,7 @@ hr {
 /* CSS Document */
 .feature-wrap {
   padding: 2rem;
-  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
-  background-size: cover;
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.png) 50% 50%;
   color: #fff;
   margin-top: 2rem; }
   .feature-wrap .feature-image {
@@ -577,7 +657,7 @@ hr {
     padding: 0.5rem 1rem;
     position: relative; }
     .content-area ul li:before {
-      content: '\f0da';
+      content: "\f0da";
       font-weight: 900;
       font-family: "Font Awesome 5 Free";
       position: absolute;
@@ -631,7 +711,7 @@ hr {
   .tos-desktop .tos-wrapper.tos-fixed .tos-close:after,
   .tos-desktop .tos-wrapper.tos-fixed .tos-prev:after,
   .tos-desktop .tos-wrapper.tos-fixed .tos-next:after {
-    content: '\f00d';
+    content: "\f00d";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: absolute;
@@ -664,12 +744,12 @@ hr {
   #swipebox-overlay .tos-next:after,
   .tos-desktop .tos-wrapper.tos-fixed .tos-prev:after,
   .tos-desktop .tos-wrapper.tos-fixed .tos-next:after {
-    content: '\f104'; }
+    content: "\f104"; }
 #swipebox-overlay .tos-next:after,
 .tos-desktop .tos-wrapper.tos-fixed .tos-next:after {
-  content: '\f105'; }
+  content: "\f105"; }
 
-/* --------------------------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
+/* --------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
 .testimonials-page-testimonials-listing .testimonial-item {
   display: -webkit-box;
   display: flex;
@@ -864,7 +944,7 @@ hr {
           align-items: stretch;
   margin-top: 3rem; }
   .surfaces-landing-listing .surface {
-    width: calc( 50% - 1rem );
+    width: calc(50% - 1rem);
     margin: 0.25rem;
     position: relative;
     -webkit-transition: 0.3s;
@@ -876,7 +956,7 @@ hr {
         .surfaces-landing-listing .surface + .surface {
           margin-top: 1rem; } }
     .surfaces-landing-listing .surface:after, .surfaces-landing-listing .surface:before {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0;
       left: 0;
@@ -968,20 +1048,22 @@ hr {
           -webkit-transform: translate(-50%, -50%);
                   transform: translate(-50%, -50%); }
 
+.surface-contact-section {
+  border-top: 0.5rem solid #ffdd00;
+  border-bottom: 0.5rem solid #ffdd00; }
+
 .surface-contact-section,
 .section-contact .nf-form-cont {
-  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.jpg) 50% 50% no-repeat;
-  background-size: cover;
-  background: #005336;
-  margin-left: calc(-100vw / 2 + 1120px / 2);
-  margin-right: calc(-100vw / 2 + 1120px / 2);
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.png) 50% 50%;
   padding: 2rem 1.5rem;
-  color: #fff; }
-  @media (max-width: 1200px) {
+  color: #ffffff;
+  margin-left: -2rem;
+  margin-right: -2rem; }
+  @media (min-width: 1200px) {
     .surface-contact-section,
     .section-contact .nf-form-cont {
-      margin-left: calc(-100vw / 2 + 100% / 2);
-      margin-right: calc(-100vw / 2 + 100% / 2); } }
+      margin-left: calc(-100vw / 2 + 1120px / 2);
+      margin-right: calc(-100vw / 2 + 1120px / 2); } }
   .surface-contact-section h2,
   .surface-contact-section .nf-form-content,
   .surface-contact-section .nf-after-form-content,
@@ -992,8 +1074,11 @@ hr {
     margin: auto; }
   .surface-contact-section h2,
   .section-contact .nf-form-cont h2 {
+    text-align: center;
+    font-size: 2.5em;
     color: #fff; }
-  .surface-contact-section .nf-error-msg, .surface-contact-section .ninja-forms-req-symbol,
+  .surface-contact-section .nf-error-msg,
+  .surface-contact-section .ninja-forms-req-symbol,
   .section-contact .nf-form-cont .nf-error-msg,
   .section-contact .nf-form-cont .ninja-forms-req-symbol {
     color: #ff5555 !important; }
@@ -1046,7 +1131,7 @@ hr {
       height: 85% !important; }
   .surface-contact-section .list-wrap ul li,
   .section-contact .nf-form-cont .list-wrap ul li {
-    width: calc( 50% - 0.5rem ); }
+    width: calc(50% - 0.5rem); }
   .surface-contact-section .submit-container,
   .section-contact .nf-form-cont .submit-container {
     margin-bottom: 0; }
@@ -1173,7 +1258,15 @@ hr {
   /* ----- BENEFITS SECTION ----- */
   /* ----- PRODUCT INFO SECTION ----- */
   /* ----- PRODUCT GALLERY SECTION ----- */
-  /* ----- PRODUCT GALLERY SECTION ----- */ }
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  /* ----- BENEFITS SECTION ----- */
+  /* ----- PRODUCT INFO SECTION ----- */
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  /* ----- CONTACT FORM SECTION ----- */
+  /* ----- BENEFITS SECTION ----- */
+  /* ----- PRODUCT INFO SECTION ----- */
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  /* ----- SURFACE CONTACT SECTION ----- */ }
   .single-surface .content-area {
     max-width: 1120px !important; }
     .single-surface .content-area h1 {
@@ -1313,6 +1406,297 @@ hr {
           width: 100%; }
   .single-surface .surface-contact-section {
     margin-top: 3rem; }
+    .single-surface .surface-contact-section h2,
+    .single-surface .surface-contact-section .submit-container {
+      text-align: center; }
+  .single-surface .content-area {
+    max-width: 1120px !important; }
+    .single-surface .content-area h1 {
+      margin-bottom: 0;
+      line-height: 1; }
+    .single-surface .content-area .page-leadin {
+      max-width: 900px;
+      padding-bottom: 3rem;
+      margin: 0 auto; }
+  .single-surface .surface-benefits-section {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+            align-items: stretch; }
+    .single-surface .surface-benefits-section .benefits-photo,
+    .single-surface .surface-benefits-section .benefits-content {
+      width: 50%; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-photo,
+        .single-surface .surface-benefits-section .benefits-content {
+          width: 100%; } }
+    .single-surface .surface-benefits-section .benefits-photo {
+      padding-top: 50%;
+      background-size: cover; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-photo {
+          margin-bottom: 2rem; } }
+    .single-surface .surface-benefits-section .benefits-content {
+      padding: 2rem 0 2rem 2rem; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-content {
+          padding: 0; } }
+      .single-surface .surface-benefits-section .benefits-content h2 {
+        margin-bottom: 0;
+        line-height: 1; }
+      .single-surface .surface-benefits-section .benefits-content .benefits-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .single-surface .surface-benefits-section .benefits-content h3,
+      .single-surface .surface-benefits-section .benefits-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1rem; }
+      .single-surface .surface-benefits-section .benefits-content h3 {
+        margin-bottom: 0.5rem; }
+      .single-surface .surface-benefits-section .benefits-content .product-get-started-link-container {
+        padding-top: 1.75rem; }
+      .single-surface .surface-benefits-section .benefits-content ul {
+        margin-left: 0.5rem; }
+  .single-surface .surface-product-section {
+    margin-top: 1rem; }
+    @media (max-width: 700px) {
+      .single-surface .surface-product-section {
+        margin-top: 0; } }
+    .single-surface .surface-product-section .product-content {
+      padding: 2rem 6.5rem; }
+      @media (max-width: 1150px) {
+        .single-surface .surface-product-section .product-content {
+          padding: 4rem; } }
+      @media (max-width: 700px) {
+        .single-surface .surface-product-section .product-content {
+          padding: 2rem 0; } }
+      .single-surface .surface-product-section .product-content h2 {
+        line-height: 1; }
+      .single-surface .surface-product-section .product-content .product-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .single-surface .surface-product-section .product-content .product-description {
+        margin: 0 auto; }
+      .single-surface .surface-product-section .product-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1.75rem;
+        margin-top: 1.5rem; }
+      .single-surface .surface-product-section .product-content .benefits-listing {
+        margin-left: 0.5rem; }
+  .single-surface .surface-gallery-section .surface-gallery {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-align: center;
+            align-items: center; }
+    .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+      line-height: 0;
+      width: calc(25% - 1rem);
+      margin: 0.25rem;
+      position: relative;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      padding-top: 15%;
+      height: 0;
+      background-size: cover; }
+      @media (max-width: 700px) {
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc(33% - 1rem);
+          padding-top: 25%; } }
+      @media (max-width: 560px) {
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc(50% - 1rem);
+          padding-top: 35%; } }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        z-index: 1; }
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover:after {
+          opacity: 0.6; }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #2ecc40;
+        background: -webkit-linear-gradient(left, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        background: -webkit-gradient(linear, left top, right top, from(rgba(46, 204, 64, 0.92061)), color-stop(35%, rgba(46, 204, 64, 0.80016)), to(rgba(255, 221, 0, 0.44442)));
+        background: linear-gradient(to right, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none; }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        line-height: 0; }
+  .single-surface .surface-contact-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
+  .single-surface .content-area {
+    max-width: 1120px !important; }
+    .single-surface .content-area h1 {
+      margin-bottom: 0;
+      line-height: 1; }
+    .single-surface .content-area .page-leadin {
+      max-width: 900px;
+      padding-bottom: 3rem;
+      margin: 0 auto; }
+  .single-surface .surface-benefits-section {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+            align-items: stretch; }
+    .single-surface .surface-benefits-section .benefits-photo,
+    .single-surface .surface-benefits-section .benefits-content {
+      width: 50%; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-photo,
+        .single-surface .surface-benefits-section .benefits-content {
+          width: 100%; } }
+    .single-surface .surface-benefits-section .benefits-photo {
+      padding-top: 50%;
+      background-size: cover; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-photo {
+          margin-bottom: 2rem; } }
+    .single-surface .surface-benefits-section .benefits-content {
+      padding: 2rem 0 2rem 2rem; }
+      @media (max-width: 700px) {
+        .single-surface .surface-benefits-section .benefits-content {
+          padding: 0; } }
+      .single-surface .surface-benefits-section .benefits-content h2 {
+        margin-bottom: 0;
+        line-height: 1; }
+      .single-surface .surface-benefits-section .benefits-content .benefits-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .single-surface .surface-benefits-section .benefits-content h3,
+      .single-surface .surface-benefits-section .benefits-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1rem; }
+      .single-surface .surface-benefits-section .benefits-content h3 {
+        margin-bottom: 0.5rem; }
+      .single-surface .surface-benefits-section .benefits-content .product-get-started-link-container {
+        padding-top: 1.75rem;
+        text-align: center; }
+      .single-surface .surface-benefits-section .benefits-content ul {
+        margin-left: 0.5rem; }
+  .single-surface .surface-product-section {
+    margin-top: 1rem; }
+    @media (max-width: 700px) {
+      .single-surface .surface-product-section {
+        margin-top: 0; } }
+    .single-surface .surface-product-section .product-content {
+      padding: 2rem 6.5rem; }
+      @media (max-width: 1150px) {
+        .single-surface .surface-product-section .product-content {
+          padding: 4rem; } }
+      @media (max-width: 700px) {
+        .single-surface .surface-product-section .product-content {
+          padding: 2rem 0; } }
+      .single-surface .surface-product-section .product-content h2 {
+        line-height: 1; }
+      .single-surface .surface-product-section .product-content .product-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em; }
+      .single-surface .surface-product-section .product-content .product-description {
+        margin: 0 auto; }
+      .single-surface .surface-product-section .product-content .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1.75rem;
+        margin-top: 1.5rem;
+        text-align: center; }
+      .single-surface .surface-product-section .product-content .benefits-listing {
+        margin-left: 0.5rem; }
+  .single-surface .surface-gallery-section .surface-gallery {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: stretch;
+            justify-content: stretch;
+    -webkit-box-align: center;
+            align-items: center; }
+    .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+      line-height: 0;
+      width: calc(25% - 1rem);
+      margin: 0.25rem;
+      position: relative;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      padding-top: 15%;
+      height: 0;
+      background-size: cover; }
+      @media (max-width: 700px) {
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc(33% - 1rem);
+          padding-top: 25%; } }
+      @media (max-width: 560px) {
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item {
+          width: calc(50% - 1rem);
+          padding-top: 35%; } }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+        z-index: 1; }
+        .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:hover:after {
+          opacity: 0.6; }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #2ecc40;
+        background: -webkit-linear-gradient(left, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        background: -webkit-gradient(linear, left top, right top, from(rgba(46, 204, 64, 0.92061)), color-stop(35%, rgba(46, 204, 64, 0.80016)), to(rgba(255, 221, 0, 0.44442)));
+        background: linear-gradient(to right, rgba(46, 204, 64, 0.92061) 0%, rgba(46, 204, 64, 0.80016) 35%, rgba(255, 221, 0, 0.44442) 100%);
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none; }
+      .single-surface .surface-gallery-section .surface-gallery .surface-gallery-item a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        line-height: 0; }
+  .single-surface .surface-contact-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem; }
     .single-surface .surface-contact-section h2,
     .single-surface .surface-contact-section .submit-container {
       text-align: center; }
@@ -1492,5 +1876,4 @@ hr {
       display: none; }
 .single-post .blog-article-social-share {
   margin-top: 2rem; }
-
 /*# sourceMappingURL=all.css.map */

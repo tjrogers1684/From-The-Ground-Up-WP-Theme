@@ -1,46 +1,46 @@
-@import 'compass/css3';
-@import 'bits';
+@import "compass/css3";
+@import "bits";
 
 /* CSS Document */
 // ---------------------------------------------------------------------------------
 // ----- LANDING PAGE --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .section-surfaces {
-	&.page-id-3919 {
-		.content-area {
-			max-width: 900px !important;
-		}
-	}
+  &.page-id-3919 {
+    .content-area {
+      max-width: 900px !important;
+    }
+  }
 
-	.content-area {
-		max-width: 1120px !important;
+  .content-area {
+    max-width: 1120px !important;
 
-		h1,
-		.page-leadin {
-			//text-align: center;
-			max-width: 900px;
-		}
+    h1,
+    .page-leadin {
+      //text-align: center;
+      max-width: 900px;
+    }
 
-		h1 {
-			margin-bottom: 0;
-			line-height: 1;
-		}
+    h1 {
+      margin-bottom: 0;
+      line-height: 1;
+    }
 
-		.page-leadin {
-			padding-bottom: 3rem;
-			margin: 0 auto;
-		}
-	}
+    .page-leadin {
+      padding-bottom: 3rem;
+      margin: 0 auto;
+    }
+  }
 }
 
 .surface.pets {
-	.surface-photo {
-		background-position: 90% 50%;
-	}
+  .surface-photo {
+    background-position: 90% 50%;
+  }
 }
 
 .page-id-3919 .content-area h1 {
-	margin-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
 }
 
 // ---------------------------------------------------------------------------------
@@ -257,40 +257,439 @@
 			text-align: center;
 		}
 	}
+
+  .content-area {
+    max-width: 1120px !important;
+
+    h1 {
+      margin-bottom: 0;
+      line-height: 1;
+    }
+
+    .page-leadin {
+      max-width: 900px;
+      padding-bottom: 3rem;
+      margin: 0 auto;
+    }
+  }
+
+  /* ----- BENEFITS SECTION ----- */
+  .surface-benefits-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    .benefits-photo,
+    .benefits-content {
+      width: 50%;
+
+      @media (max-width: 700px) {
+        width: 100%;
+      }
+    }
+
+    .benefits-photo {
+      padding-top: 50%;
+      background-size: cover;
+
+      @media (max-width: 700px) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .benefits-content {
+      padding: 2rem 0 2rem 2rem;
+
+      @media (max-width: 700px) {
+        padding: 0;
+      }
+
+      h2 {
+        margin-bottom: 0;
+        line-height: 1;
+      }
+
+      .benefits-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em;
+      }
+
+      h3,
+      .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1rem;
+      }
+
+      h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      .product-get-started-link-container {
+        padding-top: 1.75rem;
+      }
+
+      ul {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  /* ----- PRODUCT INFO SECTION ----- */
+  .surface-product-section {
+    margin-top: 1rem;
+
+    @media (max-width: 700px) {
+      margin-top: 0;
+    }
+
+    .product-content {
+      padding: 2rem 6.5rem;
+
+      @media (max-width: 1150px) {
+        padding: 4rem;
+      }
+
+      @media (max-width: 700px) {
+        padding: 2rem 0;
+      }
+
+      h2 {
+        //margin-bottom: 0;
+        line-height: 1;
+      }
+
+      .product-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em;
+      }
+
+      .product-description {
+        margin: 0 auto;
+      }
+
+      .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1.75rem;
+        margin-top: 1.5rem;
+      }
+
+      .benefits-listing {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  .surface-gallery-section {
+    .surface-gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: stretch;
+      align-items: center;
+
+      .surface-gallery-item {
+        line-height: 0;
+        width: calc(25% - 1rem);
+        margin: 0.25rem;
+        position: relative;
+        transition: 0.3s;
+        padding-top: 15%;
+        height: 0;
+        background-size: cover;
+
+        @media (max-width: 700px) {
+          width: calc(33% - 1rem);
+          padding-top: 25%;
+        }
+
+        @media (max-width: 560px) {
+          width: calc(50% - 1rem);
+          padding-top: 35%;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          z-index: 1;
+
+          &:after {
+            opacity: 0.6;
+          }
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background: rgb(46, 204, 64);
+          background: -webkit-linear-gradient(
+            left,
+            rgba(46, 204, 64, 0.9206057422969187) 0%,
+            rgba(46, 204, 64, 0.80015756302521) 35%,
+            rgba(255, 221, 0, 0.44441526610644255) 100%
+          );
+          background: -o-linear-gradient(
+            left,
+            rgba(46, 204, 64, 0.9206057422969187) 0%,
+            rgba(46, 204, 64, 0.80015756302521) 35%,
+            rgba(255, 221, 0, 0.44441526610644255) 100%
+          );
+          background: linear-gradient(
+            to right,
+            rgba(46, 204, 64, 0.9206057422969187) 0%,
+            rgba(46, 204, 64, 0.80015756302521) 35%,
+            rgba(255, 221, 0, 0.44441526610644255) 100%
+          );
+          z-index: 1;
+          opacity: 0;
+          pointer-events: none;
+        }
+
+        a {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          line-height: 0;
+        }
+      }
+    }
+  }
+
+  /* ----- CONTACT FORM SECTION ----- */
+  .surface-contact-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .content-area {
+    max-width: 1120px !important;
+
+    h1 {
+      margin-bottom: 0;
+      line-height: 1;
+    }
+
+    .page-leadin {
+      max-width: 900px;
+      padding-bottom: 3rem;
+      margin: 0 auto;
+    }
+  }
+
+  /* ----- BENEFITS SECTION ----- */
+  .surface-benefits-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    .benefits-photo,
+    .benefits-content {
+      width: 50%;
+
+      @media (max-width: 700px) {
+        width: 100%;
+      }
+    }
+
+    .benefits-photo {
+      padding-top: 50%;
+      background-size: cover;
+
+      @media (max-width: 700px) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .benefits-content {
+      padding: 2rem 0 2rem 2rem;
+
+      @media (max-width: 700px) {
+        padding: 0;
+      }
+
+      h2 {
+        margin-bottom: 0;
+        line-height: 1;
+      }
+
+      .benefits-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em;
+      }
+
+      h3,
+      .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1rem;
+      }
+
+      h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      .product-get-started-link-container {
+        padding-top: 1.75rem;
+        text-align: center;
+      }
+
+      ul {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  /* ----- PRODUCT INFO SECTION ----- */
+  .surface-product-section {
+    margin-top: 1rem;
+
+    @media (max-width: 700px) {
+      margin-top: 0;
+    }
+
+    .product-content {
+      padding: 2rem 6.5rem;
+
+      @media (max-width: 1150px) {
+        padding: 4rem;
+      }
+
+      @media (max-width: 700px) {
+        padding: 2rem 0;
+      }
+
+      h2 {
+        //margin-bottom: 0;
+        line-height: 1;
+      }
+
+      .product-tagline {
+        margin-top: 0;
+        font-style: italic;
+        color: #777;
+        font-size: 1.15em;
+      }
+
+      .product-description {
+        margin: 0 auto;
+      }
+
+      .product-get-started-link-container {
+        border-top: 1px solid #ddd;
+        padding-top: 1.75rem;
+        margin-top: 1.5rem;
+        text-align: center;
+      }
+
+      .benefits-listing {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  /* ----- PRODUCT GALLERY SECTION ----- */
+  .surface-gallery-section {
+    .surface-gallery {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: stretch;
+      align-items: center;
+
+      .surface-gallery-item {
+        line-height: 0;
+        width: calc(25% - 1rem);
+        margin: 0.25rem;
+        position: relative;
+        transition: 0.3s;
+        padding-top: 15%;
+        height: 0;
+        background-size: cover;
+
+        @media (max-width: 700px) {
+          width: calc(33% - 1rem);
+          padding-top: 25%;
+        }
+
+        @media (max-width: 560px) {
+          width: calc(50% - 1rem);
+          padding-top: 35%;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          z-index: 1;
+
+          &:after {
+            opacity: 0.6;
+          }
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background: rgb(46, 204, 64);
+          background: -webkit-linear-gradient(
+            left,
+            rgba(46, 204, 64, 0.9206057422969187) 0%,
+            rgba(46, 204, 64, 0.80015756302521) 35%,
+            rgba(255, 221, 0, 0.44441526610644255) 100%
+          );
+          background: -o-linear-gradient(
+            left,
+            rgba(46, 204, 64, 0.9206057422969187) 0%,
+            rgba(46, 204, 64, 0.80015756302521) 35%,
+            rgba(255, 221, 0, 0.44441526610644255) 100%
+          );
+          background: linear-gradient(
+            to right,
+            rgba(46, 204, 64, 0.9206057422969187) 0%,
+            rgba(46, 204, 64, 0.80015756302521) 35%,
+            rgba(255, 221, 0, 0.44441526610644255) 100%
+          );
+          z-index: 1;
+          opacity: 0;
+          pointer-events: none;
+        }
+
+        a {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          line-height: 0;
+        }
+      }
+    }
+  }
+
+  /* ----- SURFACE CONTACT SECTION ----- */
+  .surface-contact-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    h2,
+    .submit-container {
+      text-align: center;
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,7 +1,6 @@
 .feature-wrap {
   padding: 2rem;
-  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.png) 50% 50% no-repeat;
-  background-size: cover;
+  background: #62bb46 url(/wp-content/themes/ftgu/images/bkd-feature-wrap.png) 50% 50%;
   color: #fff;
   margin-top: 2rem; }
   .feature-wrap .feature-image {
@@ -403,4 +402,5 @@
       .hp-blog-listing-container .more-blog-link {
         position: static;
         margin: 2rem 0 0 1.5rem; } }
+
 /*# sourceMappingURL=home.css.map */
