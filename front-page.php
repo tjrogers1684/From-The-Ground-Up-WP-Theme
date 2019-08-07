@@ -64,9 +64,7 @@
 				$slug = $post->post_name;
 				$featured_img = get_field('surface_benefits_section_surface_benefits_image');
 				$featured_img_url = $featured_img['url'];
-				$title = get_the_title();
-				$title = explode(" ", $title);
-				$title = $title[count($title)-1];
+				$title = get_field('surface_display_listings_short_name');
 
 				//echo 'Surface META<br/><pre>'.print_r( $post_meta, true ).'</pre>';
 				//echo 'Surface OBJ<br/><pre>'.print_r( $post, true ).'</pre>';
