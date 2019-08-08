@@ -89,19 +89,10 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 	</div>
 <?php } ?>
 
-<?php // BLOG ARTICLE HEADERS ?>
-<?php if ( is_singular( 'post' ) ) { ?>
-	<?php if ( have_posts() ) { ?>
-
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php if ( has_post_thumbnail() ) { ?>
-
-				<div class="feature-wrap">
-					<div class="feature-image blog-featured-image" style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)"></div>
-				</div>
-
-			<?php } ?>
-		<?php endwhile; ?><!-- PAGE MAIN QUERY -->
-
-	<?php } ?>
+<?php if ( is_home() || is_archive() || is_singular( 'post' ) ) { ?>
+	<div class="feature-wrap">
+		<div class="feature-image">
+			<div class="feature-image page-featured-image" style="background-image: url(http://dev.sodandlandscaping.services/wp-content/uploads/2019/08/blog-feature-sub.jpg)"></div>
+		</div>
+	</div>
 <?php } ?>
