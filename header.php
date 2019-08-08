@@ -96,3 +96,27 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 		</div>
 	</div>
 <?php } ?>
+
+<?php if ( is_page(2053) || is_page(2042) || is_page(2055) || is_page(2040) || is_page(2047) || is_page(2051) || is_page(2042) ) { ?>
+	<div class="feature-wrap">
+		<div class="feature-image">
+			<div class="feature-image page-featured-image" style="background-image: url(http://dev.sodandlandscaping.services/wp-content/uploads/2019/08/sod-types-feature-sub.jpg)"></div>
+		</div>
+	</div>
+<?php } ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
