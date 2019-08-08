@@ -1154,6 +1154,22 @@ hr {
       margin-left: calc(-100vw / 2 + 100% / 2);
       margin-right: calc(-100vw / 2 + 100% / 2); } }
 
+.grass-types-containter {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+          align-items: stretch; }
+  .grass-types-containter .grass-type {
+    width: 33%;
+    padding: 0 1rem;
+    margin: 1rem 0; }
+
 /* CSS Document */
 .page-id-1461 .cities-serviced-listing-container {
   margin-top: 2rem; }
