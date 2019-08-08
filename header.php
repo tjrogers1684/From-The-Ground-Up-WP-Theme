@@ -56,7 +56,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 
 
 <?php // SUBPAGE HEADERS ?>
-<?php if ( !is_front_page() && !is_archive() && !is_singular( 'post' ) && !is_404() ) { ?>
+<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() ) { ?>
 	<?php if ( have_posts() ) { ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
