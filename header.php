@@ -56,7 +56,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 
 
 <?php // SUBPAGE HEADERS ?>
-<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() && !is_page(2053) && !is_page(2042) && !is_page(2055) && !is_page(2040) && !is_page(2047) && !is_page(2051) && !is_page(2049) ) { ?>
+<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() && !is_page(2053) && !is_page(2042) && !is_page(2055) && !is_page(2040) && !is_page(2047) && !is_page(2051) && !is_page(2049) && !is_singular( 'area_service' ) ) { ?>
 	<?php if ( have_posts() ) { ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -92,7 +92,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 <?php if ( is_home() || is_archive() || is_singular( 'post' ) ) { ?>
 	<div class="feature-wrap">
 		<div class="feature-image">
-			<div class="feature-image page-featured-image" style="background-image: url(http://dev.sodandlandscaping.services/wp-content/uploads/2019/08/blog-feature-sub.jpg)"></div>
+			<div class="feature-image page-featured-image" style="background-image: url(/wp-content/uploads/2019/08/blog-feature-sub.jpg)"></div>
 		</div>
 	</div>
 <?php } ?>
@@ -100,12 +100,18 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 <?php if ( is_page(2053) || is_page(2042) || is_page(2055) || is_page(2040) || is_page(2047) || is_page(2051) || is_page(2049) ) { ?>
 	<div class="feature-wrap">
 		<div class="feature-image">
-			<div class="feature-image page-featured-image" style="background-image: url(http://dev.sodandlandscaping.services/wp-content/uploads/2019/08/sod-types-feature-sub.jpg)"></div>
+			<div class="feature-image page-featured-image" style="background-image: url(/wp-content/uploads/2019/08/sod-types-feature-sub.jpg)"></div>
 		</div>
 	</div>
 <?php } ?>
 
-
+<?php if ( is_singular( 'area_service' ) ) { ?>
+	<div class="feature-wrap">
+		<div class="feature-image">
+			<div class="feature-image page-featured-image" style="background-image: url(/wp-content/uploads/2019/08/locations-feature-sub.jpg)"></div>
+		</div>
+	</div>
+<?php } ?>
 
 
 
