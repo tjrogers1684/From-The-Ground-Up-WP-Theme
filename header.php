@@ -56,7 +56,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 
 
 <?php // SUBPAGE HEADERS ?>
-<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() ) { ?>
+<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() && !is_page(2053) && !is_page(2042) && !is_page(2055) && !is_page(2040) && !is_page(2047) && !is_page(2051) && !is_page(2042) ) { ?>
 	<?php if ( have_posts() ) { ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
