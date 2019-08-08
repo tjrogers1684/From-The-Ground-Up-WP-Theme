@@ -169,6 +169,60 @@
 // ---------------------------------------------------------------------------------
 // ----- TESTIMONIALS --------------------------------------------------------------
 // ---------------------------------------------------------------------------------
+/* --------------------------------------------- REVIEW US SECTION -- */
+  .review-platforms-conatiner {
+    background: #ecebe4;
+    padding: 2rem;
+    text-align: center;
+
+    h2 {
+      font-size: 2.5rem;
+      text-transform: capitalize;
+
+      span {
+        text-transform: uppercase;
+        display: block;
+        font-weight: 300;
+        font-size: 1rem;
+      }
+    }
+
+    .review-platforms {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 610px) {
+        flex-direction: column;
+        padding-top: 0;
+      }
+
+      a {
+        padding: 0 2rem;
+        display: block;
+        width: 20%;
+        filter: invert(76%) sepia(9%) saturate(2703%) hue-rotate(59deg) brightness(84%) contrast(89%);
+
+        @media (max-width: 610px) {
+          margin: 1.5em 0;
+          padding: 0;
+          //width: 35%;
+        }
+
+        &:hover {
+          filter: invert(36%) sepia(29%) saturate(975%) hue-rotate(60deg) brightness(94%) contrast(88%);
+          filter: invert(85%) sepia(28%) saturate(2165%) hue-rotate(359deg) brightness(103%) contrast(104%);
+        }
+      }
+    }
+  }
+
+
+/* --------------------------------------------- TESTIMONIALS LISTING -- */
 .testimonials-page-testimonials-listing {
   .testimonial-item {
     display: flex;

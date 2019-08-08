@@ -758,6 +758,55 @@ hr {
   content: "\f105"; }
 
 /* --------------------------- SUB PAGES HEADERS (IF PAGES HAS FEATURED IMAGE) -- */
+/* --------------------------------------------- REVIEW US SECTION -- */
+.review-platforms-conatiner {
+  background: #ecebe4;
+  padding: 2rem;
+  text-align: center; }
+  .review-platforms-conatiner h2 {
+    font-size: 2.5rem;
+    text-transform: capitalize; }
+    .review-platforms-conatiner h2 span {
+      text-transform: uppercase;
+      display: block;
+      font-weight: 300;
+      font-size: 1rem; }
+  .review-platforms-conatiner .review-platforms {
+    max-width: 900px;
+    margin: auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center; }
+    @media (max-width: 610px) {
+      .review-platforms-conatiner .review-platforms {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        padding-top: 0; } }
+    .review-platforms-conatiner .review-platforms a {
+      padding: 0 2rem;
+      display: block;
+      width: 20%;
+      -webkit-filter: invert(76%) sepia(9%) saturate(2703%) hue-rotate(59deg) brightness(84%) contrast(89%);
+              filter: invert(76%) sepia(9%) saturate(2703%) hue-rotate(59deg) brightness(84%) contrast(89%); }
+      @media (max-width: 610px) {
+        .review-platforms-conatiner .review-platforms a {
+          margin: 1.5em 0;
+          padding: 0; } }
+      .review-platforms-conatiner .review-platforms a:hover {
+        -webkit-filter: invert(36%) sepia(29%) saturate(975%) hue-rotate(60deg) brightness(94%) contrast(88%);
+                filter: invert(36%) sepia(29%) saturate(975%) hue-rotate(60deg) brightness(94%) contrast(88%);
+        -webkit-filter: invert(85%) sepia(28%) saturate(2165%) hue-rotate(359deg) brightness(103%) contrast(104%);
+                filter: invert(85%) sepia(28%) saturate(2165%) hue-rotate(359deg) brightness(103%) contrast(104%); }
+
+/* --------------------------------------------- TESTIMONIALS LISTING -- */
 .testimonials-page-testimonials-listing .testimonial-item {
   display: -webkit-box;
   display: flex;
