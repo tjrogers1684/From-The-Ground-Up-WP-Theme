@@ -726,7 +726,14 @@
 // ---------------------------------------------------------------------------------
 // ----- GRASS TYPES ---------------------------------------------------------------
 // ---------------------------------------------------------------------------------
+.page-id-1148 {
+  h2 {
+    text-align: center;
+  }
+}
+
 .grass-types-containter {
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -737,6 +744,41 @@
     width: 33%;
     padding: 0 1rem;
     margin: 1rem 0;
+    text-align: center;
+
+    @media (max-width: 810px) {
+      width: 50%;
+    }
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+
+    img, a {
+      transition: 0.3s;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+
+      .grass-type-name a {
+        color: $brand-alt !important;
+      }
+    }
+
+    a {
+      & + p {
+        display: none;
+      }
+    }
+
+    .grass-type-name {
+      margin-top: 0.25rem;
+      font-weight: bold;
+      font-size: 1.125em;
+    }
   }
 }
 

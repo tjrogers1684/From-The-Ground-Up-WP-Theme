@@ -56,7 +56,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 
 
 <?php // SUBPAGE HEADERS ?>
-<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() && !is_page(2053) && !is_page(2042) && !is_page(2055) && !is_page(2040) && !is_page(2047) && !is_page(2051) && !is_page(2042) ) { ?>
+<?php if ( !is_front_page() && !is_home() && !is_archive() && !is_singular( 'post' ) && !is_404() && !is_page(2053) && !is_page(2042) && !is_page(2055) && !is_page(2040) && !is_page(2047) && !is_page(2051) && !is_page(2049) ) { ?>
 	<?php if ( have_posts() ) { ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -97,7 +97,7 @@ if( !is_user_logged_in() ){ $addl_body_classes[] = 'not-logged-in'; }
 	</div>
 <?php } ?>
 
-<?php if ( is_page(2053) || is_page(2042) || is_page(2055) || is_page(2040) || is_page(2047) || is_page(2051) || is_page(2042) ) { ?>
+<?php if ( is_page(2053) || is_page(2042) || is_page(2055) || is_page(2040) || is_page(2047) || is_page(2051) || is_page(2049) ) { ?>
 	<div class="feature-wrap">
 		<div class="feature-image">
 			<div class="feature-image page-featured-image" style="background-image: url(http://dev.sodandlandscaping.services/wp-content/uploads/2019/08/sod-types-feature-sub.jpg)"></div>

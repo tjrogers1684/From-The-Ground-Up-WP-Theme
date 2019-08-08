@@ -1154,6 +1154,9 @@ hr {
       margin-left: calc(-100vw / 2 + 100% / 2);
       margin-right: calc(-100vw / 2 + 100% / 2); } }
 
+.page-id-1148 h2 {
+  text-align: center; }
+
 .grass-types-containter {
   display: -webkit-box;
   display: flex;
@@ -1168,7 +1171,28 @@ hr {
   .grass-types-containter .grass-type {
     width: 33%;
     padding: 0 1rem;
-    margin: 1rem 0; }
+    margin: 1rem 0;
+    text-align: center; }
+    @media (max-width: 810px) {
+      .grass-types-containter .grass-type {
+        width: 50%; } }
+    @media (max-width: 500px) {
+      .grass-types-containter .grass-type {
+        width: 100%; } }
+    .grass-types-containter .grass-type img, .grass-types-containter .grass-type a {
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+    .grass-types-containter .grass-type:hover img {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05); }
+    .grass-types-containter .grass-type:hover .grass-type-name a {
+      color: #ffdd00 !important; }
+    .grass-types-containter .grass-type a + p {
+      display: none; }
+    .grass-types-containter .grass-type .grass-type-name {
+      margin-top: 0.25rem;
+      font-weight: bold;
+      font-size: 1.125em; }
 
 /* CSS Document */
 .page-id-1461 .cities-serviced-listing-container {
