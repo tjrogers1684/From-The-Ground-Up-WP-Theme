@@ -130,7 +130,7 @@
 							</div>
 					<?php } ?>
 
-					<p class="hp-testimonial-item-testimonial"><?php echo $testimonial_text; ?></p>
+					<p class="hp-testimonial-item-testimonial"><?php the_excerpt(); ?></p>
 				</div>
 
 			<?php endwhile; ?>
