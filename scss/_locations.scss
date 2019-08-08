@@ -32,6 +32,16 @@
       column-count: 3;
       column-gap: 40px;
 
+      @media (max-width: 650px) {
+        column-count: 2;
+        column-gap: 20px;
+      }
+
+      @media (max-width: 500px) {
+        column-count: 1;
+        column-gap: 5px;
+      }
+
       .city-item {
         position: relative;
         padding: 0.5rem 1rem 0.5rem 1.25rem;
@@ -54,28 +64,51 @@
     column-count: 3;
     column-gap: 40px;
 
+     @media (max-width: 650px) {
+        column-count: 2;
+        column-gap: 20px;
+      }
+
+      @media (max-width: 500px) {
+        column-count: 1;
+        column-gap: 5px;
+      }
+
     li {
       width: auto;
     }
   }
 }
 
+/* --------------------------------------------- BREADCRUMBS -- */
+.breadcrumb-wrap {
+  //max-width: 900px;
+  width: 100%;
+  font-size: 0.8em;
+  color: #666;
+  background: $brand-alt;
+  padding: 0 2rem;
+
+  .breadcrumb-wrap-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.5rem;
+
+    a:hover {
+     color: #fff;
+    }
+  }
+
+
+
+  
+}
+
+
 // ---------------------------------------------------------------------------------
 // ----- CITY PAGE -----------------------------------------------------------------
 // ---------------------------------------------------------------------------------
 .single-area_service {
-  .breadcrumb-wrap {
-    max-width: 900px;
-    width: 100%;
-    font-size: 0.8em;
-    color: #666;
-    margin: -1rem auto 2rem;
-
-    a {
-      color: #bbb;
-    }
-  }
-
   .city-services-listing-container {
     margin: 2rem 0;
     padding: 2rem;

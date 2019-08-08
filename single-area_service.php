@@ -24,13 +24,13 @@
 
 ?>
 
+<?php if ( function_exists('yoast_breadcrumb') && !wp_is_mobile() ) {
+		yoast_breadcrumb( '<div class="breadcrumb-wrap"><p id="breadcrumbs" class="breadcrumb-wrap-inner">','</p></div>' );
+} ?>
+
 <div class="page-wrap">
 
 		<div class="content-wrap">
-			<?php if ( function_exists('yoast_breadcrumb') && !wp_is_mobile() ) {
-					yoast_breadcrumb( '<div class="breadcrumb-wrap"><p id="breadcrumbs" class="breadcrumb-wrap-inner">','</p></div>' );
-			} ?>
-
 			<?php if ( have_posts() ) { ?>
 
 				<?php $has_parent = count(get_post_ancestors(get_the_ID())); ?>
